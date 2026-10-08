@@ -17,7 +17,9 @@ public/
   style.css         visual
   app.js            funcionamento
   data/base.js      agenda, links, áreas e legislação
-  data/pedagogia.js cards e questões de pedagogia
+  data/pedagogia.js cards e questões de autor (pedagogia)
+  data/conceitos.js explicação dos conceitos-chave
+  data/qconc-*.js   questões por conceito-chave (3 por conceito)
 wrangler.jsonc      configuração do Cloudflare (publica a pasta public/)
 ```
 

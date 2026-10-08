@@ -1049,3 +1049,32 @@ window.PEDAGOGIA = [
     ]
   }
 ];
+
+// Conceitos-chave cobrados por cada questão de autor (índices da lista "conceitos" do card).
+// Usado para a pontuação por conceito.
+(function () {
+  var K = {
+    saviani:            [[0], [1], [4], [2], [2, 0]],
+    luckesi:            [[1], [0], [4], [3], [6, 5]],
+    veiga:              [[0], [2], [5], [3], [4]],
+    psicogeneticas:     [[3], [1], [5, 6], [4], [0, 2, 6]],
+    frigotto:           [[5], [4, 2], [0], [5], [6]],
+    brandao:            [[1], [3], [0], [2], [4, 5]],
+    "antirracista-mec": [[0], [0], [3], [1], [5]],
+    pinheiro:           [[1], [4], [3], [0], [1, 3]],
+    "sem-homofobia":    [[0], [1], [3], [4], [5]]
+  };
+  window.PEDAGOGIA.forEach(function (c) {
+    (K[c.id] || []).forEach(function (k, i) { if (c.questoes[i]) c.questoes[i].k = k; });
+  });
+})();
+
+// Rótulos curtos usados no painel de desempenho.
+(function () {
+  var curto = {
+    psicogeneticas: "Piaget, Vygotsky, Wallon (La Taille, Oliveira, Dantas)",
+    "antirracista-mec": "MEC: Educação anti-racista (Lei 10.639)",
+    "sem-homofobia": "MEC: Escola sem homofobia"
+  };
+  window.PEDAGOGIA.forEach(function (c) { if (curto[c.id]) c.curto = curto[c.id]; });
+})();

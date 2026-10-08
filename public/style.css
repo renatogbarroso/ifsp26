@@ -341,3 +341,43 @@ input, select, textarea {
 .jan-sec .secao-tit { margin-top: 16px; }
 .jan-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; }
 .jan-nav .btn:disabled { opacity: .4; cursor: default; }
+
+/* ---------- v1.3: lido + pontuação ---------- */
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; background: var(--accent-soft); border: 1px solid transparent;
+  border-radius: 6px; padding: 2px 6px 2px 6px;
+}
+.chip input { margin: 0; width: 16px; height: 16px; accent-color: var(--ok); cursor: pointer; }
+.chip-txt { background: none; border: 0; padding: 2px 0; color: var(--accent); font-size: .82rem; text-align: left; line-height: 1.4; }
+.chip-txt:hover { text-decoration: underline; }
+.chip.lido { background: var(--surface); border-color: var(--line); }
+.chip.lido .chip-txt { color: var(--ink-2); }
+.chip .pts { font-size: .68rem; padding: 1px 6px; }
+.tag.pts { font-variant-numeric: tabular-nums; }
+
+.lido-label { display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; cursor: pointer; }
+.lido-label input { width: 18px; height: 18px; accent-color: var(--ok); }
+.jan-lido { margin: 6px 0 10px; }
+.jan-placar { background: var(--surface-2); border-radius: 10px; padding: 10px 12px; }
+.jan-pts { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 2px; }
+.jan-pts b { font-family: "Source Serif 4", Georgia, serif; font-size: 1.6rem; line-height: 1; }
+.janela .questao { background: var(--bg); }
+
+.desemp { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(80px, 1fr) auto; gap: 10px; align-items: center; padding: 6px 0; border-top: 1px solid var(--line); }
+.desemp:first-child { border-top: 0; }
+.desemp-nome { font-size: .9rem; min-width: 0; }
+.desemp-num { font-variant-numeric: tabular-nums; white-space: nowrap; display: flex; align-items: center; gap: 4px; }
+.desemp-num b { min-width: 24px; text-align: right; }
+.desemp .barra { margin-top: 0; }
+.barra i.b-ok { background: var(--ok); }
+.barra i.b-warn { background: var(--warn); }
+.barra i.b-bad { background: var(--bad); }
+.alerta-mini { font-size: .68rem; padding: 1px 6px; }
+.link-txt { background: none; border: 0; padding: 0; color: var(--accent); text-align: left; font-size: inherit; line-height: 1.4; }
+.link-txt:hover { text-decoration: underline; }
+@media (max-width: 600px) {
+  .desemp { grid-template-columns: 1fr auto; }
+  .desemp-barra { grid-column: 1 / -1; grid-row: 2; }
+}
+
+html, body { overflow-x: clip; }

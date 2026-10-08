@@ -47,7 +47,8 @@
     s.sessoes = s.sessoes || [];
     s.rasc = s.rasc || {};   // listas em andamento
     s.rev = s.rev || {};     // listas finalizadas (correção)
-    s.vistos = s.vistos || {}; // conceitos já abertos
+    s.lidos = s.lidos || s.vistos || {}; // conceitos marcados como lidos (herda os abertos da v1.2)
+    delete s.vistos;
     return s;
   }
   function salvar() {
@@ -96,20 +97,86 @@
     return arr;
   }
 
-  // Todas as questões de pedagogia, com id único "<card>-<n>"
+  // Todas as questões de pedagogia, com id único:
+  //   "<card>-<n>"         questões do autor (lista do card)
+  //   "<card>-c<i>-<n>"    questões do conceito i (janela do conceito)
   var MAPA_Q = {};
+  var IDS_AUTOR = {};    // card -> todas as questões ligadas ao autor (card + conceitos)
+  var IDS_CARD = {};     // card -> só as 5 da lista do card
+  var IDS_CONC = {};     // card -> [conceito i -> todas as questões que cobram o conceito]
+  var IDS_CONC_LISTA = {}; // card -> [conceito i -> só as questões da janela do conceito]
+  function nomeAutor(card) { return card.autor.split(" (")[0]; }
   function questoesPedagogia() {
     var lista = [];
     window.PEDAGOGIA.forEach(function (card) {
+      IDS_AUTOR[card.id] = []; IDS_CARD[card.id] = [];
+      IDS_CONC[card.id] = card.conceitos.map(function () { return []; });
+      IDS_CONC_LISTA[card.id] = card.conceitos.map(function () { return []; });
+      function add(item, conceitos) {
+        MAPA_Q[item.id] = item; lista.push(item);
+        IDS_AUTOR[card.id].push(item.id);
+        (conceitos || []).forEach(function (k) { if (IDS_CONC[card.id][k]) IDS_CONC[card.id][k].push(item.id); });
+      }
       card.questoes.forEach(function (q, i) {
-        var item = { id: card.id + "-" + (i + 1), q: q, card: card, n: i + 1, origem: card.autor.split(" (")[0] + " · " + card.obra };
-        MAPA_Q[item.id] = item;
-        lista.push(item);
+        var item = { id: card.id + "-" + (i + 1), q: q, card: card, origem: nomeAutor(card) + " · " + card.obra };
+        IDS_CARD[card.id].push(item.id);
+        add(item, q.k);
+      });
+      var qc = (window.QCONC || {})[card.id] || [];
+      qc.forEach(function (lst, k) {
+        (lst || []).forEach(function (q, j) {
+          var item = { id: card.id + "-c" + (k + 1) + "-" + (j + 1), q: q, card: card, origem: nomeAutor(card) + " · conceito: " + card.conceitos[k] };
+          IDS_CONC_LISTA[card.id][k].push(item.id);
+          add(item, [k]);
+        });
       });
     });
     return lista;
   }
   var TODAS = questoesPedagogia();
+
+  // ---------- Pontuação ----------
+  // Pontos de cada classificação (última tentativa da questão).
+  var PONTOS = { solido: 100, fragil: 60, chute: 25, erro: 0, eliminou: 0, falsa: 0, branco: 0 };
+  function pontuar(ids) {
+    var r = { total: ids.length, resp: 0, soma: 0, certas: 0, alertas: 0, dominio: null };
+    ids.forEach(function (id) {
+      var x = estado.quiz[id];
+      if (x && x.t && x.cls) {
+        r.resp++; r.soma += PONTOS[x.cls] || 0;
+        if (x.ult) r.certas++;
+        if (x.cls === "falsa" || x.cls === "eliminou") r.alertas++;
+      }
+    });
+    if (r.resp) r.dominio = Math.round(r.soma / r.resp);
+    return r;
+  }
+  function nivel(p) {
+    if (!p.resp) return { nome: "não avaliado", tag: "" };
+    var d = p.dominio;
+    if (d >= 90) return { nome: "dominado", tag: "ok" };
+    if (d >= 70) return { nome: "bom", tag: "ok" };
+    if (d >= 40) return { nome: "em construção", tag: "warn" };
+    return { nome: "fraco", tag: "bad" };
+  }
+  function pilulaPontos(p, curta) {
+    var n = nivel(p);
+    var txt = p.resp ? (curta ? String(p.dominio) : "Domínio " + p.dominio) : (curta ? "–" : "Não avaliado");
+    return h("span", { class: "tag pts " + n.tag, title: p.resp ? (n.nome + " · " + p.resp + " de " + p.total + " questões respondidas") : "Nenhuma questão respondida", text: txt });
+  }
+  function linhaDesempenho(rotulo, p, aoClicar) {
+    var n = nivel(p);
+    var nome = aoClicar ? h("button", { type: "button", class: "link-txt", text: rotulo, onclick: aoClicar }) : h("span", { text: rotulo });
+    return h("div", { class: "desemp" }, [
+      h("div", { class: "desemp-nome" }, [nome]),
+      h("div", { class: "desemp-barra" }, [h("div", { class: "barra" }, [h("i", { class: "b-" + (n.tag || "vazio"), style: "width:" + (p.dominio || 0) + "%" })])]),
+      h("div", { class: "desemp-num" }, [
+        h("b", { text: p.resp ? String(p.dominio) : "–" }),
+        h("span", { class: "muted small", text: " " + p.resp + "/" + p.total }),
+        p.alertas ? h("span", { class: "tag bad alerta-mini", title: "Falsas certezas ou corretas eliminadas", text: "⚠ " + p.alertas }) : null
+      ])
+    ]);
+  }
 
   function statsQuiz(ids) {
     var r = { total: ids.length, respondidas: 0, certasUltima: 0, tentativas: 0, acertosTotais: 0, cls: {} };
@@ -221,7 +288,31 @@
     g2.appendChild(h("div", { class: "bloco" }, [h("h3", { text: "Próximos eventos" }), ul]));
     raiz.appendChild(g2);
 
+    raiz.appendChild(blocoDesempenhoAutores());
     raiz.appendChild(blocoSessoes());
+  }
+
+  function blocoDesempenhoAutores() {
+    var todas = pontuar(TODAS.map(function (x) { return x.id; }));
+    var bloco = h("div", { class: "bloco mt" }, [
+      h("div", { class: "cabeca", style: "margin-bottom:6px" }, [
+        h("h3", { text: "Desempenho em pedagogia por autor" }),
+        h("span", { class: "small" }, ["Geral: ", pilulaPontos(todas)])
+      ]),
+      h("p", { class: "muted small", style: "margin:0 0 8px", text: "Domínio de 0 a 100, pela última tentativa de cada questão: certeza e acertou = 100, acertou com dúvida = 60, chute = 25, erro = 0. Ao lado, quantas questões você já fez do total. ⚠ = falsas certezas ou corretas eliminadas." })
+    ]);
+    window.PEDAGOGIA.slice().sort(function (a, b) { return a.ordem - b.ordem; }).forEach(function (card) {
+      bloco.appendChild(linhaDesempenho(card.curto || nomeAutor(card), pontuar(IDS_AUTOR[card.id]), function () {
+        location.hash = "estudos"; subabaAtual = "pedagogia";
+        setTimeout(function () { abrirCard(card.id); }, 50);
+      }));
+    });
+    return bloco;
+  }
+
+  function abrirCard(cardId) {
+    var det = document.querySelector('details.card[data-card="' + cardId + '"]');
+    if (det) { det.open = true; det.scrollIntoView({ behavior: "smooth", block: "start" }); }
   }
 
   function blocoSessoes() {
@@ -436,7 +527,17 @@
     var det = h("details", { class: "card", "data-status": status, "data-card": card.id });
     var tagStatus = h("span", { class: "tag " + STATUS_TAG[status], text: STATUS[status] });
     var tagQuiz = h("span", { class: "tag" });
+    var tagPts = h("span");
+    var desempenho = h("div", { class: "desemp-lista" });
+    function atualizaPontos() {
+      tagPts.innerHTML = ""; tagPts.appendChild(pilulaPontos(pontuar(IDS_AUTOR[card.id])));
+      desempenho.innerHTML = "";
+      card.conceitos.forEach(function (c, i) {
+        desempenho.appendChild(linhaDesempenho(c, pontuar(IDS_CONC[card.id][i]), function () { abrirConceito(card, i); }));
+      });
+    }
     function atualizaTagQuiz() {
+      atualizaPontos();
       var rev = estado.rev[chave];
       if (rev) {
         var certas = ids.filter(function (id) { return rev.res[id] && ["solido", "fragil", "chute"].indexOf(rev.res[id]) >= 0; }).length;
@@ -453,7 +554,7 @@
     det.appendChild(h("summary", {}, [
       h("span", { class: "n", text: card.ordem }),
       h("div", {}, [h("div", { class: "obra", text: card.obra }), h("div", { class: "autor", text: card.autor + " · " + card.ano })]),
-      h("div", { class: "lado" }, [tagStatus, tagQuiz])
+      h("div", { class: "lado" }, [tagStatus, tagQuiz, tagPts])
     ]));
 
     var corpo = h("div", { class: "card-corpo" });
@@ -480,20 +581,44 @@
     corpo.appendChild(h("div", { class: "resumo" }, card.resumo.map(function (p) { return h("p", { text: p }); })));
     corpo.appendChild(h("div", { class: "secao-tit", text: "Conceitos-chave" }));
     corpo.appendChild(h("div", { class: "chips" }, card.conceitos.map(function (c, i) {
-      var tem = conceitoDe(card.id, i);
-      if (!tem) return h("span", { text: c });
-      var vistos = estado.vistos || {};
-      var bt = h("button", { type: "button", class: "chip-bt" + (vistos[card.id + ":" + i] ? " visto" : ""), title: "Abrir explicação", text: c, onclick: function () {
-        abrirConceito(card, i);
-        bt.classList.add("visto");
-      } });
-      return bt;
+      if (!conceitoDe(card.id, i)) return h("span", { text: c });
+      return chipConceito(card, i);
     })));
-    corpo.appendChild(h("p", { class: "muted small", style: "margin:4px 0 0", text: "Toque num conceito para ver a explicação, a importância e a aplicação." }));
-    corpo.appendChild(h("div", { class: "secao-tit", text: "Lista de questões (estilo IF)" }));
+    corpo.appendChild(h("p", { class: "muted small", style: "margin:4px 0 0", text: "Toque no nome para abrir a explicação e as questões do conceito. A caixinha marca como lido." }));
+    corpo.appendChild(h("div", { class: "secao-tit", text: "Lista de questões do autor (estilo IF)" }));
     corpo.appendChild(renderLista(chave, ids, false, atualizaTagQuiz));
+    corpo.appendChild(h("div", { class: "secao-tit", text: "Desempenho por conceito" }));
+    corpo.appendChild(h("p", { class: "muted small", style: "margin:0 0 6px", text: "Inclui as questões do autor e as de cada conceito. Toque no conceito para treinar." }));
+    corpo.appendChild(desempenho);
     det.appendChild(corpo);
+    det.addEventListener("toggle", function () { if (det.open) abertos[card.id] = 1; else delete abertos[card.id]; });
+    if (abertos[card.id]) det.open = true;
     return det;
+  }
+
+  // Cards abertos ficam abertos quando a aba é redesenhada.
+  var abertos = {};
+
+  function lido(cardId, i) { return !!(estado.lidos && estado.lidos[cardId + ":" + i]); }
+  function marcarLido(cardId, i, v) {
+    estado.lidos = estado.lidos || {};
+    if (v) estado.lidos[cardId + ":" + i] = 1; else delete estado.lidos[cardId + ":" + i];
+    salvar();
+    document.querySelectorAll('[data-lido="' + cardId + ":" + i + '"]').forEach(function (cb) { cb.checked = v; });
+    document.querySelectorAll('[data-chip="' + cardId + ":" + i + '"]').forEach(function (ch) { ch.classList.toggle("lido", v); });
+  }
+  function caixaLido(cardId, i, rotulo) {
+    var cb = h("input", { type: "checkbox", "data-lido": cardId + ":" + i, "aria-label": "Marcar como lido", onchange: function () { marcarLido(cardId, i, cb.checked); } });
+    cb.checked = lido(cardId, i);
+    return rotulo ? h("label", { class: "lido-label" }, [cb, " " + rotulo]) : cb;
+  }
+  function chipConceito(card, i) {
+    var p = pontuar(IDS_CONC[card.id][i]);
+    return h("span", { class: "chip" + (lido(card.id, i) ? " lido" : ""), "data-chip": card.id + ":" + i }, [
+      caixaLido(card.id, i),
+      h("button", { type: "button", class: "chip-txt", title: "Abrir explicação e questões", text: card.conceitos[i], onclick: function () { abrirConceito(card, i); } }),
+      p.resp ? pilulaPontos(p, true) : null
+    ]);
   }
 
   // ---------- Janela de conceito ----------
@@ -503,40 +628,68 @@
   }
 
   var janela = null;
+  var janelaMudou = false;
   function abrirConceito(card, i) {
     var c = conceitoDe(card.id, i);
     if (!c) return;
-    estado.vistos = estado.vistos || {};
-    estado.vistos[card.id + ":" + i] = 1;
-    salvar();
 
     if (!janela) {
       janela = h("dialog", { class: "janela" });
       // clicar fora do conteúdo fecha
       janela.addEventListener("click", function (ev) { if (ev.target === janela) janela.close(); });
+      // ao fechar, redesenha a aba para atualizar pontuações (mantendo cards abertos e a rolagem)
+      janela.addEventListener("close", function () {
+        if (!janelaMudou) return;
+        janelaMudou = false;
+        var y = window.scrollY;
+        if (document.getElementById("aba-estudos").classList.contains("ativa")) renderEstudos();
+        else abrir(location.hash.slice(1));
+        window.scrollTo(0, y);
+      });
       document.body.appendChild(janela);
     }
     var total = card.conceitos.length;
+    var idsLista = IDS_CONC_LISTA[card.id][i];
+    var placar = h("div", { class: "jan-placar" });
+    function atualizaPlacar() {
+      var p = pontuar(IDS_CONC[card.id][i]);
+      var n = nivel(p);
+      placar.innerHTML = "";
+      placar.appendChild(h("div", {}, [
+        h("span", { class: "muted small", text: "Seu domínio neste conceito" }),
+        h("div", { class: "jan-pts" }, [
+          h("b", { text: p.resp ? String(p.dominio) : "–" }),
+          h("span", { class: "tag " + n.tag, text: n.nome }),
+          h("span", { class: "muted small", text: p.resp + " de " + p.total + " questões feitas (3 do conceito + as do autor que o cobram)" })
+        ])
+      ]));
+      if (p.alertas) placar.appendChild(h("div", { class: "small", style: "color:var(--bad);margin-top:4px", text: "⚠ " + p.alertas + " com falsa certeza ou correta eliminada" }));
+    }
+    atualizaPlacar();
+
     janela.innerHTML = "";
     janela.appendChild(h("div", { class: "jan-in" }, [
       h("div", { class: "jan-topo" }, [
-        h("span", { class: "muted small", text: card.autor.split(" (")[0] + " · conceito " + (i + 1) + " de " + total }),
+        h("span", { class: "muted small", text: nomeAutor(card) + " · conceito " + (i + 1) + " de " + total }),
         h("button", { type: "button", class: "jan-x", "aria-label": "Fechar", text: "×", onclick: function () { janela.close(); } })
       ]),
       h("h3", { class: "jan-tit", text: c.t }),
+      h("div", { class: "jan-lido" }, [caixaLido(card.id, i, "Li e entendi este conceito")]),
+      placar,
       h("div", { class: "jan-sec" }, [h("div", { class: "secao-tit", text: "O que é" }), h("p", { text: c.o })]),
       h("div", { class: "jan-sec" }, [h("div", { class: "secao-tit", text: "Por que importa" }), h("p", { text: c.i })]),
       h("div", { class: "jan-sec" }, [h("div", { class: "secao-tit", text: "Como aplicar" }), h("p", { text: c.a })]),
+      idsLista.length ? h("div", { class: "jan-sec" }, [
+        h("div", { class: "secao-tit", text: "Questões deste conceito (" + idsLista.length + ")" }),
+        renderLista("conc:" + card.id + ":" + i, idsLista, false, (function () { var primeiro = true; return function () { if (primeiro) { primeiro = false; return; } janelaMudou = true; atualizaPlacar(); }; })())
+      ]) : null,
       h("div", { class: "jan-nav" }, [
-        h("button", { type: "button", class: "btn sec", text: "‹ Anterior", disabled: i === 0 ? "" : null, onclick: function () { abrirConceito(card, i - 1); marcarChip(card.id, i - 1); } }),
-        h("button", { type: "button", class: "btn sec", text: "Próximo ›", disabled: i === total - 1 ? "" : null, onclick: function () { abrirConceito(card, i + 1); marcarChip(card.id, i + 1); } })
+        h("button", { type: "button", class: "btn sec", text: "‹ Anterior", disabled: i === 0 ? "" : null, onclick: function () { abrirConceito(card, i - 1); } }),
+        h("button", { type: "button", class: "btn sec", text: "Próximo ›", disabled: i === total - 1 ? "" : null, onclick: function () { abrirConceito(card, i + 1); } })
       ])
     ]));
     if (!janela.open) janela.showModal();
     janela.scrollTop = 0;
-  }
-  function marcarChip(cardId, i) {
-    document.querySelectorAll('details.card[data-card="' + cardId + '"] .chip-bt').forEach(function (b, k) { if (k === i) b.classList.add("visto"); });
   }
 
   // ---------- Lista de questões (responder → finalizar → correção) ----------
