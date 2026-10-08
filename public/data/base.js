@@ -2,7 +2,7 @@
 // Para mudar uma data ou link, edite só este arquivo.
 
 window.BASE = {
-  versao: "1.1",
+  versao: "1.2",
   vaga: "Informática · campus Boituva · 1 vaga AC · 40h DE",
 
   // Datas no formato AAAA-MM-DD. "marco: true" vira contador no painel.

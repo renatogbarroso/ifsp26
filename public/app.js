@@ -47,6 +47,7 @@
     s.sessoes = s.sessoes || [];
     s.rasc = s.rasc || {};   // listas em andamento
     s.rev = s.rev || {};     // listas finalizadas (correção)
+    s.vistos = s.vistos || {}; // conceitos já abertos
     return s;
   }
   function salvar() {
@@ -432,7 +433,7 @@
     var ids = card.questoes.map(function (_, i) { return card.id + "-" + (i + 1); });
     var chave = "card:" + card.id;
     var status = estado.cards[card.id] || 0;
-    var det = h("details", { class: "card", "data-status": status });
+    var det = h("details", { class: "card", "data-status": status, "data-card": card.id });
     var tagStatus = h("span", { class: "tag " + STATUS_TAG[status], text: STATUS[status] });
     var tagQuiz = h("span", { class: "tag" });
     function atualizaTagQuiz() {
@@ -478,11 +479,64 @@
     corpo.appendChild(h("div", { class: "secao-tit", text: "Resumo da obra" }));
     corpo.appendChild(h("div", { class: "resumo" }, card.resumo.map(function (p) { return h("p", { text: p }); })));
     corpo.appendChild(h("div", { class: "secao-tit", text: "Conceitos-chave" }));
-    corpo.appendChild(h("div", { class: "chips" }, card.conceitos.map(function (c) { return h("span", { text: c }); })));
+    corpo.appendChild(h("div", { class: "chips" }, card.conceitos.map(function (c, i) {
+      var tem = conceitoDe(card.id, i);
+      if (!tem) return h("span", { text: c });
+      var vistos = estado.vistos || {};
+      var bt = h("button", { type: "button", class: "chip-bt" + (vistos[card.id + ":" + i] ? " visto" : ""), title: "Abrir explicação", text: c, onclick: function () {
+        abrirConceito(card, i);
+        bt.classList.add("visto");
+      } });
+      return bt;
+    })));
+    corpo.appendChild(h("p", { class: "muted small", style: "margin:4px 0 0", text: "Toque num conceito para ver a explicação, a importância e a aplicação." }));
     corpo.appendChild(h("div", { class: "secao-tit", text: "Lista de questões (estilo IF)" }));
     corpo.appendChild(renderLista(chave, ids, false, atualizaTagQuiz));
     det.appendChild(corpo);
     return det;
+  }
+
+  // ---------- Janela de conceito ----------
+  function conceitoDe(cardId, i) {
+    var lista = (window.CONCEITOS || {})[cardId];
+    return lista && lista[i] ? lista[i] : null;
+  }
+
+  var janela = null;
+  function abrirConceito(card, i) {
+    var c = conceitoDe(card.id, i);
+    if (!c) return;
+    estado.vistos = estado.vistos || {};
+    estado.vistos[card.id + ":" + i] = 1;
+    salvar();
+
+    if (!janela) {
+      janela = h("dialog", { class: "janela" });
+      // clicar fora do conteúdo fecha
+      janela.addEventListener("click", function (ev) { if (ev.target === janela) janela.close(); });
+      document.body.appendChild(janela);
+    }
+    var total = card.conceitos.length;
+    janela.innerHTML = "";
+    janela.appendChild(h("div", { class: "jan-in" }, [
+      h("div", { class: "jan-topo" }, [
+        h("span", { class: "muted small", text: card.autor.split(" (")[0] + " · conceito " + (i + 1) + " de " + total }),
+        h("button", { type: "button", class: "jan-x", "aria-label": "Fechar", text: "×", onclick: function () { janela.close(); } })
+      ]),
+      h("h3", { class: "jan-tit", text: c.t }),
+      h("div", { class: "jan-sec" }, [h("div", { class: "secao-tit", text: "O que é" }), h("p", { text: c.o })]),
+      h("div", { class: "jan-sec" }, [h("div", { class: "secao-tit", text: "Por que importa" }), h("p", { text: c.i })]),
+      h("div", { class: "jan-sec" }, [h("div", { class: "secao-tit", text: "Como aplicar" }), h("p", { text: c.a })]),
+      h("div", { class: "jan-nav" }, [
+        h("button", { type: "button", class: "btn sec", text: "‹ Anterior", disabled: i === 0 ? "" : null, onclick: function () { abrirConceito(card, i - 1); marcarChip(card.id, i - 1); } }),
+        h("button", { type: "button", class: "btn sec", text: "Próximo ›", disabled: i === total - 1 ? "" : null, onclick: function () { abrirConceito(card, i + 1); marcarChip(card.id, i + 1); } })
+      ])
+    ]));
+    if (!janela.open) janela.showModal();
+    janela.scrollTop = 0;
+  }
+  function marcarChip(cardId, i) {
+    document.querySelectorAll('details.card[data-card="' + cardId + '"] .chip-bt').forEach(function (b, k) { if (k === i) b.classList.add("visto"); });
   }
 
   // ---------- Lista de questões (responder → finalizar → correção) ----------

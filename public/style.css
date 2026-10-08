@@ -317,3 +317,27 @@ input, select, textarea {
 .nota-lida { margin-top: 8px; padding: 8px 10px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 6px 6px 0; }
 
 .marca > div { min-width: 0; }
+
+/* ---------- v1.2: conceitos clicáveis ---------- */
+.chip-bt {
+  background: var(--accent-soft); color: var(--accent); border: 1px solid transparent; border-radius: 6px;
+  padding: 3px 8px; font-size: .82rem; text-align: left; line-height: 1.4;
+}
+.chip-bt:hover { border-color: var(--accent); }
+.chip-bt.visto { background: var(--surface); border-color: var(--line); color: var(--ink-2); }
+.chip-bt.visto::after { content: " ✓"; color: var(--ok); }
+
+.janela {
+  border: 0; padding: 0; border-radius: 14px; width: min(640px, calc(100vw - 32px)); max-height: calc(100vh - 48px);
+  background: var(--surface); color: var(--ink); box-shadow: 0 20px 60px rgba(0, 0, 0, .25);
+}
+.janela::backdrop { background: rgba(15, 20, 18, .55); }
+.jan-in { padding: 18px 20px 20px; }
+.jan-topo { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.jan-x { background: none; border: 0; font-size: 1.6rem; line-height: 1; color: var(--ink-3); padding: 0 4px; }
+.jan-x:hover { color: var(--ink); }
+.jan-tit { font-family: "Source Serif 4", Georgia, serif; font-size: 1.3rem; margin: 6px 0 4px; }
+.jan-sec p { margin: 0; color: var(--ink-2); }
+.jan-sec .secao-tit { margin-top: 16px; }
+.jan-nav { display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; }
+.jan-nav .btn:disabled { opacity: .4; cursor: default; }
