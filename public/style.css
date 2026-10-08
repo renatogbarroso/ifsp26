@@ -234,3 +234,86 @@ input, select, textarea {
 .rodape .sep { opacity: .5; }
 
 .vazio { text-align: center; color: var(--ink-3); padding: 18px 0; }
+
+/* ---------- v1.1: apresentação do autor ---------- */
+.bio { background: var(--surface-2); border-radius: 10px; padding: 4px 14px; }
+.bio p { margin: 10px 0; color: var(--ink-2); }
+.bio b { color: var(--ink); }
+
+/* ---------- v1.1: flags E/T/A/C ---------- */
+.legenda { display: flex; gap: 14px; flex-wrap: wrap; font-size: .85rem; color: var(--ink-2); }
+.legenda span { display: inline-flex; align-items: center; gap: 4px; }
+.flag-mini {
+  display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 6px;
+  font-size: .75rem; font-weight: 700; border: 1px solid var(--line); background: var(--surface); color: var(--ink-3);
+}
+.flag-mini.vazia { color: var(--ink-3); opacity: .6; }
+.f-E { --fc: var(--ink-3); --fb: var(--surface-2); }
+.f-T { --fc: var(--warn); --fb: var(--warn-soft); }
+.f-A { --fc: var(--accent); --fb: var(--accent-soft); }
+.f-C { --fc: var(--ok); --fb: var(--ok-soft); }
+.flag-mini.f-E, .flag-mini.f-T, .flag-mini.f-A, .flag-mini.f-C { color: var(--fc); background: var(--fb); border-color: var(--fc); }
+
+.alt-f {
+  display: grid; grid-template-columns: 34px 1fr auto; gap: 8px; align-items: center;
+  background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line);
+  border-radius: 8px; padding: 6px 8px; margin-top: 6px;
+}
+.alt-f .txt { line-height: 1.45; }
+.alt-f .flags { display: flex; gap: 4px; }
+.flag {
+  width: 34px; height: 34px; border-radius: 7px; border: 1px solid var(--line); background: var(--surface);
+  font-weight: 700; font-size: .85rem; color: var(--ink-3); padding: 0;
+}
+.flag:hover { border-color: var(--fc); color: var(--fc); }
+.flag.on { background: var(--fc); border-color: var(--fc); color: #fff; }
+.letra {
+  width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface-2);
+  font-weight: 700; font-size: .85rem; color: var(--ink-2); padding: 0;
+}
+.alt-f.m-E { border-left-color: var(--ink-3); }
+.alt-f.m-E .txt { text-decoration: line-through; color: var(--ink-3); }
+.alt-f.m-T { border-left-color: var(--warn); }
+.alt-f.m-A { border-left-color: var(--accent); }
+.alt-f.m-C { border-left-color: var(--ok); }
+.alt-f.escolhida { background: var(--accent-soft); }
+.alt-f.escolhida .letra { background: var(--accent); border-color: var(--accent); color: #fff; }
+@media (max-width: 640px) {
+  .alt-f { grid-template-columns: 30px 1fr; }
+  .alt-f .flags { grid-column: 2; }
+  .flag { width: 40px; height: 34px; }
+}
+.status-q { margin-top: 8px; color: var(--ink-2); }
+.status-q.alerta { color: var(--warn); font-weight: 600; }
+.nota { margin-top: 8px; }
+.nota summary { cursor: pointer; font-size: .82rem; color: var(--accent); }
+.nota textarea { width: 100%; margin-top: 6px; resize: vertical; }
+.fim-lista { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+
+/* ---------- v1.1: correção ---------- */
+.resultado { background: var(--surface-2); border-radius: 10px; padding: 12px 14px; margin-top: 10px; }
+.res-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+.res-num { font-family: "Source Serif 4", Georgia, serif; font-size: 1.8rem; }
+.chips-cls { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.cab-q { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+.cab-q .origem { margin-left: auto; }
+.alt-c { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; margin-top: 6px; background: var(--surface); }
+.alt-c.certa { border-color: var(--ok); background: var(--ok-soft); }
+.alt-c.errada { border-color: var(--bad); background: var(--bad-soft); }
+.alt-c-top { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; align-items: start; }
+.alt-c .let { font-weight: 700; color: var(--ink-3); }
+.alt-c.certa .let { color: var(--ok); }
+.alt-c.errada .let { color: var(--bad); }
+.lado-c { display: flex; gap: 6px; align-items: center; }
+.marca { font-size: .75rem; font-weight: 600; white-space: nowrap; }
+.alt-c.certa .marca { color: var(--ok); }
+.alt-c.errada .marca { color: var(--bad); }
+.por-que { margin: 6px 0 0 34px; font-size: .88rem; color: var(--ink-2); }
+@media (max-width: 640px) {
+  .alt-c-top { grid-template-columns: 22px 1fr; }
+  .lado-c { grid-column: 2; }
+  .por-que { margin-left: 30px; }
+}
+.nota-lida { margin-top: 8px; padding: 8px 10px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 6px 6px 0; }
+
+.marca > div { min-width: 0; }
