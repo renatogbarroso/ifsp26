@@ -1,0 +1,9 @@
+{
+  // Site estático: o Cloudflare publica a pasta public/ como está, sem build.
+  // O "name" precisa ser igual ao nome do app criado no painel do Cloudflare.
+  "name": "ifsp26",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

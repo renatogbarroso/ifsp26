@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IFSP 2026 · Painel de estudos</title>
+  <meta name="description" content="Painel de estudos do concurso docente IFSP (Edital 183/2026), Informática, campus Boituva.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23167a5a'/><text x='16' y='22' font-family='Arial' font-weight='700' font-size='14' fill='white' text-anchor='middle'>IF</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-in">
+      <div class="marca">
+        <span class="selo">IF</span>
+        <div>
+          <h1>Concurso IFSP 2026</h1>
+          <p class="sub" id="vaga"></p>
+        </div>
+      </div>
+      <nav class="abas" role="tablist">
+        <button data-aba="painel" role="tab">Painel</button>
+        <button data-aba="estudos" role="tab">Estudos</button>
+        <button data-aba="agenda" role="tab">Agenda</button>
+        <button data-aba="docs" role="tab">Documentos</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="aba-painel" class="aba"></section>
+    <section id="aba-estudos" class="aba"></section>
+    <section id="aba-agenda" class="aba"></section>
+    <section id="aba-docs" class="aba"></section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-in">
+      <span id="versao"></span>
+      <span class="sep">·</span>
+      <span>O progresso fica salvo neste navegador.</span>
+      <button class="link" id="btn-exportar">Exportar backup</button>
+      <label class="link">Importar backup<input type="file" id="inp-importar" accept="application/json" hidden></label>
+    </div>
+  </footer>
+
+  <script src="data/base.js"></script>
+  <script src="data/pedagogia.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
