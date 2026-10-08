@@ -305,9 +305,9 @@ input, select, textarea {
 .alt-c.certa .let { color: var(--ok); }
 .alt-c.errada .let { color: var(--bad); }
 .lado-c { display: flex; gap: 6px; align-items: center; }
-.marca { font-size: .75rem; font-weight: 600; white-space: nowrap; }
-.alt-c.certa .marca { color: var(--ok); }
-.alt-c.errada .marca { color: var(--bad); }
+.marca-c { font-size: .75rem; font-weight: 600; white-space: nowrap; }
+.alt-c.certa .marca-c { color: var(--ok); }
+.alt-c.errada .marca-c { color: var(--bad); }
 .por-que { margin: 6px 0 0 34px; font-size: .88rem; color: var(--ink-2); }
 @media (max-width: 640px) {
   .alt-c-top { grid-template-columns: 22px 1fr; }
@@ -381,3 +381,27 @@ input, select, textarea {
 }
 
 html, body { overflow-x: clip; }
+
+/* ---------- v1.4: seta de recolher e cabeçalho do card fixo ---------- */
+.card > summary { grid-template-columns: 30px 1fr auto 32px; }
+.seta {
+  width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center;
+  color: var(--ink-2); background: var(--surface-2); justify-self: end; align-self: start;
+}
+.seta::before {
+  content: ""; width: 9px; height: 9px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg); transition: transform .15s;
+}
+.card[open] > summary .seta::before { transform: translateY(2px) rotate(-135deg); }
+.card > summary:hover .seta { background: var(--accent-soft); color: var(--accent); }
+.card[open] > summary {
+  position: sticky; top: var(--topo-h, 0px); z-index: 4; background: var(--surface);
+  border-radius: var(--radius) var(--radius) 0 0; border-bottom: 1px solid var(--line);
+}
+@media (max-width: 600px) {
+  .card > summary { grid-template-columns: 30px 1fr 32px; }
+  .card .lado { grid-column: 2; grid-row: 2; }
+  .seta { grid-column: 3; grid-row: 1; }
+}
+
+.marca h1, .sub { white-space: normal; overflow-wrap: anywhere; }

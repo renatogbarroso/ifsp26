@@ -9,9 +9,9 @@ window.QCONC.psicogeneticas = [
       q: "Na teoria de Piaget, a acomodação ocorre quando:",
       o: [
         "O sujeito incorpora um novo elemento aos esquemas que já possui, sem modificá-los.",
-        "O sujeito modifica seus esquemas para dar conta de um elemento que não se ajusta a eles.",
-        "O adulto transmite um conhecimento pronto à criança.",
-        "A criança imita o comportamento de um colega."
+        "O sujeito modifica seus esquemas para dar conta do que não se ajusta a eles.",
+        "O adulto transmite à criança um conhecimento pronto, que ela memoriza.",
+        "A criança imita o comportamento de um colega mais experiente na tarefa."
       ],
       c: 1,
       e: "Assimilar é incorporar; acomodar é modificar o esquema.",
@@ -43,9 +43,9 @@ window.QCONC.psicogeneticas = [
       q: "Uma professora mostra uma consulta SQL que, contra a expectativa dos alunos, retorna linhas duplicadas, e pede que expliquem o resultado. Na perspectiva piagetiana, essa estratégia busca:",
       o: [
         "Provocar um desequilíbrio cognitivo que leve à reorganização dos esquemas dos alunos.",
-        "Treinar a memorização de comandos.",
+        "Treinar a memorização dos comandos mais usados.",
         "Reforçar o comportamento correto por meio de recompensa.",
-        "Reduzir a ansiedade dos alunos."
+        "Reduzir a ansiedade dos alunos diante do erro."
       ],
       c: 0,
       e: "O conflito cognitivo é o ponto de partida da equilibração.",
@@ -62,10 +62,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Para Piaget, a moral da heteronomia se caracteriza por:",
       o: [
-        "Regras construídas por acordo mútuo entre iguais.",
-        "Respeito às regras por compreender sua razão de ser.",
-        "Ausência de regras.",
-        "Regras vistas como impostas por uma autoridade externa e consideradas imutáveis."
+        "Regras construídas por acordo mútuo entre iguais, que podem ser alteradas pelo grupo.",
+        "Respeito às regras por compreender sua razão de ser e sua função social.",
+        "Ausência de regras, já que a criança ainda não compreende sua necessidade.",
+        "Regras vistas como impostas de fora e imutáveis."
       ],
       c: 3,
       e: "Heteronomia = regra vem de fora, sagrada e imutável.",
@@ -79,10 +79,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Segundo La Taille, a passagem da heteronomia para a autonomia moral é favorecida principalmente por:",
       o: [
-        "Relações de coação com os adultos.",
+        "Relações de coação com os adultos, que transmitem as regras de forma clara.",
         "Relações de cooperação entre pares, baseadas no respeito mútuo.",
-        "Punições rigorosas.",
-        "Isolamento social."
+        "Punições rigorosas e coerentes, aplicadas sempre que uma regra é violada.",
+        "Isolamento social, que permite à criança refletir sozinha sobre as regras."
       ],
       c: 1,
       e: "A cooperação, com respeito mútuo, leva à autonomia.",
@@ -96,10 +96,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "No início do semestre, um professor de turma integrada constrói com os alunos os combinados de uso do laboratório, discutindo o motivo de cada regra. Na perspectiva de Piaget, isso favorece:",
       o: [
-        "A heteronomia, pois há regras.",
-        "A coação, pois o professor conduz a discussão.",
+        "A heteronomia, pois há regras que os alunos devem obedecer no laboratório.",
+        "A coação, pois é o professor quem conduz e encerra a discussão.",
         "A autonomia, pois as regras são compreendidas e construídas em cooperação.",
-        "A anomia, pois os alunos opinam."
+        "A anomia, pois os alunos opinam e as regras perdem a autoridade."
       ],
       c: 2,
       e: "Regras construídas e compreendidas = caminho para a autonomia.",
@@ -116,10 +116,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Para Vygotsky, os signos se diferenciam dos instrumentos porque:",
       o: [
-        "Os signos são orientados para o controle das ações psicológicas, enquanto os instrumentos são orientados para fora, para a ação sobre os objetos.",
-        "Os signos são objetos físicos e os instrumentos são mentais.",
-        "Não há diferença entre eles.",
-        "Os signos só existem na linguagem escrita."
+        "Os signos agem sobre o psiquismo, e os instrumentos agem sobre os objetos do mundo.",
+        "Os signos são objetos físicos, e os instrumentos são representações mentais.",
+        "Não há diferença entre eles, pois ambos são produtos da cultura.",
+        "Os signos só existem na linguagem escrita, e os instrumentos na fala."
       ],
       c: 0,
       e: "Instrumento age sobre o mundo; signo age sobre o psiquismo.",
@@ -133,10 +133,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Segundo Vygotsky, toda função psicológica superior aparece duas vezes no desenvolvimento:",
       o: [
-        "Primeiro no plano individual, depois no plano social.",
+        "Primeiro no plano individual, depois no plano social, quando é compartilhada.",
         "Primeiro no plano biológico, depois no plano cultural, sem relação entre eles.",
-        "Na infância e na adolescência.",
-        "Primeiro no plano social (interpsicológico), depois no plano individual (intrapsicológico)."
+        "Na infância e na adolescência, em dois estágios bem definidos.",
+        "Primeiro no plano social (interpsicológico), depois no individual (intrapsicológico)."
       ],
       c: 3,
       e: "Do social para o individual: é a lei da internalização.",
@@ -150,10 +150,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Em aulas de lógica de programação, os alunos primeiro desenham fluxogramas em grupo com o professor e, com o tempo, passam a planejar o algoritmo mentalmente. Para Vygotsky, isso ilustra:",
       o: [
-        "A maturação biológica.",
-        "O reforço positivo.",
-        "A internalização de uma forma de mediação simbólica.",
-        "A assimilação piagetiana."
+        "A maturação biológica do raciocínio lógico.",
+        "O reforço positivo do comportamento esperado.",
+        "A internalização de um signo mediador.",
+        "A assimilação piagetiana de novos esquemas."
       ],
       c: 2,
       e: "O signo externo (fluxograma) vira ferramenta interna do pensamento.",
@@ -170,10 +170,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "O nível de desenvolvimento potencial, em Vygotsky, refere-se:",
       o: [
-        "Ao que a criança consegue fazer com a ajuda de adultos ou companheiros mais capazes.",
-        "Ao que a criança já faz de forma independente.",
-        "Ao máximo que a criança poderá atingir na vida.",
-        "Ao estágio operatório formal."
+        "Ao que a criança consegue fazer com a ajuda de alguém mais capaz.",
+        "Ao que a criança já faz de forma independente, sem nenhuma ajuda.",
+        "Ao máximo que a criança poderá atingir ao longo de toda a vida.",
+        "Ao estágio operatório formal, quando surge o raciocínio abstrato."
       ],
       c: 0,
       e: "Potencial = com ajuda; real = sozinho.",
@@ -204,10 +204,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Um professor resolve um exercício de JOIN junto com a turma, depois propõe outro com dicas e por fim um sem ajuda. Na perspectiva de Vygotsky, essa sequência:",
       o: [
-        "É desnecessária, pois cada aluno aprende no seu ritmo.",
-        "É behaviorista, pois usa repetição.",
-        "Desrespeita a autonomia dos alunos.",
-        "Atua na zona de desenvolvimento proximal, retirando gradualmente a ajuda até que o aluno faça sozinho."
+        "É desnecessária, pois cada aluno aprende no seu ritmo e deve resolver sozinho desde o início.",
+        "É behaviorista, pois usa a repetição de exercícios semelhantes para fixar o comportamento.",
+        "Desrespeita a autonomia dos alunos ao oferecer ajuda que eles não pediram ao professor.",
+        "Atua na ZDP, retirando a ajuda aos poucos."
       ],
       c: 3,
       e: "Ajuda graduada que vai sendo retirada: a ZDP em prática.",
@@ -224,10 +224,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Para Vygotsky, os conceitos espontâneos:",
       o: [
-        "São aprendidos na escola de forma sistematizada.",
-        "Devem ser eliminados pelo ensino.",
-        "Formam-se na experiência cotidiana, são ricos em vivência mas pouco conscientes e sistematizados.",
-        "Não têm relação com os conceitos científicos."
+        "São aprendidos na escola de forma sistematizada e consciente pelo aluno.",
+        "Devem ser eliminados pelo ensino, por serem confusos e incorretos.",
+        "Formam-se no cotidiano: ricos em vivência, pouco sistematizados.",
+        "Não têm relação com os conceitos científicos aprendidos na escola."
       ],
       c: 2,
       e: "Ricos em experiência, pobres em sistematização.",
@@ -241,9 +241,9 @@ window.QCONC.psicogeneticas = [
     {
       q: "Segundo Vygotsky, a relação entre conceitos espontâneos e científicos é:",
       o: [
-        "De oposição: os científicos substituem os espontâneos.",
-        "De independência: desenvolvem-se separadamente.",
-        "De subordinação total dos científicos aos espontâneos.",
+        "De oposição: os científicos substituem os espontâneos ao longo da escolarização.",
+        "De independência: os dois tipos se desenvolvem separadamente, sem interferência.",
+        "De subordinação: os científicos dependem inteiramente dos espontâneos.",
         "De interdependência: os espontâneos dão base concreta aos científicos, e estes reorganizam e tornam conscientes os espontâneos."
       ],
       c: 3,
@@ -258,10 +258,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Um aluno diz que 'a nuvem é um lugar no céu onde ficam os arquivos'. Numa abordagem vygotskiana, o professor deve:",
       o: [
-        "Partir dessa ideia e, por meio do ensino sistematizado, construir o conceito de computação em nuvem (data centers, rede, virtualização), mostrando como ele reorganiza a ideia inicial.",
-        "Ignorar a ideia, por ser errada.",
-        "Repreender o aluno pelo erro.",
-        "Aceitar a ideia, pois é a experiência do aluno."
+        "Partir dessa ideia e, com ensino sistematizado, construir o conceito de nuvem, reorganizando-a.",
+        "Ignorar a ideia, por ser errada, e apresentar diretamente a definição técnica correta.",
+        "Repreender o aluno pelo erro, para que a turma perceba a importância da precisão.",
+        "Aceitar a ideia como válida, pois ela expressa a experiência legítima do aluno."
       ],
       c: 0,
       e: "Partir do espontâneo para o científico.",
@@ -278,10 +278,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Para Wallon, os domínios funcionais que constituem a pessoa são:",
       o: [
-        "Biológico, social e econômico.",
-        "Afetivo, cognitivo (conhecimento) e motor (ato motor), integrados na pessoa.",
-        "Sensório-motor, pré-operatório e operatório.",
-        "Real, potencial e proximal."
+        "Biológico, social e econômico, que determinam o desenvolvimento da criança.",
+        "Afetivo, cognitivo e motor, integrados na pessoa.",
+        "Sensório-motor, pré-operatório e operatório, que se sucedem na infância.",
+        "Real, potencial e proximal, que definem o que a criança pode aprender."
       ],
       c: 1,
       e: "Afetividade, ato motor e conhecimento, integrados.",
@@ -295,10 +295,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Na perspectiva walloniana, a escola que considera apenas a dimensão cognitiva do aluno:",
       o: [
-        "Está correta, pois a escola deve priorizar o intelecto.",
-        "Favorece o desenvolvimento integral.",
-        "Fragmenta a pessoa, desconsiderando que afetividade e motricidade participam da aprendizagem.",
-        "Evita conflitos emocionais."
+        "Está correta, pois a função da escola é priorizar o desenvolvimento do intelecto.",
+        "Favorece o desenvolvimento integral, pois concentra os esforços no essencial.",
+        "Fragmenta a pessoa, ignorando o papel da afetividade e da motricidade.",
+        "Evita conflitos emocionais, que atrapalham o rendimento dos alunos."
       ],
       c: 2,
       e: "Wallon defende a pessoa completa.",
@@ -313,9 +313,9 @@ window.QCONC.psicogeneticas = [
       q: "Uma aula de 100 minutos em laboratório alterna explicação curta, atividade prática no computador, discussão em duplas e fechamento coletivo. Na perspectiva de Wallon, essa organização:",
       o: [
         "Considera a pessoa completa, alternando movimento, interação afetiva e atividade cognitiva.",
-        "É dispersiva e prejudica a concentração.",
-        "Privilegia apenas o domínio motor.",
-        "É irrelevante para o desenvolvimento."
+        "É dispersiva e prejudica a concentração dos alunos.",
+        "Privilegia apenas o domínio motor dos estudantes.",
+        "É irrelevante para o desenvolvimento cognitivo."
       ],
       c: 0,
       e: "Alternar atividades respeita a integração dos domínios.",
@@ -332,10 +332,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "Para Wallon, a emoção tem papel fundamental no desenvolvimento porque:",
       o: [
-        "É um obstáculo que precisa ser eliminado.",
-        "Surge apenas na adolescência.",
-        "Depende exclusivamente da linguagem.",
-        "É a primeira forma de comunicação do bebê com o meio, mobilizando o outro e garantindo sua sobrevivência."
+        "É um obstáculo ao pensamento racional e precisa ser controlada desde cedo.",
+        "Surge apenas na adolescência, com as transformações físicas da puberdade.",
+        "Depende exclusivamente da linguagem, que permite nomear os sentimentos.",
+        "É a primeira comunicação do bebê com o meio."
       ],
       c: 3,
       e: "Emoção é comunicação antes da linguagem.",
@@ -349,10 +349,10 @@ window.QCONC.psicogeneticas = [
     {
       q: "A 'alternância funcional' em Wallon significa que, ao longo do desenvolvimento:",
       o: [
-        "Os estágios alternam predominância afetiva (voltada para o eu) e predominância cognitiva (voltada para o mundo exterior).",
-        "A criança alterna entre assimilação e acomodação.",
-        "O desenvolvimento é linear e contínuo.",
-        "O aluno alterna entre o nível real e o potencial."
+        "Os estágios alternam predominância afetiva e cognitiva.",
+        "A criança alterna entre assimilação e acomodação diante do novo.",
+        "O desenvolvimento é linear e contínuo, sem crises nem rupturas.",
+        "O aluno alterna entre o nível de desenvolvimento real e o potencial."
       ],
       c: 0,
       e: "Fases centrípetas (afetivas) e centrífugas (cognitivas) se alternam.",
@@ -389,10 +389,10 @@ window.QCONC.frigotto = [
     {
       q: "A dualidade estrutural da educação brasileira expressa:",
       o: [
-        "A divisão entre ensino presencial e a distância.",
-        "A existência de dois sistemas: federal e estadual.",
-        "A divisão social entre trabalho intelectual e manual, refletida em uma escola para formar dirigentes e outra para formar executores.",
-        "A diferença entre escolas urbanas e rurais."
+        "A divisão entre ensino presencial e a distância, com qualidades diferentes.",
+        "A existência de dois sistemas de ensino, o federal e o estadual, com regras próprias.",
+        "A divisão de classe entre formar dirigentes e formar executores.",
+        "A diferença de infraestrutura e de resultados entre escolas urbanas e rurais."
       ],
       c: 2,
       e: "Dualidade é divisão de classe no tipo de formação.",
@@ -406,10 +406,10 @@ window.QCONC.frigotto = [
     {
       q: "Para os autores, o ensino médio integrado é uma 'travessia' porque:",
       o: [
-        "Prepara os alunos para atravessar o vestibular.",
-        "Numa sociedade ainda desigual, é a forma possível de caminhar rumo à superação da dualidade e à formação politécnica.",
-        "É uma etapa curta entre o fundamental e o superior.",
-        "Substitui definitivamente o ensino propedêutico."
+        "Prepara os alunos para atravessar o vestibular e ingressar no ensino superior público.",
+        "É o caminho possível, numa sociedade desigual, rumo à superação da dualidade.",
+        "É uma etapa curta de transição entre o ensino fundamental e o ensino superior.",
+        "Substitui definitivamente o ensino propedêutico pela formação profissional."
       ],
       c: 1,
       e: "Travessia = caminho possível agora, rumo a outro horizonte.",
@@ -423,10 +423,10 @@ window.QCONC.frigotto = [
     {
       q: "Um aluno do técnico integrado em Informática pergunta se o curso 'serve só para trabalhar ou também para fazer faculdade'. Uma resposta coerente com a proposta do integrado seria:",
       o: [
-        "Serve só para trabalhar; para a faculdade, faça cursinho.",
-        "Serve só para a faculdade; a parte técnica é complementar.",
-        "Depende da nota final.",
-        "Serve para as duas coisas, porque o integrado busca superar a separação entre formar para o trabalho e formar para continuar os estudos."
+        "Serve só para trabalhar; quem quiser fazer faculdade precisa complementar com cursinho.",
+        "Serve só para a faculdade; a parte técnica é um complemento que pode ser deixado de lado.",
+        "Depende da nota final: quem vai bem segue estudando, quem vai mal vai trabalhar.",
+        "Serve para as duas coisas: o integrado busca superar a separação entre formar para o trabalho e para os estudos."
       ],
       c: 3,
       e: "O integrado combate a dualidade.",
@@ -444,9 +444,9 @@ window.QCONC.frigotto = [
       q: "A formação omnilateral, base do ensino médio integrado, refere-se:",
       o: [
         "À formação em todas as dimensões da vida humana: intelectual, técnica, cultural, ética, política e física.",
-        "À formação em múltiplas linguagens de programação.",
-        "À formação para todas as profissões.",
-        "À formação a distância, acessível a todos."
+        "À formação em múltiplas linguagens e ferramentas de programação.",
+        "À formação para todas as profissões do mercado de trabalho.",
+        "À formação a distância, acessível a todos os estudantes."
       ],
       c: 0,
       e: "Omni = todas as dimensões do humano.",
@@ -460,10 +460,10 @@ window.QCONC.frigotto = [
     {
       q: "A formação unilateral, criticada pelos autores, caracteriza-se por:",
       o: [
-        "Integrar trabalho, ciência e cultura.",
-        "Desenvolver apenas a dimensão necessária ao desempenho de uma função produtiva, fragmentando o ser humano.",
-        "Valorizar a autonomia intelectual.",
-        "Ser oferecida apenas no ensino superior."
+        "Integrar trabalho, ciência e cultura em projetos comuns a diferentes disciplinas.",
+        "Desenvolver só a dimensão necessária a uma função produtiva.",
+        "Valorizar a autonomia intelectual e a capacidade crítica dos estudantes.",
+        "Ser oferecida apenas no ensino superior, nos cursos de graduação tecnológica."
       ],
       c: 1,
       e: "Unilateral = só a dimensão produtiva.",
@@ -477,10 +477,10 @@ window.QCONC.frigotto = [
     {
       q: "Num curso técnico em Informática, uma prática coerente com a formação omnilateral seria:",
       o: [
-        "Ensinar apenas as ferramentas mais pedidas em vagas de emprego.",
-        "Reduzir as disciplinas de formação geral.",
-        "Ao ensinar sistemas de recomendação, discutir também ética, privacidade e impactos sociais dos algoritmos.",
-        "Focar exclusivamente em certificações profissionais."
+        "Ensinar apenas as ferramentas que aparecem com mais frequência nas vagas de emprego da região.",
+        "Reduzir as disciplinas de formação geral para ampliar a carga horária técnica.",
+        "Ao ensinar recomendação, discutir também ética, privacidade e impacto social dos algoritmos.",
+        "Focar exclusivamente na preparação para certificações profissionais reconhecidas."
       ],
       c: 2,
       e: "Técnica + ética + sociedade = mais dimensões humanas.",
@@ -497,10 +497,10 @@ window.QCONC.frigotto = [
     {
       q: "Na perspectiva dos autores, o 'trabalho como princípio educativo' significa:",
       o: [
-        "Que os alunos devem trabalhar enquanto estudam.",
-        "Que a escola deve se organizar como uma empresa.",
-        "Que a formação deve ser voltada ao primeiro emprego.",
-        "Que o trabalho, como atividade pela qual o ser humano produz sua existência, é ponto de partida para compreender a ciência, a cultura e a sociedade."
+        "Que os alunos devem trabalhar enquanto estudam, em estágios ou empregos de meio período.",
+        "Que a escola deve se organizar como uma empresa, com metas e indicadores de produtividade.",
+        "Que a formação deve ser voltada à conquista do primeiro emprego pelos egressos.",
+        "Que o trabalho, como produção da existência humana, é ponto de partida da formação."
       ],
       c: 3,
       e: "Trabalho em sentido ontológico, não como emprego.",
@@ -514,10 +514,10 @@ window.QCONC.frigotto = [
     {
       q: "A diferença entre 'trabalho como princípio educativo' e 'formação para o mercado' é que:",
       o: [
-        "O primeiro busca compreender os fundamentos científicos, técnicos e sociais do trabalho; o segundo apenas adapta o aluno às exigências imediatas de um posto.",
-        "São sinônimos.",
-        "O primeiro é teórico e o segundo é prático.",
-        "O primeiro é para o ensino superior e o segundo para o técnico."
+        "O primeiro busca os fundamentos do trabalho; o segundo só adapta o aluno a um posto.",
+        "São sinônimos, pois ambos aproximam a escola do mundo produtivo.",
+        "O primeiro é teórico e o segundo é prático, com estágio supervisionado.",
+        "O primeiro é próprio do ensino superior e o segundo do ensino técnico."
       ],
       c: 0,
       e: "Compreender o trabalho × adaptar-se a ele.",
@@ -531,10 +531,10 @@ window.QCONC.frigotto = [
     {
       q: "Um professor de Informática organiza a unidade a partir do desenvolvimento de um sistema de controle de estoque para uma cooperativa local, discutindo modelagem, programação e também a organização do trabalho cooperativo. Essa prática:",
       o: [
-        "É tecnicista, pois foca no produto.",
-        "É escolanovista, pois parte do interesse do aluno.",
-        "Aplica o trabalho como princípio educativo, articulando conhecimento técnico, científico e social.",
-        "É inadequada ao ensino médio."
+        "É tecnicista, pois foca na entrega de um produto de software para um cliente real.",
+        "É escolanovista, pois parte do interesse dos alunos em resolver problemas concretos.",
+        "Aplica o trabalho como princípio educativo, articulando técnica, ciência e sociedade.",
+        "É inadequada ao ensino médio, pois expõe os alunos a responsabilidades profissionais."
       ],
       c: 2,
       e: "Parte do trabalho real e explora todas as suas dimensões.",
@@ -551,10 +551,10 @@ window.QCONC.frigotto = [
     {
       q: "O conceito de politecnia, na tradição em que se apoiam os autores, significa:",
       o: [
-        "O domínio de muitas técnicas diferentes.",
-        "O domínio dos fundamentos científicos das diferentes técnicas que caracterizam o processo de trabalho moderno.",
-        "A formação em escolas politécnicas de engenharia.",
-        "A especialização precoce em uma técnica."
+        "O domínio de muitas técnicas diferentes, para atuar em várias áreas profissionais.",
+        "O domínio dos fundamentos científicos das técnicas do trabalho moderno.",
+        "A formação oferecida nas escolas politécnicas de engenharia e tecnologia.",
+        "A especialização precoce em uma técnica, para garantir inserção rápida no mercado."
       ],
       c: 1,
       e: "Poli não é 'muitas técnicas', é fundamentos.",
@@ -568,10 +568,10 @@ window.QCONC.frigotto = [
     {
       q: "A politecnia se opõe:",
       o: [
-        "À integração entre teoria e prática.",
-        "À formação científica.",
-        "Ao ensino médio integrado.",
-        "À formação fragmentada e especializada que treina para tarefas sem compreensão de seus fundamentos."
+        "À integração entre teoria e prática, que considera uma forma de tecnicismo.",
+        "À formação científica, que afasta o aluno do mundo concreto do trabalho.",
+        "Ao ensino médio integrado, por manter disciplinas de formação geral.",
+        "Ao adestramento para tarefas sem compreensão."
       ],
       c: 3,
       e: "Politecnia × adestramento.",
@@ -585,10 +585,10 @@ window.QCONC.frigotto = [
     {
       q: "Num curso de redes, uma abordagem politécnica seria:",
       o: [
-        "Ensinar o modelo de camadas e os protocolos antes de configurar equipamentos, para que o aluno entenda o que está fazendo e se adapte a qualquer fabricante.",
-        "Treinar a configuração de um único modelo de roteador.",
-        "Ensinar o maior número possível de comandos de equipamentos.",
-        "Dispensar a teoria e focar só na prática de laboratório."
+        "Ensinar camadas e protocolos antes de configurar equipamentos, para o aluno se adaptar a qualquer fabricante.",
+        "Treinar a fundo a configuração do modelo de roteador mais usado no mercado.",
+        "Ensinar o maior número possível de comandos de equipamentos de diferentes fabricantes.",
+        "Dispensar a teoria e focar só na prática de laboratório, que é o que o aluno vai usar."
       ],
       c: 0,
       e: "Fundamento primeiro; a técnica específica vem por cima.",
@@ -605,10 +605,10 @@ window.QCONC.frigotto = [
     {
       q: "As dimensões que o ensino médio integrado deve articular, segundo os autores e as diretrizes da educação profissional, são:",
       o: [
-        "Ensino, pesquisa e extensão.",
-        "Conteúdo, método e avaliação.",
+        "Ensino, pesquisa e extensão, que formam o tripé da instituição.",
+        "Conteúdo, método e avaliação, que compõem o plano de ensino.",
         "Trabalho, ciência, cultura e tecnologia.",
-        "Escola, família e empresa."
+        "Escola, família e empresa, que dividem a responsabilidade pela formação."
       ],
       c: 2,
       e: "As quatro dimensões da formação integrada.",
@@ -622,10 +622,10 @@ window.QCONC.frigotto = [
     {
       q: "A integração no ensino médio integrado NÃO se confunde com:",
       o: [
-        "A articulação entre formação geral e formação profissional.",
+        "A articulação entre formação geral e formação profissional no mesmo curso.",
         "A justaposição de disciplinas técnicas e gerais, sem relação entre elas.",
-        "Os projetos integradores entre áreas.",
-        "A compreensão dos fundamentos científicos da técnica."
+        "Os projetos integradores, que envolvem professores de diferentes áreas.",
+        "A compreensão dos fundamentos científicos que estão por trás da técnica."
       ],
       c: 1,
       e: "Justapor não é integrar.",
@@ -639,9 +639,9 @@ window.QCONC.frigotto = [
     {
       q: "Um professor de Informática e uma professora de Geografia propõem um projeto em que os alunos coletam dados de mobilidade urbana da cidade e constroem um painel interativo. Essa proposta:",
       o: [
-        "Desvia a disciplina técnica de seu conteúdo.",
-        "É tecnicista.",
-        "É adequada apenas para o ensino superior.",
+        "Desvia a disciplina técnica do seu conteúdo específico.",
+        "É tecnicista, pois o objetivo é produzir um painel.",
+        "É adequada apenas para cursos de nível superior.",
         "Exemplifica a integração entre trabalho, ciência, cultura e tecnologia no currículo."
       ],
       c: 3,
@@ -659,10 +659,10 @@ window.QCONC.frigotto = [
     {
       q: "O Decreto 2.208/1997, criticado pelos autores:",
       o: [
-        "Separou o ensino médio da educação profissional, impedindo a oferta integrada.",
-        "Criou os Institutos Federais.",
-        "Tornou obrigatória a forma integrada.",
-        "Criou o PROEJA."
+        "Separou o ensino médio da educação profissional, vedando a forma integrada.",
+        "Criou os Institutos Federais a partir da transformação dos antigos CEFETs.",
+        "Tornou obrigatória a forma integrada em todas as escolas técnicas federais.",
+        "Criou o PROEJA, voltado à educação profissional de jovens e adultos."
       ],
       c: 0,
       e: "O 2.208 é o decreto da separação, no governo FHC.",
@@ -676,10 +676,10 @@ window.QCONC.frigotto = [
     {
       q: "O Decreto 5.154/2004:",
       o: [
-        "Manteve a proibição do ensino integrado.",
-        "Criou os CEFETs.",
-        "Revogou o Decreto 2.208/1997 e restabeleceu a possibilidade de oferta integrada, mantendo também as formas concomitante e subsequente.",
-        "Tornou obrigatório o ensino a distância."
+        "Manteve a proibição do ensino integrado, mas ampliou a oferta subsequente.",
+        "Criou os CEFETs a partir das antigas escolas técnicas federais.",
+        "Revogou o 2.208/1997 e restabeleceu a forma integrada, mantendo as demais.",
+        "Tornou obrigatório o ensino a distância nos cursos técnicos subsequentes."
       ],
       c: 2,
       e: "Recupera o integrado sem eliminar as outras formas.",
@@ -693,10 +693,10 @@ window.QCONC.frigotto = [
     {
       q: "Pela Lei 11.892/2008, os Institutos Federais:",
       o: [
-        "São autarquias com autonomia, que devem destinar no mínimo 50% das vagas à educação profissional técnica de nível médio e no mínimo 20% às licenciaturas e à formação de professores.",
-        "Oferecem exclusivamente cursos superiores.",
-        "São vinculados às secretarias estaduais de educação.",
-        "Devem destinar 50% das vagas à pós-graduação."
+        "Têm mínimo de 50% das vagas para técnico de nível médio e 20% para licenciaturas.",
+        "Oferecem exclusivamente cursos superiores de tecnologia, bacharelados e licenciaturas.",
+        "São vinculados às secretarias estaduais de educação e às redes estaduais de ensino.",
+        "Devem destinar metade das vagas à pós-graduação e o restante à educação básica."
       ],
       c: 0,
       e: "Art. 8º: 50% técnico de nível médio e 20% licenciaturas.",
@@ -713,10 +713,10 @@ window.QCONC.frigotto = [
     {
       q: "Ao afirmarem que os IFs estão inseridos num 'projeto societário em disputa', os autores querem dizer que:",
       o: [
-        "Os IFs disputam alunos com as escolas privadas.",
-        "O sentido da expansão dos IFs depende de qual modelo de sociedade e de desenvolvimento prevalece: o da formação para o mercado ou o da formação humana integral.",
-        "Os IFs competem entre si por recursos.",
-        "Os IFs são neutros em relação ao desenvolvimento."
+        "Que os IFs disputam alunos com as escolas privadas de educação profissional.",
+        "Que o sentido dos IFs depende do modelo de sociedade que prevalecer.",
+        "Que os IFs competem entre si por recursos orçamentários do governo federal.",
+        "Que os IFs são neutros e atendem igualmente a qualquer projeto de desenvolvimento."
       ],
       c: 1,
       e: "A educação serve a um projeto de sociedade; nenhum é neutro.",
@@ -730,10 +730,10 @@ window.QCONC.frigotto = [
     {
       q: "A expressão 'capitalismo dependente', usada na obra, refere-se:",
       o: [
-        "À dependência dos alunos em relação aos professores.",
-        "À dependência das escolas em relação ao orçamento federal.",
-        "À dependência tecnológica dos IFs em relação a softwares estrangeiros.",
-        "À inserção subordinada de países como o Brasil na economia mundial, que limita o desenvolvimento autônomo de ciência e tecnologia."
+        "À dependência dos alunos em relação aos professores no processo de aprendizagem.",
+        "À dependência das escolas públicas em relação ao orçamento e às verbas federais.",
+        "À dependência tecnológica dos IFs em relação a softwares e equipamentos estrangeiros.",
+        "À inserção subordinada do Brasil na economia mundial, que limita o desenvolvimento autônomo de ciência e tecnologia."
       ],
       c: 3,
       e: "Conceito da tradição de Florestan Fernandes e da teoria da dependência.",
@@ -747,10 +747,10 @@ window.QCONC.frigotto = [
     {
       q: "Para os autores, a interiorização dos Institutos Federais:",
       o: [
-        "Garante automaticamente o desenvolvimento das regiões.",
-        "É negativa, pois afasta os alunos dos grandes centros.",
-        "Abre possibilidades de desenvolvimento local e de acesso à educação, mas seu sentido depende do projeto que orienta a instituição.",
-        "Não tem relação com o desenvolvimento."
+        "Garante automaticamente o desenvolvimento das regiões onde os campi se instalam.",
+        "É negativa, pois afasta os estudantes dos grandes centros de produção do conhecimento.",
+        "Abre possibilidades, mas seu sentido depende do projeto que orienta a instituição.",
+        "Não tem relação com o desenvolvimento, pois os IFs são instituições de ensino."
       ],
       c: 2,
       e: "Possibilidade, não garantia.",
@@ -770,10 +770,10 @@ window.QCONC.brandao = [
     {
       q: "Para Brandão, a afirmação 'ninguém escapa da educação' significa que:",
       o: [
-        "A escolarização é obrigatória por lei.",
-        "Todos aprendem e ensinam continuamente em diferentes práticas sociais, dentro e fora da escola.",
-        "A educação formal é a única que forma as pessoas.",
-        "Todos devem frequentar a escola."
+        "A escolarização é obrigatória por lei dos 4 aos 17 anos de idade.",
+        "Todos aprendem e ensinam em diferentes práticas sociais, dentro e fora da escola.",
+        "A educação formal é a única que realmente forma as pessoas para a vida.",
+        "Todos devem frequentar a escola para se tornarem cidadãos plenos."
       ],
       c: 1,
       e: "É a frase de abertura de 'O que é educação', também de Brandão: a educação está em toda parte.",
@@ -787,10 +787,10 @@ window.QCONC.brandao = [
     {
       q: "Em relação à escola, Brandão afirma que ela:",
       o: [
-        "É a forma mais antiga de educação.",
-        "É a única instituição educativa legítima.",
-        "É uma forma de educação historicamente recente, entre muitas outras que existem na sociedade.",
-        "Deve substituir a educação familiar."
+        "É a forma mais antiga de educação, presente em todas as sociedades humanas.",
+        "É a única instituição educativa legítima, reconhecida pelo Estado.",
+        "É uma forma recente de educação, entre muitas outras.",
+        "Deve substituir a educação familiar, que é assistemática e desigual."
       ],
       c: 2,
       e: "A educação existe antes e além da escola.",
@@ -804,10 +804,10 @@ window.QCONC.brandao = [
     {
       q: "Um aluno do técnico em Informática aprendeu a montar computadores ajudando o tio numa assistência técnica. Na perspectiva de Brandão, o professor deve:",
       o: [
-        "Reconhecer esse saber como resultado de uma prática educativa e usá-lo como ponto de partida para a aula.",
-        "Desconsiderar esse saber, por não ser escolar.",
-        "Pedir que o aluno esqueça o que aprendeu e siga o método da escola.",
-        "Dispensar o aluno das aulas práticas."
+        "Reconhecer esse saber como educativo e usá-lo como ponto de partida da aula.",
+        "Desconsiderar esse saber, por não ter sido adquirido em ambiente escolar.",
+        "Pedir que o aluno esqueça o que aprendeu e siga o método ensinado na escola.",
+        "Dispensar o aluno das aulas práticas de montagem, já que ele domina o assunto."
       ],
       c: 0,
       e: "Saber de fora da escola é educação também.",
@@ -824,10 +824,10 @@ window.QCONC.brandao = [
     {
       q: "Segundo Brandão, o que define a educação popular é:",
       o: [
-        "O público atendido, isto é, as camadas pobres da população.",
-        "A modalidade de ensino supletivo.",
-        "O baixo custo dos cursos.",
-        "O compromisso político-pedagógico com as classes populares, construído com elas e a partir de seus saberes."
+        "O público atendido, isto é, as camadas pobres e marginalizadas da população.",
+        "A modalidade de ensino supletivo, voltada a quem não estudou na idade própria.",
+        "O baixo custo dos cursos, que permite o acesso das classes populares.",
+        "O compromisso político-pedagógico com as classes populares."
       ],
       c: 3,
       e: "O que define é o projeto, não o público nem a modalidade.",
@@ -842,9 +842,9 @@ window.QCONC.brandao = [
       q: "Um programa de alfabetização que ensina a ler com cartilhas prontas, sem relação com a vida dos alunos e sem discussão de sua realidade, é, segundo Brandão:",
       o: [
         "Educação para as camadas populares, mas não necessariamente educação popular.",
-        "Educação popular, pois atende adultos pobres.",
-        "Educação popular, pois é gratuito.",
-        "Educação popular, pois é organizado pelo Estado."
+        "Educação popular, pois atende adultos pobres que não foram alfabetizados.",
+        "Educação popular, pois é gratuito e aberto a toda a comunidade.",
+        "Educação popular, pois é organizado e financiado pelo Estado."
       ],
       c: 0,
       e: "Atender o povo não basta; é preciso o projeto com o povo.",
@@ -858,10 +858,10 @@ window.QCONC.brandao = [
     {
       q: "A diferença entre 'educação para o povo' e 'educação popular', na perspectiva de Brandão, está:",
       o: [
-        "No nível de ensino.",
-        "No local onde as aulas ocorrem.",
-        "Na relação estabelecida: a primeira é feita para o povo, de fora; a segunda é feita com o povo, a partir de seus saberes e interesses.",
-        "No financiamento."
+        "No nível de ensino: a primeira é básica e a segunda é superior.",
+        "No local das aulas: a primeira ocorre na escola e a segunda na comunidade.",
+        "Na relação: a primeira é feita para o povo; a segunda, com o povo.",
+        "No financiamento: a primeira é pública e a segunda é mantida por ONGs."
       ],
       c: 2,
       e: "Para × com.",
@@ -878,10 +878,10 @@ window.QCONC.brandao = [
     {
       q: "Na educação popular, o diálogo entre educador e educando pressupõe:",
       o: [
-        "Que o educador sabe tudo e o educando nada.",
-        "Que o educando deve apenas escutar.",
-        "Que não há diferença de papéis entre eles.",
-        "Uma relação horizontal em que os dois aprendem, com valorização do saber do educando."
+        "Que o educador sabe tudo e o educando nada, cabendo a este ouvir com atenção.",
+        "Que o educando deve apenas escutar, para depois reproduzir o que aprendeu.",
+        "Que não há diferença de papéis entre eles, nem responsabilidade do educador.",
+        "Uma relação horizontal em que os dois aprendem, valorizando o saber do educando."
       ],
       c: 3,
       e: "Horizontalidade não apaga a função do educador, mas muda a relação.",
@@ -895,10 +895,10 @@ window.QCONC.brandao = [
     {
       q: "O termo 'conscientização', central na educação popular, refere-se:",
       o: [
-        "À transmissão de uma ideologia partidária.",
-        "Ao processo de passagem de uma consciência ingênua para uma consciência crítica da realidade.",
-        "À conscientização ambiental.",
-        "Ao autoconhecimento psicológico."
+        "À transmissão de uma ideologia partidária aos educandos pelo educador.",
+        "À passagem da consciência ingênua à consciência crítica.",
+        "À conscientização ambiental e ao consumo responsável de recursos naturais.",
+        "Ao autoconhecimento psicológico e ao desenvolvimento pessoal do educando."
       ],
       c: 1,
       e: "Termo associado a Paulo Freire.",
@@ -912,10 +912,10 @@ window.QCONC.brandao = [
     {
       q: "Numa turma de PROEJA, o professor inicia a aula de planilhas perguntando como cada aluno controla hoje suas contas ou o trabalho. Essa prática:",
       o: [
-        "Perde tempo de conteúdo.",
-        "É inadequada para adultos.",
-        "Valoriza o saber dos alunos e cria diálogo, coerente com a educação popular.",
-        "É tecnicista."
+        "Perde tempo de conteúdo, que já é reduzido nos cursos para adultos.",
+        "É inadequada para adultos, que esperam aulas objetivas e diretas.",
+        "Valoriza o saber dos alunos e cria diálogo, como na educação popular.",
+        "É tecnicista, pois parte das tarefas práticas do trabalho dos alunos."
       ],
       c: 2,
       e: "Partir da experiência do aluno trabalhador.",
@@ -933,9 +933,9 @@ window.QCONC.brandao = [
       q: "A experiência de alfabetização de adultos realizada por Paulo Freire em Angicos (RN), em 1963, ficou conhecida por:",
       o: [
         "Alfabetizar cerca de 300 trabalhadores em aproximadamente 40 horas, usando palavras geradoras da realidade deles.",
-        "Ter sido financiada pelo MOBRAL.",
-        "Ter usado cartilhas importadas.",
-        "Ter sido realizada após o golpe de 1964."
+        "Ter sido financiada e coordenada pelo MOBRAL, em parceria com o governo.",
+        "Ter usado cartilhas importadas e adaptadas ao português do Nordeste.",
+        "Ter sido realizada após o golpe de 1964, já sob o regime militar."
       ],
       c: 0,
       e: "Angicos (1963) é o marco do método Paulo Freire.",
@@ -949,9 +949,9 @@ window.QCONC.brandao = [
     {
       q: "O Movimento de Educação de Base (MEB), uma das experiências de educação popular do início dos anos 1960, estava ligado:",
       o: [
-        "Ao Sistema S.",
-        "Ao regime militar.",
-        "À União Nacional dos Estudantes.",
+        "Ao Sistema S, responsável pela formação profissional da indústria.",
+        "Ao regime militar, que o criou para substituir os programas anteriores.",
+        "À União Nacional dos Estudantes, por meio de seus centros de cultura.",
         "À Igreja Católica (CNBB), com escolas radiofônicas."
       ],
       c: 3,
@@ -966,10 +966,10 @@ window.QCONC.brandao = [
     {
       q: "Os Centros Populares de Cultura (CPCs), citados por Brandão, eram vinculados:",
       o: [
-        "Ao Ministério da Educação.",
+        "Ao Ministério da Educação e Cultura.",
         "À União Nacional dos Estudantes (UNE).",
-        "Ao MOBRAL.",
-        "À prefeitura do Recife."
+        "Ao MOBRAL, em sua fase inicial.",
+        "À prefeitura do Recife, sob Miguel Arraes."
       ],
       c: 1,
       e: "CPC da UNE; MCP é que era do Recife.",
@@ -986,10 +986,10 @@ window.QCONC.brandao = [
     {
       q: "O MOBRAL, criado pelo regime militar, distinguia-se das experiências de educação popular dos anos 1960 porque:",
       o: [
-        "Adotava integralmente a proposta política de Paulo Freire.",
-        "Não tinha objetivo de alfabetizar.",
-        "Tinha caráter funcional e despolitizado, esvaziando a dimensão conscientizadora.",
-        "Era organizado pelos movimentos sociais."
+        "Adotava integralmente a proposta política e o método de Paulo Freire.",
+        "Não tinha objetivo de alfabetizar, apenas de registrar a população.",
+        "Tinha caráter funcional e despolitizado, sem conscientização.",
+        "Era organizado pelos movimentos sociais e pelas comunidades de base."
       ],
       c: 2,
       e: "Técnica aproveitada, política esvaziada.",
@@ -1004,9 +1004,9 @@ window.QCONC.brandao = [
       q: "Após o golpe de 1964, os movimentos de educação popular:",
       o: [
         "Foram reprimidos, e muitos educadores, como Paulo Freire, foram presos ou exilados.",
-        "Foram incorporados ao Ministério da Educação.",
-        "Ampliaram suas atividades com apoio do governo.",
-        "Não sofreram alterações."
+        "Foram incorporados ao Ministério da Educação como programas oficiais.",
+        "Ampliaram suas atividades com apoio do novo governo.",
+        "Não sofreram alterações significativas."
       ],
       c: 0,
       e: "Repressão e exílio.",
@@ -1020,10 +1020,10 @@ window.QCONC.brandao = [
     {
       q: "A comparação entre as experiências de Freire nos anos 1960 e o MOBRAL permite concluir, com Brandão, que:",
       o: [
-        "Métodos de alfabetização são neutros.",
-        "Toda educação estatal é popular.",
-        "Os resultados quantitativos do MOBRAL comprovam sua superioridade.",
-        "Uma mesma técnica pode servir a projetos educativos opostos, dependendo de sua orientação política."
+        "Os métodos de alfabetização são neutros e podem servir a qualquer finalidade.",
+        "Toda educação organizada pelo Estado é, por definição, educação popular.",
+        "Os resultados quantitativos do MOBRAL comprovam sua superioridade sobre Freire.",
+        "A mesma técnica pode servir a projetos opostos."
       ],
       c: 3,
       e: "A técnica não define o projeto.",
@@ -1040,10 +1040,10 @@ window.QCONC.brandao = [
     {
       q: "Durante os anos 1970 e 1980, a educação popular no Brasil se reorganizou principalmente:",
       o: [
-        "Nas escolas públicas estaduais.",
-        "No MOBRAL.",
-        "Nas Comunidades Eclesiais de Base, sindicatos, associações de bairro, movimentos sociais e ONGs.",
-        "Nas universidades privadas."
+        "Nas escolas públicas estaduais, por meio de programas de EJA.",
+        "No MOBRAL, que incorporou os educadores populares dos anos 1960.",
+        "Nas CEBs, sindicatos, associações de bairro, movimentos sociais e ONGs.",
+        "Nas universidades privadas, em cursos de extensão comunitária."
       ],
       c: 2,
       e: "Fora do Estado, ligada à sociedade civil.",
@@ -1058,9 +1058,9 @@ window.QCONC.brandao = [
       q: "As Comunidades Eclesiais de Base (CEBs) estavam ligadas:",
       o: [
         "À Teologia da Libertação, na Igreja Católica.",
-        "Ao movimento estudantil.",
-        "Ao regime militar.",
-        "Às escolas técnicas federais."
+        "Ao movimento estudantil universitário da UNE.",
+        "Ao regime militar e ao MOBRAL.",
+        "Às escolas técnicas federais do período."
       ],
       c: 0,
       e: "CEBs e Teologia da Libertação.",
@@ -1074,10 +1074,10 @@ window.QCONC.brandao = [
     {
       q: "Um projeto de extensão de um IF oferece oficinas de inclusão digital construídas junto com uma associação de moradores, a partir das necessidades levantadas pela comunidade. Essa proposta:",
       o: [
-        "É assistencialismo.",
-        "Contraria a função dos IFs.",
-        "É educação a distância.",
-        "Retoma a tradição da educação popular, pois é construída com a comunidade e a partir de sua realidade."
+        "É assistencialismo, pois oferece um serviço gratuito à comunidade carente.",
+        "Contraria a função dos IFs, que é formar alunos regularmente matriculados.",
+        "É educação a distância, pois ocorre fora do campus do instituto.",
+        "Retoma a educação popular: é construída com a comunidade, a partir dela."
       ],
       c: 3,
       e: "Com a comunidade, a partir dela: educação popular.",

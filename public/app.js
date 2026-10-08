@@ -263,10 +263,14 @@
     var legEstudados = leg.filter(function (c) { return (estado.cards[c.id] || 0) >= 2; }).length;
     var qs = statsQuiz(TODAS.map(function (x) { return x.id; }));
     var revisar = (qs.cls.falsa || 0) + (qs.cls.eliminou || 0);
+    var conc = contarConceitos();
 
     var evol = h("div", { class: "bloco" }, [
       h("h3", { text: "Evolução" }),
       barra("Pedagogia · obras estudadas", pedEstudados, ped.length),
+      barra("Pedagogia · conceitos-chave lidos", conc.lidos, conc.total),
+      barra("Pedagogia · conceitos-chave avaliados (com questão feita)", conc.avaliados, conc.total),
+      barra("Pedagogia · conceitos-chave com domínio ≥ 70", conc.bons, conc.total),
       barra("Pedagogia · questões respondidas", qs.respondidas, qs.total),
       barra("Pedagogia · sólidas (certeza e acertou)", qs.cls.solido || 0, qs.total),
       barra("Pedagogia · acerto na última tentativa", qs.certasUltima, qs.respondidas, qs.respondidas ? pct(qs.certasUltima, qs.respondidas) + "% de " + qs.respondidas : "sem respostas"),
@@ -290,6 +294,22 @@
 
     raiz.appendChild(blocoDesempenhoAutores());
     raiz.appendChild(blocoSessoes());
+  }
+
+  // Contadores de conceitos-chave (lidos, avaliados, com domínio >= 70), no geral ou de um card.
+  function contarConceitos(cardId) {
+    var r = { total: 0, lidos: 0, avaliados: 0, bons: 0 };
+    window.PEDAGOGIA.forEach(function (card) {
+      if (cardId && card.id !== cardId) return;
+      card.conceitos.forEach(function (_, i) {
+        r.total++;
+        if (lido(card.id, i)) r.lidos++;
+        var p = pontuar(IDS_CONC[card.id][i]);
+        if (p.resp) r.avaliados++;
+        if (p.resp && p.dominio >= 70) r.bons++;
+      });
+    });
+    return r;
   }
 
   function blocoDesempenhoAutores() {
@@ -554,7 +574,8 @@
     det.appendChild(h("summary", {}, [
       h("span", { class: "n", text: card.ordem }),
       h("div", {}, [h("div", { class: "obra", text: card.obra }), h("div", { class: "autor", text: card.autor + " · " + card.ano })]),
-      h("div", { class: "lado" }, [tagStatus, tagQuiz, tagPts])
+      h("div", { class: "lado" }, [tagStatus, tagQuiz, tagPts]),
+      h("span", { class: "seta", "aria-hidden": "true", title: "Abrir ou recolher" })
     ]));
 
     var corpo = h("div", { class: "card-corpo" });
@@ -565,7 +586,8 @@
         tagStatus.className = "tag " + STATUS_TAG[v];
         tagStatus.textContent = STATUS[v];
       }),
-      h("span", { class: "small muted", text: "Tópicos do programa: " + card.topicos.join(", ") })
+      h("span", { class: "small muted", text: "Tópicos do programa: " + card.topicos.join(", ") }),
+      h("span", { class: "small muted", "data-lidos-card": card.id, text: textoLidos(card.id) })
     ]));
 
     if (card.bio) {
@@ -591,13 +613,25 @@
     corpo.appendChild(h("p", { class: "muted small", style: "margin:0 0 6px", text: "Inclui as questões do autor e as de cada conceito. Toque no conceito para treinar." }));
     corpo.appendChild(desempenho);
     det.appendChild(corpo);
-    det.addEventListener("toggle", function () { if (det.open) abertos[card.id] = 1; else delete abertos[card.id]; });
+    det.addEventListener("toggle", aoAlternarCard(det, card.id));
     if (abertos[card.id]) det.open = true;
     return det;
   }
 
   // Cards abertos ficam abertos quando a aba é redesenhada.
   var abertos = {};
+  // Ao recolher um card longo lá de baixo, volta a tela para o topo dele.
+  function aoAlternarCard(det, id) {
+    return function () {
+      if (det.open) { abertos[id] = 1; return; }
+      delete abertos[id];
+      var topo = det.getBoundingClientRect().top;
+      if (topo < alturaTopo()) window.scrollTo(0, window.scrollY + topo - alturaTopo() - 8);
+    };
+  }
+  function alturaTopo() { var t = document.querySelector(".topo"); return t ? t.offsetHeight : 0; }
+  function ajustaTopo() { document.documentElement.style.setProperty("--topo-h", alturaTopo() + "px"); }
+  window.addEventListener("resize", ajustaTopo);
 
   function lido(cardId, i) { return !!(estado.lidos && estado.lidos[cardId + ":" + i]); }
   function marcarLido(cardId, i, v) {
@@ -606,6 +640,11 @@
     salvar();
     document.querySelectorAll('[data-lido="' + cardId + ":" + i + '"]').forEach(function (cb) { cb.checked = v; });
     document.querySelectorAll('[data-chip="' + cardId + ":" + i + '"]').forEach(function (ch) { ch.classList.toggle("lido", v); });
+    document.querySelectorAll('[data-lidos-card="' + cardId + '"]').forEach(function (el) { el.textContent = textoLidos(cardId); });
+  }
+  function textoLidos(cardId) {
+    var c = contarConceitos(cardId);
+    return "Conceitos lidos: " + c.lidos + "/" + c.total;
   }
   function caixaLido(cardId, i, rotulo) {
     var cb = h("input", { type: "checkbox", "data-lido": cardId + ":" + i, "aria-label": "Marcar como lido", onchange: function () { marcarLido(cardId, i, cb.checked); } });
@@ -855,7 +894,7 @@
             h("span", { class: "txt", text: txt }),
             h("span", { class: "lado-c" }, [
               fl[i] ? h("b", { class: "flag-mini f-" + fl[i], title: FLAG_NOME[fl[i]], text: fl[i] }) : h("b", { class: "flag-mini vazia", text: "–" }),
-              marca ? h("span", { class: "marca", text: marca }) : null
+              marca ? h("span", { class: "marca-c", text: marca }) : null
             ])
           ]),
           q.x && q.x[i] ? h("div", { class: "por-que", text: q.x[i] }) : null
@@ -883,12 +922,15 @@
     corpo.appendChild(h("div", { class: "aviso" }, ["Questões de legislação entram na próxima versão. Por enquanto, use os cards para marcar o que já leu. Os links para o texto oficial estão na aba Documentos. Considere as alterações em vigor até a publicação do edital."]));
     window.BASE.legislacao.forEach(function (l, i) {
       var status = estado.cards[l.id] || 0;
-      var det = h("details", { class: "card", "data-status": status });
+      var det = h("details", { class: "card", "data-status": status, "data-card": "leg-" + l.id });
+      det.addEventListener("toggle", aoAlternarCard(det, "leg-" + l.id));
+      if (abertos["leg-" + l.id]) det.open = true;
       var tag = h("span", { class: "tag " + STATUS_TAG[status], text: STATUS[status] });
       det.appendChild(h("summary", {}, [
         h("span", { class: "n", text: i + 1 }),
         h("div", {}, [h("div", { class: "obra", text: l.titulo }), h("div", { class: "autor", text: l.foco })]),
-        h("div", { class: "lado" }, [tag])
+        h("div", { class: "lado" }, [tag]),
+        h("span", { class: "seta", "aria-hidden": "true", title: "Abrir ou recolher" })
       ]));
       det.appendChild(h("div", { class: "card-corpo" }, [
         h("div", { class: "linha" }, [h("label", { class: "small muted" }, ["Status: "]), seletorStatus(l.id, function (v) {
@@ -945,5 +987,6 @@
   // ---------- Início ----------
   document.getElementById("vaga").textContent = window.BASE.vaga;
   document.getElementById("versao").textContent = "ifsp26 v" + window.BASE.versao;
+  ajustaTopo();
   abrir(location.hash.slice(1) || "painel");
 })();

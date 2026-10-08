@@ -40,10 +40,10 @@ window.PEDAGOGIA = [
       {
         q: "Em 'Escola e democracia', Saviani classifica as teorias da educação conforme o modo como compreendem a relação entre educação e sociedade. Assinale a alternativa que agrupa corretamente as teorias crítico-reprodutivistas.",
         o: [
-          "Pedagogia tradicional, pedagogia nova e pedagogia tecnicista.",
+          "Pedagogia tradicional, pedagogia nova e pedagogia tecnicista, que veem a escola como instrumento de equalização social.",
           "Teoria do sistema de ensino como violência simbólica, teoria da escola como aparelho ideológico de Estado e teoria da escola dualista.",
-          "Pedagogia histórico-crítica, pedagogia libertadora e pedagogia da autonomia.",
-          "Escola Nova, construtivismo e pedagogia das competências."
+          "Pedagogia histórico-crítica, pedagogia libertadora e pedagogia da autonomia, por reconhecerem os condicionantes sociais.",
+          "Escola Nova, construtivismo e pedagogia das competências, que deslocam o foco do professor para o aluno."
         ],
         c: 1,
         e: "As crítico-reprodutivistas são as de Bourdieu e Passeron (violência simbólica), Althusser (AIE) e Baudelot e Establet (escola dualista). A alternativa A lista as teorias não críticas.",
@@ -74,10 +74,10 @@ window.PEDAGOGIA = [
       {
         q: "Na pedagogia histórico-crítica, o trabalho pedagógico é organizado em momentos articulados. Assinale a sequência correta.",
         o: [
-          "Preparação, apresentação, associação, generalização e aplicação.",
-          "Atividade, problema, levantamento de dados, hipótese e experimentação.",
+          "Preparação, apresentação, associação, generalização e aplicação, nessa ordem fixa.",
+          "Atividade, problema, levantamento de dados, formulação de hipótese e experimentação.",
           "Prática social, problematização, instrumentalização, catarse e prática social.",
-          "Diagnóstico, planejamento, execução, avaliação e recuperação."
+          "Diagnóstico, planejamento, execução, avaliação e recuperação paralela dos conteúdos."
         ],
         c: 2,
         e: "Os momentos de Saviani começam e terminam na prática social, que no ponto de chegada está qualitativamente alterada. A alternativa A são os passos de Herbart (pedagogia tradicional) e a B lembra os passos de Dewey (Escola Nova).",
@@ -91,10 +91,10 @@ window.PEDAGOGIA = [
       {
         q: "Ao recorrer à imagem da 'curvatura da vara', Saviani pretende:",
         o: [
-          "Defender que o professor deve ser flexível e se adaptar aos interesses espontâneos dos alunos.",
-          "Mostrar que a escola deve se curvar às exigências do mercado de trabalho para garantir empregabilidade.",
-          "Justificar o abandono dos conteúdos clássicos em favor de projetos interdisciplinares.",
-          "Argumentar que, diante do predomínio do ideário escolanovista, é preciso enfatizar no sentido oposto a importância dos conteúdos e da transmissão do conhecimento."
+          "Defender que o professor seja flexível e adapte o ensino aos interesses espontâneos dos alunos, deixando de lado a rigidez dos programas.",
+          "Mostrar que a escola precisa se curvar às exigências do mercado de trabalho para garantir a empregabilidade dos egressos.",
+          "Justificar o abandono dos conteúdos clássicos em favor de projetos interdisciplinares definidos com a comunidade.",
+          "Argumentar que, diante do predomínio escolanovista, é preciso enfatizar o lado oposto: os conteúdos e sua transmissão."
         ],
         c: 3,
         e: "A vara estava curvada para o lado da Escola Nova. Para endireitá-la, Saviani a curva para o outro lado, valorizando conteúdos e o papel do professor, sem simplesmente voltar à pedagogia tradicional.",
@@ -108,10 +108,10 @@ window.PEDAGOGIA = [
       {
         q: "Sobre a crítica de Saviani à Escola Nova, é correto afirmar que:",
         o: [
-          "O escolanovismo democratizou o acesso ao conhecimento ao priorizar o método e o interesse do aluno.",
+          "O escolanovismo democratizou o acesso ao conhecimento ao priorizar o método, o interesse e a atividade do aluno.",
           "O escolanovismo contribuiu para rebaixar o nível do ensino destinado às camadas populares, enquanto aprimorou a qualidade do ensino das elites.",
-          "A Escola Nova fracassou porque manteve o professor no centro do processo de ensino.",
-          "A Escola Nova é uma teoria crítico-reprodutivista, pois denuncia a escola como reprodutora da sociedade."
+          "A Escola Nova fracassou porque manteve o professor no centro do processo, impedindo a participação ativa dos estudantes.",
+          "A Escola Nova é uma teoria crítico-reprodutivista, pois denuncia a escola como instância reprodutora das desigualdades."
         ],
         c: 1,
         e: "Para Saviani, a Escola Nova desviou a atenção da transmissão do saber, o que prejudicou sobretudo os filhos das classes populares, que dependem da escola para acessar o conhecimento sistematizado. Ela é uma teoria não crítica.",
@@ -156,10 +156,10 @@ window.PEDAGOGIA = [
       {
         q: "Para Luckesi, a diferença essencial entre verificar e avaliar a aprendizagem está no fato de que:",
         o: [
-          "A verificação usa instrumentos escritos, enquanto a avaliação usa apenas a observação do professor.",
-          "A avaliação é feita ao final do bimestre, e a verificação, ao longo dele.",
-          "A verificação se encerra na obtenção e no registro do dado, enquanto a avaliação exige uma tomada de decisão sobre o que fazer a partir dele.",
-          "A avaliação atribui nota, e a verificação atribui conceito."
+          "A verificação usa instrumentos escritos, como provas e listas, enquanto a avaliação usa apenas a observação do professor.",
+          "A avaliação é feita ao final do bimestre, com caráter conclusivo, e a verificação acontece ao longo dele.",
+          "A verificação termina no registro do dado; a avaliação exige decidir o que fazer a partir dele.",
+          "A avaliação atribui nota numérica ao desempenho do aluno, e a verificação atribui conceito qualitativo."
         ],
         c: 2,
         e: "A verificação 'congela' o resultado. A avaliação implica uma decisão: reorientar a ação para que o aluno aprenda.",
@@ -174,9 +174,9 @@ window.PEDAGOGIA = [
         q: "A expressão 'pedagogia do exame', empregada por Luckesi, refere-se a:",
         o: [
           "Uma prática escolar em que a atenção de alunos, pais e professores se concentra nas provas, nas notas e na promoção, e não na aprendizagem.",
-          "Uma proposta pedagógica que defende exames frequentes como forma de garantir a qualidade do ensino.",
+          "Uma proposta pedagógica que defende a aplicação de exames frequentes como forma de garantir a qualidade do ensino.",
           "O conjunto de técnicas para elaborar provas com alto grau de validade e confiabilidade.",
-          "A preparação dos estudantes do ensino médio para exames de seleção, como o ENEM."
+          "A preparação dos estudantes do ensino médio para exames de seleção, como o ENEM e os vestibulares."
         ],
         c: 0,
         e: "É uma crítica: a escola passa a girar em torno do exame, e o centro deixa de ser a aprendizagem.",
@@ -190,10 +190,10 @@ window.PEDAGOGIA = [
       {
         q: "Um professor de curso técnico integrado aplica provas sem aviso quando a turma está agitada e afirma que 'a nota é a única forma de manter a disciplina'. À luz de Luckesi, essa prática:",
         o: [
-          "É adequada, pois a avaliação também tem função de controle da turma.",
-          "Expressa um uso autoritário da avaliação, que deixa de servir à aprendizagem e passa a funcionar como instrumento de ameaça e disciplinamento.",
-          "É aceitável desde que as provas sejam corrigidas com critérios objetivos.",
-          "Caracteriza avaliação diagnóstica, porque revela o comportamento real dos alunos."
+          "É adequada, pois a avaliação também cumpre a função de controle da turma e de formação de hábitos de estudo.",
+          "Expressa um uso autoritário da avaliação, como ameaça e disciplinamento.",
+          "É aceitável desde que as provas sejam corrigidas com critérios objetivos e previamente divulgados à turma.",
+          "Caracteriza avaliação diagnóstica, porque revela o comportamento real dos alunos em situações inesperadas."
         ],
         c: 1,
         e: "Luckesi denuncia o uso da avaliação como mecanismo de poder e controle. A avaliação deve estar a serviço da aprendizagem.",
@@ -207,10 +207,10 @@ window.PEDAGOGIA = [
       {
         q: "Segundo Luckesi, a avaliação da aprendizagem deve ter predominantemente função:",
         o: [
-          "Classificatória, para hierarquizar os estudantes e orientar a seleção dos melhores.",
-          "Somativa, para certificar ao final de cada etapa o que o aluno acumulou.",
-          "Punitiva, para responsabilizar o aluno pelo próprio fracasso.",
-          "Diagnóstica, como instrumento para reconhecer os caminhos percorridos e redirecionar a ação pedagógica."
+          "Classificatória, para hierarquizar os estudantes e orientar a seleção dos que avançam.",
+          "Somativa, para certificar ao final de cada etapa o que o aluno acumulou de conhecimento.",
+          "Punitiva, para responsabilizar o aluno pelo próprio fracasso e estimular o esforço.",
+          "Diagnóstica, para reconhecer os caminhos percorridos e redirecionar a ação pedagógica."
         ],
         c: 3,
         e: "A avaliação diagnóstica permite identificar o estágio do aluno e decidir o que fazer para que ele avance.",
@@ -271,9 +271,9 @@ window.PEDAGOGIA = [
       {
         q: "Na perspectiva da obra organizada por Veiga, a aula é compreendida como:",
         o: [
-          "O momento em que o professor transmite o conteúdo previsto no plano de ensino.",
-          "Um espaço-tempo intencionalmente organizado, em que se estabelecem relações entre professor, aluno e conhecimento.",
-          "Uma unidade de tempo definida pela grade horária da instituição.",
+          "O momento em que o professor transmite o conteúdo previsto no plano de ensino da disciplina.",
+          "Um espaço-tempo intencional de relação entre professor, aluno e conhecimento.",
+          "Uma unidade de tempo definida pela grade horária e pelo calendário da instituição.",
           "Uma atividade técnica, cuja qualidade depende sobretudo dos recursos tecnológicos disponíveis."
         ],
         c: 1,
@@ -288,10 +288,10 @@ window.PEDAGOGIA = [
       {
         q: "Ao conceber a aula como 'projeto colaborativo', os autores defendem que:",
         o: [
-          "O planejamento deve ser feito pela coordenação e executado pelo professor.",
-          "O professor deve abrir mão de planejar, deixando que os alunos definam os conteúdos.",
+          "O planejamento deve ser feito pela coordenação pedagógica e executado pelo professor em sala.",
+          "O professor deve abrir mão de planejar, deixando que os próprios alunos definam os conteúdos da aula.",
           "Professor e alunos participam da construção do processo de ensino e aprendizagem, com diálogo, problematização e corresponsabilidade.",
-          "A aula deve ser dividida em atividades individuais, para respeitar o ritmo de cada estudante."
+          "A aula deve ser dividida em atividades individuais, para respeitar o ritmo de aprendizagem de cada estudante."
         ],
         c: 2,
         e: "O projeto colaborativo não elimina o papel do professor: ele planeja e conduz, mas com participação ativa dos alunos.",
@@ -305,10 +305,10 @@ window.PEDAGOGIA = [
       {
         q: "Na elaboração de um plano de aula coerente com a perspectiva da obra, é fundamental que:",
         o: [
-          "Os objetivos, os conteúdos, os procedimentos metodológicos e a avaliação estejam articulados entre si.",
-          "A avaliação seja definida apenas depois da aula, conforme o desempenho da turma.",
+          "Objetivos, conteúdos, método e avaliação estejam articulados entre si.",
+          "A avaliação seja definida apenas depois da aula, conforme o desempenho observado na turma.",
           "O conteúdo seja o único elemento obrigatório, pois os demais dependem do improviso do professor.",
-          "Os recursos tecnológicos sejam escolhidos antes dos objetivos."
+          "Os recursos tecnológicos sejam escolhidos antes dos objetivos, para garantir a viabilidade da aula."
         ],
         c: 0,
         e: "A coerência entre os elementos do plano é um dos critérios mais cobrados, inclusive no quadro de avaliação da prova didática.",
@@ -323,9 +323,9 @@ window.PEDAGOGIA = [
         q: "A concepção de aula ligada à racionalidade técnica caracteriza-se por:",
         o: [
           "Valorizar a construção coletiva do conhecimento a partir da prática social dos alunos.",
-          "Articular as dimensões humana, técnica e político-social do ensino.",
-          "Priorizar o diálogo e a problematização dos conteúdos.",
-          "Reduzir a aula à aplicação de técnicas e à transmissão de conteúdos, separando quem planeja de quem executa."
+          "Articular as dimensões humana, técnica e político-social do ensino em cada aula.",
+          "Priorizar o diálogo e a problematização dos conteúdos com a turma.",
+          "Reduzir a aula à aplicação de técnicas, separando quem planeja de quem executa."
         ],
         c: 3,
         e: "A racionalidade técnica trata o ensino como aplicação de procedimentos, separando concepção e execução. É a concepção que a obra critica.",
@@ -339,9 +339,9 @@ window.PEDAGOGIA = [
       {
         q: "Considerar a dimensão político-social da aula significa:",
         o: [
-          "Incluir discussões partidárias no conteúdo de todas as disciplinas.",
-          "Reconhecer que as escolhas sobre o que, como e para quem ensinar têm implicações sociais e não são neutras.",
-          "Planejar a aula de acordo com as orientações do grêmio estudantil.",
+          "Incluir discussões partidárias no conteúdo de todas as disciplinas do currículo.",
+          "Reconhecer que as escolhas sobre o que, como e para quem ensinar não são neutras.",
+          "Planejar a aula de acordo com as orientações e as demandas do grêmio estudantil.",
           "Priorizar as relações afetivas entre professor e aluno em detrimento do conteúdo."
         ],
         c: 1,
@@ -387,10 +387,10 @@ window.PEDAGOGIA = [
       {
         q: "Na teoria de Vygotsky, a zona de desenvolvimento proximal corresponde:",
         o: [
-          "Ao conjunto de funções psicológicas que já amadureceram e permitem ao sujeito resolver problemas sozinho.",
-          "Ao período da vida em que a aprendizagem escolar é mais eficiente.",
-          "À distância entre o nível de desenvolvimento real, que o sujeito alcança sozinho, e o nível potencial, que alcança com a ajuda de outra pessoa mais experiente.",
-          "Ao estágio em que a criança domina as operações concretas."
+          "Ao conjunto de funções psicológicas já amadurecidas, que permitem ao sujeito resolver problemas sozinho.",
+          "Ao período da vida em que a aprendizagem escolar é mais eficiente e duradoura.",
+          "À distância entre o que o sujeito faz sozinho e o que faz com a ajuda de alguém mais experiente.",
+          "Ao estágio em que a criança domina as operações concretas e começa a abstrair."
         ],
         c: 2,
         e: "A ZDP é onde o ensino deve atuar: naquilo que o aluno ainda não faz sozinho, mas consegue fazer com mediação.",
@@ -404,10 +404,10 @@ window.PEDAGOGIA = [
       {
         q: "Segundo a leitura de La Taille sobre Piaget, as interações sociais que mais favorecem o desenvolvimento intelectual e moral são:",
         o: [
-          "As relações de cooperação entre pares, que exigem descentração, reciprocidade e coordenação de pontos de vista.",
-          "As relações de coação, nas quais o adulto impõe regras que a criança deve respeitar.",
-          "As relações de competição, que estimulam o desempenho individual.",
-          "As relações familiares, por serem afetivamente mais intensas."
+          "A cooperação entre pares, que exige descentração e reciprocidade.",
+          "As relações de coação, nas quais o adulto impõe regras que a criança deve respeitar sem discutir.",
+          "As relações de competição, que estimulam o desempenho individual e o esforço de superação.",
+          "As relações familiares, por serem afetivamente mais intensas e duradouras que as escolares."
         ],
         c: 0,
         e: "Para Piaget, a coação reforça a heteronomia; a cooperação entre iguais favorece a autonomia e a descentração.",
@@ -421,9 +421,9 @@ window.PEDAGOGIA = [
       {
         q: "Para Wallon, conforme apresentado por Dantas, é correto afirmar que:",
         o: [
-          "O desenvolvimento é linear e contínuo, com acúmulo progressivo de capacidades cognitivas.",
+          "O desenvolvimento é linear e contínuo, com acúmulo progressivo de capacidades cognitivas ao longo dos estágios.",
           "A afetividade é um obstáculo ao desenvolvimento da inteligência e deve ser controlada pela escola.",
-          "Os aspectos motores são irrelevantes para a compreensão do psiquismo infantil.",
+          "Os aspectos motores são irrelevantes para a compreensão do psiquismo infantil a partir da idade escolar.",
           "A emoção é a primeira forma de comunicação do ser humano com o meio, e o desenvolvimento alterna fases de predominância afetiva e cognitiva."
         ],
         c: 3,
@@ -439,9 +439,9 @@ window.PEDAGOGIA = [
         q: "Sobre a formação de conceitos em Vygotsky, assinale a alternativa correta.",
         o: [
           "Os conceitos científicos surgem espontaneamente da experiência cotidiana, sem necessidade de ensino.",
-          "Os conceitos científicos se desenvolvem por meio do ensino sistematizado e se relacionam com os conceitos espontâneos, transformando-os.",
-          "Os conceitos espontâneos devem ser eliminados pela escola, por serem incorretos.",
-          "A formação de conceitos depende apenas da maturação biológica."
+          "Os científicos vêm do ensino sistematizado e transformam os conceitos espontâneos.",
+          "Os conceitos espontâneos devem ser eliminados pela escola, por serem incorretos e confusos.",
+          "A formação de conceitos depende apenas da maturação biológica do sistema nervoso."
         ],
         c: 1,
         e: "Os dois tipos de conceito se influenciam: os espontâneos dão base concreta, e os científicos, aprendidos na escola, dão sistematização e consciência.",
@@ -503,10 +503,10 @@ window.PEDAGOGIA = [
       {
         q: "De acordo com a Lei 11.892/2008, discutida na obra organizada por Frigotto, os Institutos Federais devem garantir, no mínimo:",
         o: [
-          "30% das vagas para a educação profissional técnica de nível médio e 20% para cursos de licenciatura e formação de professores.",
-          "50% das vagas para a educação profissional técnica de nível médio, prioritariamente integrada, e 20% para licenciaturas e programas de formação pedagógica.",
-          "50% das vagas para cursos superiores de tecnologia e 10% para licenciaturas.",
-          "40% das vagas para o ensino médio integrado e 30% para a pós-graduação."
+          "30% para a educação profissional técnica de nível médio e 20% para cursos de licenciatura e formação de professores.",
+          "50% para a educação profissional técnica de nível médio e 20% para licenciaturas e formação pedagógica.",
+          "50% para cursos superiores de tecnologia e 10% para licenciaturas e programas de formação pedagógica.",
+          "40% para o ensino médio integrado e 30% para a pós-graduação lato e stricto sensu."
         ],
         c: 1,
         e: "Art. 8º da Lei 11.892/2008: mínimo de 50% para técnico de nível médio (prioritariamente integrado) e 20% para licenciaturas e formação de professores. Cai tanto em pedagogia quanto em legislação.",
@@ -521,9 +521,9 @@ window.PEDAGOGIA = [
         q: "Na perspectiva adotada pelos autores, o ensino médio integrado deve ser compreendido como:",
         o: [
           "A soma de disciplinas técnicas ao currículo do ensino médio regular, cursadas em turnos diferentes.",
-          "Uma formação voltada exclusivamente às demandas imediatas do mercado de trabalho local.",
-          "Uma formação humana integral, que tem o trabalho como princípio educativo e articula trabalho, ciência, cultura e tecnologia.",
-          "Um curso preparatório para o vestibular com certificação técnica opcional."
+          "Uma formação voltada exclusivamente às demandas imediatas do mercado de trabalho local e regional.",
+          "Formação humana integral, com o trabalho como princípio educativo.",
+          "Um curso preparatório para o vestibular, com certificação técnica opcional ao final do curso."
         ],
         c: 2,
         e: "Integração não é justaposição. É uma concepção de formação omnilateral, com o trabalho como princípio educativo.",
@@ -537,10 +537,10 @@ window.PEDAGOGIA = [
       {
         q: "A expressão 'dualidade estrutural', recorrente na obra, refere-se:",
         o: [
-          "À separação histórica entre uma escola de formação geral e propedêutica para as elites e uma formação profissional instrumental para os filhos da classe trabalhadora.",
-          "À coexistência de escolas públicas e privadas no sistema educacional brasileiro.",
-          "À divisão do ensino médio em formação geral básica e itinerários formativos.",
-          "À existência de duas redes de ensino profissional: a federal e a estadual."
+          "À separação histórica entre formação geral e propedêutica para as elites e formação profissional instrumental para os trabalhadores.",
+          "À coexistência de escolas públicas e privadas, com padrões de qualidade muito diferentes entre si.",
+          "À divisão do ensino médio em formação geral básica e itinerários formativos, criada pela reforma de 2017.",
+          "À existência de duas redes de ensino profissional, a federal e a estadual, com regras próprias."
         ],
         c: 0,
         e: "A dualidade estrutural é a separação de classe entre quem estuda para dirigir e quem é formado para executar. O integrado busca superá-la.",
@@ -554,15 +554,15 @@ window.PEDAGOGIA = [
       {
         q: "Sobre a trajetória normativa da relação entre ensino médio e educação profissional, assinale a alternativa correta.",
         o: [
-          "O Decreto 5.154/2004 proibiu a oferta integrada, que foi restabelecida pelo Decreto 2.208/1997.",
-          "A Lei 11.892/2008 extinguiu a possibilidade de oferta concomitante e subsequente.",
-          "A integração entre ensino médio e educação profissional sempre foi obrigatória desde a LDB de 1996.",
-          "O Decreto 2.208/1997 separou o ensino médio da educação profissional, e o Decreto 5.154/2004 restabeleceu a possibilidade da forma integrada."
+          "O Decreto 5.154/2004 proibiu a oferta integrada, que havia sido criada pelo Decreto 2.208/1997.",
+          "A Lei 11.892/2008 extinguiu as formas concomitante e subsequente nos Institutos Federais.",
+          "A integração entre ensino médio e educação profissional é obrigatória desde a LDB de 1996.",
+          "O Decreto 2.208/1997 separou ensino médio e educação profissional; o 5.154/2004 recuperou o integrado."
         ],
         c: 3,
         e: "A ordem é: 2.208/1997 separa; 5.154/2004 recupera o integrado; Lei 11.741/2008 incorpora isso à LDB; Lei 11.892/2008 cria os IFs com prioridade ao integrado.",
         x: [
-          "Inverte os decretos e a cronologia: o de 1997 não pode restabelecer algo proibido em 2004.",
+          "Inverte os papéis: foi o 2.208/1997 que vedou a forma integrada, e o 5.154/2004 que a restabeleceu.",
           "A Lei 11.892/2008 dá prioridade ao integrado, mas não extingue as formas concomitante e subsequente, que os IFs continuam oferecendo.",
           "Nunca foi obrigatória. Pelo Decreto 2.208/1997, a forma integrada chegou a ser vedada.",
           "Correta. 1997 separa; 2004 restabelece a forma integrada."
@@ -572,8 +572,8 @@ window.PEDAGOGIA = [
         q: "Em relação ao papel dos Institutos Federais no desenvolvimento, a obra sustenta que:",
         o: [
           "Os IFs são instituições tecnicamente neutras, cuja função é atender às necessidades das empresas da região.",
-          "A expansão e a interiorização dos IFs abrem possibilidades de desenvolvimento, mas seu sentido depende do projeto de sociedade em disputa, entre a formação para o mercado e a formação humana integral.",
-          "Os IFs já superaram a dualidade estrutural, pois todos os cursos técnicos são integrados.",
+          "A expansão abre possibilidades, mas seu sentido depende do projeto de sociedade em disputa.",
+          "Os IFs já superaram a dualidade estrutural, pois todos os seus cursos técnicos são integrados.",
           "A reforma do ensino médio de 2017 fortaleceu a proposta de formação integrada dos IFs."
         ],
         c: 1,
@@ -618,8 +618,8 @@ window.PEDAGOGIA = [
       {
         q: "Para Carlos Rodrigues Brandão, a educação popular deve ser compreendida como:",
         o: [
-          "Uma prática político-pedagógica construída com as classes populares, a partir de seus saberes, orientada à transformação social.",
-          "Uma modalidade de ensino supletivo destinada a jovens e adultos que não concluíram a escolarização.",
+          "Uma prática político-pedagógica feita com as classes populares, a partir de seus saberes.",
+          "Uma modalidade de ensino supletivo para jovens e adultos que não concluíram a escolarização.",
           "A educação informal transmitida na família, sem intencionalidade pedagógica ou política.",
           "Um programa estatal de alfabetização em massa voltado à qualificação da mão de obra."
         ],
@@ -635,10 +635,10 @@ window.PEDAGOGIA = [
       {
         q: "São experiências associadas ao movimento de educação popular no início da década de 1960:",
         o: [
-          "MOBRAL e Projeto Minerva.",
-          "Manifesto dos Pioneiros da Educação Nova e Escola Nova.",
-          "SENAI e SENAC.",
-          "Movimento de Educação de Base (MEB), Centros Populares de Cultura (CPCs) da UNE, Movimento de Cultura Popular (MCP) e o método de alfabetização de Paulo Freire."
+          "MOBRAL e Projeto Minerva, com programas de rádio e alfabetização em massa.",
+          "Manifesto dos Pioneiros da Educação Nova e as escolas experimentais escolanovistas.",
+          "SENAI e SENAC, criados para a formação profissional da indústria e do comércio.",
+          "MEB, CPCs da UNE, Movimento de Cultura Popular do Recife e o método Paulo Freire."
         ],
         c: 3,
         e: "O MOBRAL e o Projeto Minerva são do período militar. O Manifesto é de 1932. SENAI e SENAC são dos anos 1940 e voltados à formação profissional.",
@@ -652,10 +652,10 @@ window.PEDAGOGIA = [
       {
         q: "Segundo Brandão, é correto afirmar que:",
         o: [
-          "A educação só se realiza plenamente dentro da instituição escolar.",
-          "A educação acontece em múltiplas práticas sociais, e a escola é apenas uma de suas formas.",
-          "O saber popular é senso comum e deve ser substituído pelo saber científico.",
-          "A educação é neutra e deve se afastar das questões políticas."
+          "A educação só se realiza plenamente dentro da instituição escolar, com professores formados.",
+          "A educação acontece em múltiplas práticas sociais; a escola é só uma de suas formas.",
+          "O saber popular é senso comum e deve ser substituído pelo saber científico na escola.",
+          "A educação é neutra e deve se afastar das questões políticas da comunidade."
         ],
         c: 1,
         e: "A abertura do livro defende que não há uma forma única de educação. Ela acontece em casa, na rua, no trabalho, na comunidade.",
@@ -669,10 +669,10 @@ window.PEDAGOGIA = [
       {
         q: "Um docente de um curso PROEJA no IF pretende planejar suas aulas com base nos princípios da educação popular. Uma ação coerente seria:",
         o: [
-          "Reduzir o conteúdo do curso regular, considerando a menor capacidade de aprendizagem dos adultos.",
-          "Priorizar a rapidez da certificação, reduzindo atividades de discussão.",
-          "Partir da experiência de vida e de trabalho dos estudantes, estabelecendo diálogo entre esses saberes e o conhecimento técnico-científico.",
-          "Tratar os saberes dos estudantes como equívocos a serem corrigidos."
+          "Reduzir o conteúdo do curso regular, considerando a menor capacidade de aprendizagem dos estudantes adultos.",
+          "Priorizar a rapidez da certificação, reduzindo as atividades de discussão em sala.",
+          "Partir da experiência de vida e de trabalho dos estudantes, dialogando com o conhecimento técnico-científico.",
+          "Tratar os saberes dos estudantes como equívocos a serem corrigidos pelo professor."
         ],
         c: 2,
         e: "Diálogo e valorização do saber do educando são centrais. Adultos trabalhadores não têm 'menor capacidade'; têm outra trajetória.",
@@ -686,10 +686,10 @@ window.PEDAGOGIA = [
       {
         q: "Sobre o percurso histórico da educação popular no Brasil descrito por Brandão, assinale a alternativa correta.",
         o: [
-          "Após 1964, os movimentos de educação popular foram ampliados pelo governo militar.",
-          "Após 1964, as experiências de educação popular foram reprimidas, e a alfabetização de adultos passou a ser conduzida pelo MOBRAL, numa perspectiva funcional; nas décadas seguintes, a educação popular ressurgiu ligada aos movimentos sociais.",
-          "A educação popular surgiu com a LDB de 1996, que criou a modalidade EJA.",
-          "O MOBRAL incorporou integralmente o método Paulo Freire e sua dimensão política."
+          "Após 1964, os movimentos de educação popular foram ampliados pelo governo militar, que os incorporou ao MEC.",
+          "Após 1964, as experiências foram reprimidas e a alfabetização passou ao MOBRAL, de caráter funcional; depois, ressurgiu nos movimentos sociais.",
+          "A educação popular surgiu com a LDB de 1996, que criou a modalidade de Educação de Jovens e Adultos.",
+          "O MOBRAL incorporou integralmente o método Paulo Freire, inclusive sua dimensão política e conscientizadora."
         ],
         c: 1,
         e: "O MOBRAL (criado em 1967) aproveitou aspectos técnicos da alfabetização, mas esvaziou a dimensão política e conscientizadora.",
@@ -733,10 +733,10 @@ window.PEDAGOGIA = [
       {
         q: "A Lei 10.639/2003 alterou a LDB para estabelecer:",
         o: [
-          "A obrigatoriedade do ensino de história e cultura afro-brasileira nos estabelecimentos de ensino fundamental e médio, oficiais e particulares.",
-          "A obrigatoriedade do ensino de história e cultura afro-brasileira apenas nas escolas públicas.",
-          "A criação de uma disciplina específica de Estudos Africanos no ensino médio.",
-          "A obrigatoriedade do tema apenas nos cursos de licenciatura."
+          "O ensino obrigatório de história e cultura afro-brasileira no fundamental e no médio, públicos e privados.",
+          "O ensino obrigatório de história e cultura afro-brasileira apenas nas escolas públicas de educação básica.",
+          "A criação de uma disciplina específica de Estudos Africanos em todas as séries do ensino médio.",
+          "A obrigatoriedade do tema apenas nos cursos de licenciatura e de formação de professores."
         ],
         c: 0,
         e: "O art. 26-A vale para o fundamental e o médio, públicos e privados. Não cria disciplina própria: o conteúdo atravessa o currículo.",
@@ -767,10 +767,10 @@ window.PEDAGOGIA = [
       {
         q: "O chamado 'mito da democracia racial', discutido na publicação, consiste:",
         o: [
-          "Na constatação de que o Brasil eliminou as desigualdades raciais após a abolição.",
-          "Na crença de que no Brasil há convivência harmoniosa entre os grupos raciais e ausência de racismo, ideia que oculta desigualdades e dificulta o seu enfrentamento.",
-          "Na política oficial de cotas raciais adotada após a Constituição de 1988.",
-          "Na defesa de que a escola deve tratar todos os alunos de forma idêntica, sem considerar a questão racial."
+          "Na constatação de que o Brasil eliminou as desigualdades raciais depois da abolição da escravatura.",
+          "Na crença de que há harmonia racial no Brasil, o que oculta as desigualdades e dificulta enfrentá-las.",
+          "Na política oficial de cotas raciais adotada após a Constituição de 1988 em todo o país.",
+          "Na defesa de que a escola trate todos os alunos de forma idêntica, sem considerar a questão racial."
         ],
         c: 1,
         e: "O mito nega a existência do racismo e, por isso, dificulta ações para combatê-lo.",
@@ -786,8 +786,8 @@ window.PEDAGOGIA = [
         o: [
           "Revogou a obrigatoriedade do ensino de história e cultura afro-brasileira.",
           "Tornou facultativo o ensino da temática nas escolas particulares.",
-          "Estendeu a obrigatoriedade ao ensino superior.",
-          "Ampliou a obrigatoriedade para incluir a história e cultura dos povos indígenas."
+          "Estendeu a obrigatoriedade ao ensino superior e aos cursos de pós-graduação.",
+          "Ampliou a obrigatoriedade à história e cultura indígena."
         ],
         c: 3,
         e: "O art. 26-A passou a tratar de 'história e cultura afro-brasileira e indígena'.",
@@ -802,9 +802,9 @@ window.PEDAGOGIA = [
         q: "Segundo a perspectiva da publicação, a implementação da Lei 10.639/2003 na escola deve:",
         o: [
           "Concentrar as atividades na semana do 20 de novembro, para dar visibilidade ao tema.",
-          "Ocorrer ao longo de todo o currículo e do ano letivo, de forma contínua, especialmente em Arte, Literatura e História, mas não só nelas.",
-          "Limitar-se ao estudo do período da escravidão.",
-          "Evitar o tema em turmas com conflitos raciais, para não acirrar tensões."
+          "Ocorrer em todo o currículo e ao longo do ano, especialmente em Arte, Literatura e História.",
+          "Limitar-se ao estudo do período da escravidão, por ser o tema central da lei.",
+          "Evitar o tema em turmas com conflitos raciais, para não acirrar as tensões existentes."
         ],
         c: 1,
         e: "O §2º do art. 26-A diz que os conteúdos devem ser ministrados no âmbito de todo o currículo. Reduzir o tema a uma data é a crítica clássica.",
@@ -849,10 +849,10 @@ window.PEDAGOGIA = [
       {
         q: "Para Bárbara Carine Soares Pinheiro, ser um educador antirracista significa:",
         o: [
-          "Evitar atitudes discriminatórias em sala de aula.",
+          "Evitar atitudes discriminatórias em sala de aula e no convívio com os estudantes.",
           "Tratar todos os estudantes da mesma forma, sem distinção de cor ou raça.",
-          "Assumir uma postura ativa de enfrentamento do racismo nas práticas pedagógicas, no currículo e nas relações escolares.",
-          "Abordar a questão racial sempre que um estudante relatar uma situação de discriminação."
+          "Enfrentar ativamente o racismo nas práticas, no currículo e nas relações escolares.",
+          "Abordar a questão racial sempre que um estudante relatar uma discriminação sofrida."
         ],
         c: 2,
         e: "Não basta não discriminar ou ser 'neutro'. O antirracismo exige ação deliberada e contínua.",
@@ -866,10 +866,10 @@ window.PEDAGOGIA = [
       {
         q: "A crítica da autora à chamada 'pedagogia do evento' dirige-se à prática de:",
         o: [
-          "Restringir a abordagem das relações étnico-raciais a datas comemorativas, como o 20 de novembro, sem continuidade no currículo.",
-          "Organizar feiras de ciências com temas africanos.",
-          "Convidar lideranças do movimento negro para palestras na escola.",
-          "Utilizar eventos culturais como recurso didático em qualquer disciplina."
+          "Restringir o tema racial a datas comemorativas, sem continuidade.",
+          "Organizar feiras de ciências com temas ligados à história e à cultura africana.",
+          "Convidar lideranças do movimento negro para palestras e rodas de conversa na escola.",
+          "Utilizar eventos culturais como recurso didático em qualquer disciplina do currículo."
         ],
         c: 0,
         e: "Eventos não são o problema; o problema é quando eles são a única ação, sem mudança no currículo e nas práticas.",
@@ -883,10 +883,10 @@ window.PEDAGOGIA = [
       {
         q: "Ao discutir o currículo das ciências, a autora defende que:",
         o: [
-          "A ciência é universal e neutra, por isso não cabe discutir a origem dos conhecimentos.",
+          "A ciência é universal e neutra, por isso não cabe discutir a origem dos conhecimentos científicos.",
           "O currículo deve substituir os conteúdos europeus por conteúdos exclusivamente africanos.",
-          "Os conteúdos científicos devem ser mantidos e as questões raciais tratadas apenas nas Ciências Humanas.",
-          "O currículo eurocentrado apaga as contribuições africanas, afro-diaspóricas e indígenas à ciência e à tecnologia, e é preciso torná-las visíveis."
+          "Os conteúdos científicos devem ser mantidos, e as questões raciais tratadas apenas nas Humanas.",
+          "O currículo eurocentrado apaga contribuições africanas, afro-diaspóricas e indígenas à ciência, e é preciso torná-las visíveis."
         ],
         c: 3,
         e: "A proposta é descolonizar e ampliar, não substituir. E isso vale para as áreas técnicas e de exatas, não só para as Humanas.",
@@ -900,10 +900,10 @@ window.PEDAGOGIA = [
       {
         q: "O conceito de racismo estrutural, mobilizado pela autora, indica que o racismo:",
         o: [
-          "Manifesta-se apenas em atos individuais de preconceito.",
-          "Integra a organização econômica, política, institucional e simbólica da sociedade, reproduzindo desigualdades mesmo sem intenção individual explícita.",
+          "Manifesta-se apenas em atos individuais de preconceito, conscientes e intencionais.",
+          "Está na organização da sociedade e reproduz desigualdades mesmo sem intenção.",
           "Foi superado com a criminalização do racismo pela Constituição de 1988.",
-          "Restringe-se às relações entre grupos sociais de classes diferentes."
+          "Restringe-se às relações entre grupos sociais de classes econômicas diferentes."
         ],
         c: 1,
         e: "Estrutural significa que está nas regras, instituições e práticas normais da sociedade, não só em indivíduos.",
@@ -918,8 +918,8 @@ window.PEDAGOGIA = [
         q: "Um professor de Informática de um curso técnico integrado quer incorporar uma perspectiva antirracista à disciplina. Uma ação coerente com a obra seria:",
         o: [
           "Dedicar uma aula em novembro para falar sobre racismo, mantendo o restante do plano inalterado.",
-          "Evitar o tema, por não ter relação com os conteúdos técnicos da área.",
-          "Integrar ao conteúdo discussões como vieses raciais em algoritmos de reconhecimento facial e a contribuição de pessoas negras na história da computação.",
+          "Evitar o tema, por não ter relação direta com os conteúdos técnicos da área de Informática.",
+          "Integrar ao conteúdo temas como vieses raciais em reconhecimento facial e pessoas negras na história da computação.",
           "Pedir à coordenação que a temática seja trabalhada só pelos professores de História."
         ],
         c: 2,
@@ -964,10 +964,10 @@ window.PEDAGOGIA = [
       {
         q: "Sobre os conceitos de identidade de gênero e orientação sexual, é correto afirmar que:",
         o: [
-          "São sinônimos e se referem à atração afetiva e sexual de uma pessoa.",
-          "A identidade de gênero é determinada pelo sexo biológico.",
-          "A orientação sexual é uma escolha consciente e pode ser alterada pela educação.",
-          "A identidade de gênero se refere a como a pessoa se reconhece, e a orientação sexual, a por quem ela sente atração afetiva ou sexual; são dimensões distintas."
+          "São sinônimos e se referem à atração afetiva e sexual que uma pessoa sente por outras.",
+          "A identidade de gênero é determinada pelo sexo biológico atribuído no nascimento.",
+          "A orientação sexual é uma escolha consciente e pode ser alterada pela educação recebida.",
+          "A identidade de gênero é como a pessoa se reconhece; a orientação sexual, por quem sente atração. São dimensões distintas."
         ],
         c: 3,
         e: "São dimensões diferentes. Uma pessoa trans pode ter qualquer orientação sexual, por exemplo.",
@@ -981,9 +981,9 @@ window.PEDAGOGIA = [
       {
         q: "O termo heteronormatividade designa:",
         o: [
-          "A norma social que toma a heterossexualidade como padrão natural e obrigatório, tornando invisíveis ou desviantes as demais orientações e identidades.",
+          "A norma que trata a heterossexualidade como padrão natural e obrigatório.",
           "A legislação que garante direitos iguais a casais heterossexuais e homossexuais.",
-          "A orientação sexual da maioria da população.",
+          "A orientação sexual da maioria da população, segundo as pesquisas demográficas.",
           "Um conjunto de orientações pedagógicas para a educação sexual nas escolas."
         ],
         c: 0,
@@ -998,10 +998,10 @@ window.PEDAGOGIA = [
       {
         q: "Segundo o material, a homofobia no ambiente escolar:",
         o: [
-          "Restringe-se às agressões físicas, que devem ser encaminhadas à polícia.",
-          "Manifesta-se também em piadas, apelidos, exclusão e silenciamento, inclusive na omissão dos educadores, e afeta a permanência dos estudantes.",
-          "É um problema exclusivo das relações entre estudantes, sem relação com as práticas institucionais.",
-          "Deve ser tratada como questão de foro íntimo, sem intervenção da escola."
+          "Restringe-se às agressões físicas, que devem ser encaminhadas à polícia e ao conselho tutelar.",
+          "Inclui piadas, exclusão, silêncio e omissão, e afeta a permanência.",
+          "É um problema exclusivo das relações entre estudantes, sem relação com a instituição.",
+          "Deve ser tratada como questão de foro íntimo, sem intervenção da escola ou dos professores."
         ],
         c: 1,
         e: "Tratar como 'brincadeira' ou se omitir também é uma forma de violência e contribui para a evasão.",
@@ -1015,10 +1015,10 @@ window.PEDAGOGIA = [
       {
         q: "Um estudante trans de 16 anos solicita ser chamado pelo nome social nas aulas e nos registros escolares. A conduta adequada da instituição é:",
         o: [
-          "Exigir decisão judicial de alteração de nome antes de atender ao pedido.",
+          "Exigir decisão judicial de alteração do nome civil antes de atender ao pedido do estudante.",
           "Atender ao pedido apenas oralmente, mantendo o nome civil em todos os registros.",
-          "Respeitar o nome social nas interações e nos registros escolares, conforme a regulamentação existente, garantindo o respeito à identidade do estudante.",
-          "Encaminhar o estudante ao atendimento psicológico antes de qualquer decisão."
+          "Respeitar o nome social nas interações e nos registros, conforme a regulamentação.",
+          "Encaminhar o estudante ao atendimento psicológico antes de tomar qualquer decisão."
         ],
         c: 2,
         e: "A Resolução CNE/CP 1/2018 regulamenta o uso do nome social nos registros escolares. Para menores de 18 anos, a norma prevê solicitação pelos responsáveis legais.",
@@ -1032,10 +1032,10 @@ window.PEDAGOGIA = [
       {
         q: "Considerando o tópico 'educação em direitos humanos, gênero e diversidade' do programa, o papel da escola diante da diversidade sexual e de gênero é:",
         o: [
-          "Manter neutralidade, deixando o tema exclusivamente para as famílias.",
-          "Abordar o tema apenas quando houver casos de violência.",
-          "Reconhecer a diversidade, prevenir e intervir em situações de discriminação e garantir condições de permanência e aprendizagem a todos os estudantes.",
-          "Separar os estudantes em turmas conforme a identidade de gênero."
+          "Manter neutralidade, deixando o tema exclusivamente para as famílias dos estudantes.",
+          "Abordar o tema apenas quando houver casos de violência registrados na escola.",
+          "Reconhecer a diversidade, prevenir e intervir na discriminação e garantir a permanência.",
+          "Separar os estudantes em turmas conforme a identidade de gênero declarada."
         ],
         c: 2,
         e: "A perspectiva de direitos humanos coloca a escola como espaço de proteção, reconhecimento e garantia de permanência.",

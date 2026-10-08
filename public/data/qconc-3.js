@@ -8,10 +8,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Segundo o art. 26-A da LDB, incluído pela Lei 10.639/2003, o conteúdo de história e cultura afro-brasileira deve incluir, entre outros:",
       o: [
-        "Apenas a história da escravidão no Brasil.",
-        "O estudo da história da África e dos africanos, a luta dos negros no Brasil, a cultura negra brasileira e o negro na formação da sociedade nacional.",
-        "Somente as religiões de matriz africana.",
-        "Apenas a biografia de personalidades negras."
+        "Apenas a história da escravidão no Brasil, do tráfico atlântico à abolição.",
+        "A história da África e dos africanos, a luta dos negros no Brasil, a cultura negra e o negro na formação nacional.",
+        "Somente as religiões de matriz africana e suas manifestações culturais.",
+        "Apenas a biografia de personalidades negras de destaque na história nacional."
       ],
       c: 1,
       e: "O §1º do art. 26-A lista esses quatro eixos.",
@@ -25,10 +25,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "De acordo com a LDB, os conteúdos referentes à história e cultura afro-brasileira serão ministrados:",
       o: [
-        "Exclusivamente na disciplina de História.",
-        "Apenas no ensino fundamental.",
-        "Em disciplina específica e optativa.",
-        "No âmbito de todo o currículo escolar, em especial nas áreas de Educação Artística e de Literatura e História Brasileiras."
+        "Exclusivamente na disciplina de História, por tratar de conteúdo histórico.",
+        "Apenas no ensino fundamental, quando se estuda a formação do Brasil.",
+        "Em disciplina específica e optativa, oferecida a critério da escola.",
+        "Em todo o currículo, em especial em Arte, Literatura e História."
       ],
       c: 3,
       e: "§2º do art. 26-A: todo o currículo, com destaque para três áreas.",
@@ -42,10 +42,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "O art. 79-B da LDB, incluído pela Lei 10.639/2003, determina que:",
       o: [
-        "O calendário escolar incluirá o dia 20 de novembro como 'Dia Nacional da Consciência Negra'.",
-        "As escolas devem fechar no dia 13 de maio.",
-        "Haverá cotas raciais nas escolas técnicas.",
-        "Os professores devem fazer formação específica obrigatória."
+        "Incluirá o 20 de novembro no calendário escolar.",
+        "As escolas devem suspender as aulas no dia 13 de maio, data da abolição.",
+        "Haverá reserva de vagas raciais nas escolas técnicas federais de nível médio.",
+        "Os professores devem fazer formação específica obrigatória sobre o tema."
       ],
       c: 0,
       e: "O 79-B trata do 20 de novembro.",
@@ -62,10 +62,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Com a Lei 11.645/2008, o art. 26-A da LDB passou a tratar do ensino de:",
       o: [
-        "História e cultura europeia e africana.",
+        "História e cultura europeia e africana, para mostrar a formação do Brasil.",
         "História e cultura afro-brasileira e indígena.",
-        "Apenas história e cultura indígena.",
-        "Educação em direitos humanos."
+        "Apenas história e cultura indígena, substituindo o tema afro-brasileiro.",
+        "Educação em direitos humanos e cidadania, de forma transversal."
       ],
       c: 1,
       e: "Afro-brasileira e indígena.",
@@ -79,10 +79,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "A obrigatoriedade prevista no art. 26-A da LDB, após a Lei 11.645/2008, abrange:",
       o: [
-        "Apenas as escolas públicas de ensino médio.",
-        "Todas as instituições de ensino superior.",
-        "Os estabelecimentos de ensino fundamental e de ensino médio, públicos e privados.",
-        "Apenas as escolas indígenas e quilombolas."
+        "Apenas as escolas públicas de ensino médio, inclusive as técnicas.",
+        "Todas as instituições de ensino superior, públicas e privadas.",
+        "O ensino fundamental e o médio, públicos e privados.",
+        "Apenas as escolas indígenas e quilombolas, por sua especificidade."
       ],
       c: 2,
       e: "Fundamental e médio, públicos e privados.",
@@ -96,10 +96,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Um professor de Informática que queira atender ao art. 26-A em relação à temática indígena poderia:",
       o: [
-        "Ignorar o tema, que é exclusivo de História.",
-        "Trabalhar o tema apenas no 19 de abril.",
-        "Pedir que os alunos indígenas apresentem sua cultura.",
-        "Discutir projetos de tecnologia e línguas indígenas, como iniciativas de documentação digital de idiomas, e o acesso desigual à internet em territórios indígenas."
+        "Ignorar o tema, que é conteúdo exclusivo das aulas de História e Geografia.",
+        "Trabalhar o tema apenas no 19 de abril, com uma atividade especial na data.",
+        "Pedir que os alunos indígenas da turma apresentem sua cultura aos colegas.",
+        "Discutir projetos de documentação digital de línguas indígenas e o acesso desigual à internet nos territórios."
       ],
       c: 3,
       e: "Integrar o tema ao conteúdo da área.",
@@ -117,9 +117,9 @@ window.QCONC["antirracista-mec"] = [
       q: "As Diretrizes Curriculares Nacionais para a Educação das Relações Étnico-Raciais foram instituídas por:",
       o: [
         "Resolução CNE/CP 1/2004, com base no Parecer CNE/CP 3/2004.",
-        "Lei 12.711/2012.",
-        "Decreto 5.154/2004.",
-        "Resolução CNE/CP 1/2018."
+        "Lei 12.711/2012, conhecida como Lei de Cotas.",
+        "Decreto 5.154/2004, que trata da educação profissional.",
+        "Resolução CNE/CP 1/2018, com base em parecer do CNE."
       ],
       c: 0,
       e: "Parecer 3/2004 fundamenta, Resolução 1/2004 institui.",
@@ -133,10 +133,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Segundo o Parecer CNE/CP 3/2004, a educação das relações étnico-raciais tem como objetivo:",
       o: [
-        "Ensinar apenas a história do continente africano.",
-        "Substituir o currículo eurocêntrico por um afrocêntrico.",
-        "A divulgação e produção de conhecimentos, atitudes e valores que eduquem cidadãos quanto à pluralidade étnico-racial, tornando-os capazes de interagir e negociar objetivos comuns que garantam respeito aos direitos de todos.",
-        "Promover a separação de alunos por grupo étnico."
+        "Ensinar apenas a história do continente africano, da Antiguidade aos dias atuais.",
+        "Substituir o currículo eurocêntrico por um currículo afrocêntrico em todas as áreas.",
+        "Educar para a pluralidade étnico-racial, com conhecimentos, atitudes e valores que garantam o respeito aos direitos de todos.",
+        "Promover a separação dos alunos por grupo étnico, respeitando suas especificidades."
       ],
       c: 2,
       e: "Conhecimentos, atitudes e valores para uma convivência com respeito e direitos.",
@@ -150,10 +150,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Diante da resistência de colegas que afirmam que a educação étnico-racial 'é opinião política do professor', o argumento mais adequado é:",
       o: [
-        "Concordar e evitar o tema.",
-        "Afirmar que o tema é obrigatório apenas para professores de Humanas.",
-        "Propor que o tema seja votado em assembleia escolar.",
-        "Lembrar que o tema é determinado pela LDB e regulamentado por diretrizes nacionais do Conselho Nacional de Educação."
+        "Concordar com os colegas e evitar o tema, para não gerar conflito na escola.",
+        "Afirmar que o tema é obrigatório apenas para os professores da área de Humanas.",
+        "Propor que a inclusão do tema seja decidida em votação na assembleia escolar.",
+        "Lembrar que o tema está na LDB e em diretrizes do CNE."
       ],
       c: 3,
       e: "Tem base legal e normativa.",
@@ -170,10 +170,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "A crítica ao 'mito da democracia racial' sustenta que:",
       o: [
-        "O Brasil não tem desigualdades sociais.",
-        "A ideia de harmonia racial encobre o racismo e as desigualdades raciais, dificultando seu reconhecimento e enfrentamento.",
-        "A miscigenação eliminou o racismo.",
-        "O racismo no Brasil é igual ao dos Estados Unidos."
+        "O Brasil não tem desigualdades sociais significativas entre os grupos.",
+        "A ideia de harmonia racial encobre o racismo e dificulta seu enfrentamento.",
+        "A miscigenação eliminou o racismo da sociedade brasileira.",
+        "O racismo no Brasil funciona exatamente como o dos Estados Unidos."
       ],
       c: 1,
       e: "O mito esconde o problema.",
@@ -188,9 +188,9 @@ window.QCONC["antirracista-mec"] = [
       q: "A ideia de democracia racial é frequentemente associada à interpretação da obra de:",
       o: [
         "Gilberto Freyre, sobre as relações entre senhores e escravizados, e foi criticada por autores como Florestan Fernandes.",
-        "Paulo Freire.",
-        "Dermeval Saviani.",
-        "Anísio Teixeira."
+        "Paulo Freire, em sua crítica à educação bancária.",
+        "Dermeval Saviani, em 'Escola e democracia'.",
+        "Anísio Teixeira, no Manifesto dos Pioneiros."
       ],
       c: 0,
       e: "Freyre ('Casa-grande & senzala') e a crítica de Florestan.",
@@ -204,10 +204,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Numa discussão em sala, um aluno diz: 'No Brasil não existe racismo, somos todos misturados'. A resposta pedagógica mais coerente com a publicação do MEC é:",
       o: [
-        "Concordar, para evitar conflito.",
-        "Repreender o aluno publicamente.",
-        "Usar dados (renda, acesso à universidade, presença em cargos de TI por cor) para problematizar a afirmação e discutir o mito da democracia racial.",
-        "Mudar de assunto."
+        "Concordar com o aluno, para evitar conflito e manter o clima da turma.",
+        "Repreender o aluno publicamente, para deixar claro que a fala é inaceitável.",
+        "Usar dados, como renda e acesso à universidade por cor, para problematizar o mito.",
+        "Mudar de assunto e retomar o conteúdo técnico previsto para a aula."
       ],
       c: 2,
       e: "Problematizar com dados, sem silenciar nem humilhar.",
@@ -224,10 +224,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Segundo a publicação, uma das formas de racismo presentes na escola é:",
       o: [
-        "A obrigatoriedade do ensino de história afro-brasileira.",
-        "A presença de professores negros.",
-        "A adoção de cotas.",
-        "O silenciamento diante de apelidos e 'brincadeiras' racistas entre alunos."
+        "A obrigatoriedade do ensino de história afro-brasileira em todo o currículo.",
+        "A presença de professores negros no quadro docente da escola.",
+        "A adoção de cotas raciais no processo seletivo da instituição.",
+        "O silêncio diante de 'brincadeiras' racistas."
       ],
       c: 3,
       e: "Silenciar é uma forma de racismo.",
@@ -241,10 +241,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "A representação do negro nos livros didáticos é criticada quando:",
       o: [
-        "Aparece apenas em situação de escravização ou subalternidade, reforçando estereótipos.",
-        "Aparece como cientista ou profissional.",
-        "Aparece em diversas situações sociais.",
-        "Há referências à cultura africana."
+        "Aparece só como escravizado ou subalterno, reforçando estereótipos.",
+        "Aparece como cientista, profissional ou liderança em diferentes áreas.",
+        "Aparece em diversas situações sociais, como as demais pessoas.",
+        "Há referências à cultura e à história do continente africano."
       ],
       c: 0,
       e: "O problema é a imagem restrita e estereotipada.",
@@ -258,10 +258,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Ao preparar seus exemplos de aula, um professor de programação nota que todos os 'personagens' dos exercícios têm nomes de origem europeia e todas as referências históricas são de homens brancos. À luz da publicação, ele deveria:",
       o: [
-        "Manter, pois nomes não importam.",
-        "Remover todos os nomes.",
-        "Diversificar nomes, referências e exemplos, reduzindo a invisibilidade de pessoas negras no currículo.",
-        "Usar só nomes africanos."
+        "Manter os exemplos, pois nomes de personagens não interferem na aprendizagem.",
+        "Remover todos os nomes dos exercícios, usando apenas variáveis genéricas.",
+        "Diversificar nomes, referências e exemplos, reduzindo a invisibilidade negra.",
+        "Usar apenas nomes africanos, para compensar a ausência anterior."
       ],
       c: 2,
       e: "Pequenos ajustes enfrentam a invisibilidade.",
@@ -278,10 +278,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "A implementação da Lei 10.639/2003 em uma escola técnica é adequada quando:",
       o: [
-        "O tema é tratado ao longo do ano e nas diferentes disciplinas, inclusive as técnicas.",
-        "Há uma palestra anual em novembro.",
-        "Fica a cargo do professor de História.",
-        "Ocorre apenas em projetos extracurriculares."
+        "O tema é tratado ao longo do ano e em todas as disciplinas.",
+        "Há uma palestra anual em novembro, aberta a toda a comunidade escolar.",
+        "Fica a cargo do professor de História, que domina o conteúdo.",
+        "Ocorre apenas em projetos extracurriculares, no contraturno."
       ],
       c: 0,
       e: "Contínuo e transversal.",
@@ -295,10 +295,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Concentrar todas as ações sobre relações étnico-raciais na semana do 20 de novembro:",
       o: [
-        "Atende plenamente à LDB.",
-        "Reduz o tema a um evento e contraria a determinação de tratá-lo em todo o currículo.",
-        "É a forma recomendada pelo MEC.",
-        "É obrigatório pelo art. 79-B."
+        "Atende plenamente à LDB, pois a data foi incluída no calendário escolar.",
+        "Reduz o tema a um evento e contraria a exigência de todo o currículo.",
+        "É a forma recomendada pelo MEC para dar visibilidade ao tema.",
+        "É obrigatório pelo art. 79-B, que fixa a data para essas atividades."
       ],
       c: 1,
       e: "O 79-B inclui a data; o 26-A exige o tema em todo o currículo.",
@@ -312,10 +312,10 @@ window.QCONC["antirracista-mec"] = [
     {
       q: "Qual das propostas abaixo integra a temática afro-brasileira ao conteúdo de uma disciplina de Banco de Dados?",
       o: [
-        "Uma aula especial em novembro sobre Zumbi.",
-        "Um cartaz sobre consciência negra no laboratório.",
-        "Pedir aos alunos negros que falem sobre racismo.",
-        "Usar bases públicas de dados socioeconômicos (por exemplo, do IBGE) para que os alunos modelem e consultem indicadores de desigualdade racial."
+        "Uma aula especial em novembro sobre a história de Zumbi dos Palmares.",
+        "Um cartaz sobre consciência negra afixado na parede do laboratório.",
+        "Pedir aos alunos negros que falem à turma sobre suas experiências de racismo.",
+        "Usar dados públicos do IBGE para que os alunos modelem e consultem indicadores de desigualdade racial."
       ],
       c: 3,
       e: "O tema entra pelo próprio conteúdo técnico.",
@@ -335,10 +335,10 @@ window.QCONC.pinheiro = [
     {
       q: "Dizer que o racismo é estrutural significa que ele:",
       o: [
-        "Depende sempre da intenção individual de discriminar.",
-        "Foi superado pela legislação antirracista.",
-        "Está presente na organização da sociedade e das instituições, reproduzindo desigualdades mesmo sem intenção individual.",
-        "Existe apenas em países com segregação legal."
+        "Depende sempre da intenção individual de discriminar alguém.",
+        "Foi superado pela legislação antirracista aprovada desde 1988.",
+        "Está na organização das instituições e reproduz desigualdades.",
+        "Existe apenas em países que tiveram segregação racial legal."
       ],
       c: 2,
       e: "Estrutural = está nas regras e instituições.",
@@ -352,10 +352,10 @@ window.QCONC.pinheiro = [
     {
       q: "Um sistema de seleção automatizada de currículos, treinado com dados de contratações passadas de uma empresa que historicamente contratou poucas pessoas negras, passa a rejeitar mais candidatos negros. Esse caso ilustra:",
       o: [
-        "Um erro de programação isolado.",
-        "Racismo estrutural reproduzido pela tecnologia, mesmo sem intenção dos desenvolvedores.",
-        "Racismo individual dos programadores.",
-        "Uma decisão neutra baseada em dados."
+        "Um erro de programação isolado, que pode ser corrigido com um ajuste no código-fonte.",
+        "Racismo estrutural reproduzido pela tecnologia.",
+        "Racismo individual dos programadores que desenvolveram o sistema de seleção.",
+        "Uma decisão neutra, baseada apenas em dados objetivos sobre o desempenho passado."
       ],
       c: 1,
       e: "Dados históricos enviesados reproduzem a desigualdade.",
@@ -369,10 +369,10 @@ window.QCONC.pinheiro = [
     {
       q: "Diante do conceito de racismo estrutural, a postura esperada da escola é:",
       o: [
-        "Revisar práticas, currículos e relações institucionais que reproduzem desigualdades, além de agir contra atos individuais.",
-        "Agir apenas quando houver denúncia de discriminação.",
-        "Considerar que o tema não é de responsabilidade da escola.",
-        "Tratar todos os alunos de forma idêntica."
+        "Revisar práticas, currículos e relações que reproduzem desigualdades, além de agir contra atos individuais.",
+        "Agir apenas quando houver denúncia formal de discriminação por parte de um estudante.",
+        "Considerar que o tema não é de responsabilidade da escola, e sim da sociedade.",
+        "Tratar todos os alunos de forma idêntica, sem considerar a questão racial."
       ],
       c: 0,
       e: "Estrutura se enfrenta revendo práticas institucionais.",
@@ -389,10 +389,10 @@ window.QCONC.pinheiro = [
     {
       q: "Para Bárbara Carine, a diferença entre 'não ser racista' e 'ser antirracista' é que:",
       o: [
-        "São expressões sinônimas.",
-        "Ser antirracista é exclusivo de pessoas negras.",
-        "Não ser racista é mais importante.",
-        "Ser antirracista implica agir ativa e continuamente contra o racismo, e não apenas abster-se de discriminar."
+        "São expressões sinônimas, que descrevem a mesma postura ética do educador.",
+        "Ser antirracista é uma postura exclusiva de pessoas negras, que vivem o racismo.",
+        "Não ser racista é mais importante, pois evita a discriminação direta.",
+        "Ser antirracista exige agir contra o racismo, não só abster-se."
       ],
       c: 3,
       e: "Abstenção × ação.",
@@ -406,10 +406,10 @@ window.QCONC.pinheiro = [
     {
       q: "Uma ação de educador antirracista, segundo a autora, é:",
       o: [
-        "Evitar falar de raça para não criar divisão.",
-        "Revisar o próprio plano de ensino para incluir referências, exemplos e conteúdos que valorizem a produção de conhecimento negra.",
-        "Esperar que a coordenação organize um evento.",
-        "Tratar o tema apenas se os alunos pedirem."
+        "Evitar falar de raça em sala, para não criar divisão entre os estudantes.",
+        "Revisar o plano de ensino para incluir referências e conteúdos de produção negra.",
+        "Esperar que a coordenação organize um evento sobre o tema na escola.",
+        "Tratar o tema apenas se os alunos pedirem, respeitando o interesse deles."
       ],
       c: 1,
       e: "Ação no próprio planejamento.",
@@ -423,10 +423,10 @@ window.QCONC.pinheiro = [
     {
       q: "Durante uma atividade em grupo, um aluno faz uma piada racista e os colegas riem. A conduta coerente com o educador antirracista é:",
       o: [
-        "Intervir de imediato, de forma firme e pedagógica, explicando por que a piada é racista e reafirmando o respeito na turma.",
-        "Ignorar para não constranger o aluno.",
-        "Rir junto para manter o clima.",
-        "Esperar o fim da aula para falar com a coordenação."
+        "Intervir na hora, com firmeza, explicando por que a piada é racista.",
+        "Ignorar o ocorrido, para não constranger o aluno diante dos colegas.",
+        "Rir junto, para manter o bom clima e depois conversar em particular.",
+        "Esperar o fim da aula para relatar o caso à coordenação pedagógica."
       ],
       c: 0,
       e: "Intervir é parte da prática ativa.",
@@ -443,10 +443,10 @@ window.QCONC.pinheiro = [
     {
       q: "O conceito de branquitude se refere:",
       o: [
-        "À cor da pele de pessoas brancas.",
-        "A um movimento político de pessoas brancas.",
-        "Ao lugar social de vantagem ocupado por pessoas brancas numa sociedade racializada, muitas vezes invisível para quem o ocupa.",
-        "À população europeia."
+        "À cor da pele das pessoas brancas e às suas características físicas.",
+        "A um movimento político organizado por pessoas brancas no Brasil.",
+        "Ao lugar social de vantagem das pessoas brancas.",
+        "À população de origem europeia e aos seus descendentes no país."
       ],
       c: 2,
       e: "Lugar social, não cor.",
@@ -460,10 +460,10 @@ window.QCONC.pinheiro = [
     {
       q: "Letramento racial, no contexto da obra, é:",
       o: [
-        "A alfabetização de pessoas negras.",
-        "A capacidade, que se aprende, de perceber, nomear e discutir as dinâmicas raciais da sociedade.",
-        "O estudo de línguas africanas.",
-        "A leitura de autores negros, exclusivamente."
+        "A alfabetização de pessoas negras em programas de educação de jovens e adultos.",
+        "A capacidade, que se aprende, de perceber e discutir as dinâmicas raciais.",
+        "O estudo das línguas africanas que influenciaram o português brasileiro.",
+        "A leitura exclusiva de autores negros na formação dos professores."
       ],
       c: 1,
       e: "Competência de leitura das relações raciais.",
@@ -477,10 +477,10 @@ window.QCONC.pinheiro = [
     {
       q: "Para a autora, o educador branco que deseja atuar de forma antirracista deve:",
       o: [
-        "Deixar o tema para educadores negros.",
-        "Sentir culpa permanente.",
-        "Evitar falar sobre raça.",
-        "Refletir sobre sua própria posição racial e desenvolver letramento racial, assumindo responsabilidade pela luta antirracista."
+        "Deixar o tema para os educadores negros, que têm mais legitimidade para tratá-lo.",
+        "Sentir culpa permanente pelos privilégios que recebeu ao longo da vida.",
+        "Evitar falar sobre raça, para não ocupar um lugar de fala que não é seu.",
+        "Refletir sobre a própria posição racial e desenvolver letramento racial, assumindo a luta antirracista."
       ],
       c: 3,
       e: "Responsabilidade, não culpa nem omissão.",
@@ -497,9 +497,9 @@ window.QCONC.pinheiro = [
     {
       q: "A crítica ao currículo eurocentrado aponta que ele:",
       o: [
-        "Apresenta a produção de conhecimento como quase exclusivamente europeia, apagando as contribuições de povos africanos e indígenas.",
-        "Valoriza demais a cultura africana.",
-        "Não ensina ciência.",
+        "Apresenta o conhecimento como quase só europeu, apagando outros povos.",
+        "Valoriza demais a cultura africana em detrimento da cultura europeia.",
+        "Não ensina ciência, apenas história e cultura dos povos europeus.",
         "Inclui conteúdos de todos os continentes de forma equilibrada."
       ],
       c: 0,
@@ -514,10 +514,10 @@ window.QCONC.pinheiro = [
     {
       q: "Descolonizar o currículo, na proposta da autora, significa:",
       o: [
-        "Excluir os conteúdos produzidos na Europa.",
-        "Ensinar apenas história da África.",
-        "Ampliar as referências e tornar visíveis as contribuições de povos africanos, afro-diaspóricos e indígenas, sem negar outros conhecimentos.",
-        "Eliminar a ciência moderna do currículo."
+        "Excluir do currículo os conteúdos produzidos na Europa e nos Estados Unidos.",
+        "Ensinar apenas história da África, em substituição à história geral.",
+        "Ampliar referências, visibilizando saberes africanos e indígenas, sem negar outros.",
+        "Eliminar a ciência moderna do currículo, por ser uma produção colonial."
       ],
       c: 2,
       e: "Ampliar, não substituir.",
@@ -531,10 +531,10 @@ window.QCONC.pinheiro = [
     {
       q: "Numa aula introdutória sobre sistemas de numeração e computação, um exemplo de descolonização do currículo seria:",
       o: [
-        "Começar pelo ábaco chinês, excluindo o restante.",
-        "Mencionar também artefatos e saberes matemáticos africanos, como o osso de Ishango e a matemática do Egito antigo, ao contar a história da contagem e do cálculo.",
-        "Dispensar a parte histórica.",
-        "Trocar o sistema binário pelo sistema egípcio."
+        "Começar pelo ábaco chinês e excluir as demais referências históricas da contagem.",
+        "Mencionar também saberes matemáticos africanos, como o osso de Ishango e a matemática do Egito antigo.",
+        "Dispensar a parte histórica e ir direto à conversão entre bases numéricas.",
+        "Trocar o sistema binário pelo sistema egípcio nos exercícios da disciplina."
       ],
       c: 1,
       e: "Visibilizar contribuições africanas na história do conhecimento.",
@@ -551,10 +551,10 @@ window.QCONC.pinheiro = [
     {
       q: "A expressão 'pedagogia do evento' critica:",
       o: [
-        "A realização de qualquer evento escolar.",
-        "Feiras de ciências.",
-        "A participação da comunidade nas festas da escola.",
-        "A restrição do trabalho com as relações étnico-raciais a datas comemorativas, sem continuidade no currículo."
+        "A realização de qualquer evento escolar que interrompa as aulas regulares.",
+        "As feiras de ciências que tratam de temas sociais e culturais.",
+        "A participação da comunidade nas festas e celebrações da escola.",
+        "Restringir o tema racial a datas comemorativas."
       ],
       c: 3,
       e: "O problema é a restrição ao evento.",
@@ -568,10 +568,10 @@ window.QCONC.pinheiro = [
     {
       q: "Uma escola organiza todo ano uma bela semana da Consciência Negra, com apresentações e palestras, mas nada muda nos planos de ensino. Segundo a autora:",
       o: [
-        "A escola cumpre bem a Lei 10.639.",
-        "O evento é valioso, mas isolado ele configura a pedagogia do evento e não transforma o currículo.",
-        "O evento deveria ser cancelado.",
-        "O evento deveria ocorrer duas vezes por ano."
+        "A escola cumpre bem a Lei 10.639, pois dá visibilidade anual ao tema.",
+        "O evento tem valor, mas isolado não transforma o currículo.",
+        "O evento deveria ser cancelado, pois reforça a separação do tema.",
+        "O evento deveria ocorrer duas vezes por ano, para ter mais impacto."
       ],
       c: 1,
       e: "Evento sim, mas não só evento.",
@@ -585,10 +585,10 @@ window.QCONC.pinheiro = [
     {
       q: "Para superar a pedagogia do evento, uma escola técnica poderia:",
       o: [
-        "Incorporar a temática étnico-racial aos planos de ensino de todas as disciplinas, ao longo do ano, e usar as datas como momentos de culminância desse trabalho.",
-        "Proibir eventos.",
-        "Concentrar tudo no 20 de novembro.",
-        "Delegar o tema ao grêmio."
+        "Incorporar o tema aos planos de todas as disciplinas ao longo do ano, usando as datas como culminância.",
+        "Proibir eventos sobre o tema, para obrigar sua inclusão no currículo.",
+        "Concentrar todas as ações no 20 de novembro, com programação de uma semana.",
+        "Delegar o tema ao grêmio estudantil, que organiza as atividades culturais."
       ],
       c: 0,
       e: "Trabalho contínuo, com o evento como culminância.",
@@ -605,10 +605,10 @@ window.QCONC.pinheiro = [
     {
       q: "Para a autora, a representatividade no currículo é importante porque:",
       o: [
-        "Atende a uma exigência estética.",
-        "Substitui o conteúdo científico.",
-        "Permite que estudantes negros se reconheçam como produtores de conhecimento e se vejam em carreiras científicas e tecnológicas.",
-        "É obrigatória apenas em escolas particulares."
+        "Atende a uma exigência estética de diversidade nos materiais didáticos.",
+        "Substitui o conteúdo científico por histórias de vida inspiradoras.",
+        "Faz estudantes negros se verem como produtores de conhecimento.",
+        "É obrigatória apenas nas escolas particulares, pela legislação vigente."
       ],
       c: 2,
       e: "Ver-se nas referências amplia horizontes.",
@@ -622,10 +622,10 @@ window.QCONC.pinheiro = [
     {
       q: "Mostrar a África apenas como lugar de pobreza, guerra e escravidão:",
       o: [
-        "É adequado, pois retrata a realidade.",
-        "Reforça estereótipos e apaga a África como produtora de conhecimento, cultura e tecnologia.",
-        "É exigido pela Lei 10.639.",
-        "Não tem efeito sobre os estudantes."
+        "É adequado, pois retrata a realidade atual da maior parte do continente africano.",
+        "Reforça estereótipos e apaga a África produtora de saber.",
+        "É exigido pela Lei 10.639, que trata da história da escravidão no Brasil.",
+        "Não tem efeito sobre os estudantes, que conhecem a África por outros meios."
       ],
       c: 1,
       e: "Imagem restrita é estereótipo.",
@@ -639,10 +639,10 @@ window.QCONC.pinheiro = [
     {
       q: "Num curso técnico em Informática, uma ação de representatividade seria:",
       o: [
-        "Convidar profissionais negros de TI para falar sobre sua trajetória e incluir pessoas negras entre as referências históricas da computação trabalhadas em aula.",
-        "Evitar falar de pessoas e focar só na técnica.",
-        "Pedir que os alunos negros representem a turma em eventos.",
-        "Criar uma turma separada para alunos negros."
+        "Trazer profissionais negros de TI e incluir pessoas negras na história da computação.",
+        "Evitar falar de pessoas e focar apenas no conteúdo técnico da disciplina.",
+        "Pedir que os alunos negros representem a turma nos eventos da escola.",
+        "Criar uma turma separada para alunos negros, com acompanhamento específico."
       ],
       c: 0,
       e: "Referências e exemplos concretos.",
@@ -679,10 +679,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "A expressão de gênero refere-se:",
       o: [
-        "À atração afetiva e sexual.",
-        "Às características cromossômicas.",
-        "À forma como a pessoa se apresenta socialmente (roupas, gestos, aparência), que não determina sua identidade nem sua orientação.",
-        "Ao documento de identidade."
+        "À atração afetiva e sexual que a pessoa sente por outras pessoas.",
+        "Às características cromossômicas, hormonais e anatômicas da pessoa.",
+        "À forma como a pessoa se apresenta socialmente.",
+        "Ao nome e ao sexo registrados no documento de identidade."
       ],
       c: 2,
       e: "Expressão é a apresentação social.",
@@ -716,10 +716,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Um exemplo de heteronormatividade na escola é:",
       o: [
-        "Uma aula sobre diversidade.",
-        "Uma política contra o bullying.",
-        "O uso do nome social.",
-        "Supor em todos os exemplos e atividades que as famílias são formadas por um homem e uma mulher, invisibilizando outras configurações."
+        "Uma aula sobre diversidade sexual e de gênero no ensino médio.",
+        "Uma política institucional de combate ao bullying.",
+        "O uso do nome social nos registros escolares.",
+        "Supor em todos os exemplos que as famílias são formadas por um homem e uma mulher."
       ],
       c: 3,
       e: "A norma aparece em suposições 'naturais'.",
@@ -733,10 +733,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "A heteronormatividade é uma norma:",
       o: [
-        "Legal, prevista na Constituição.",
-        "Social e cultural, que trata a heterossexualidade como padrão natural e obrigatório.",
-        "Biológica, determinada pela genética.",
-        "Pedagógica, prevista na BNCC."
+        "Legal, prevista na Constituição e no Código Civil brasileiro.",
+        "Social e cultural, que trata a heterossexualidade como padrão.",
+        "Biológica, determinada pela genética e pelos hormônios.",
+        "Pedagógica, prevista na BNCC para a educação básica."
       ],
       c: 1,
       e: "Norma cultural, não lei nem biologia.",
@@ -750,10 +750,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Ao modelar o cadastro de alunos de um sistema escolar, uma decisão que evita reproduzir a heteronormatividade e a cisnormatividade é:",
       o: [
-        "Incluir campo para nome social e não limitar os campos de família a 'pai' e 'mãe', usando 'responsáveis'.",
-        "Usar apenas o nome civil.",
+        "Incluir campo para nome social e usar 'responsáveis' em vez de 'pai' e 'mãe'.",
+        "Usar apenas o nome civil, por ser o único com validade jurídica.",
         "Exigir o campo sexo com duas opções obrigatórias para todos os fins.",
-        "Não cadastrar responsáveis."
+        "Não cadastrar responsáveis, para evitar qualquer tipo de exposição."
       ],
       c: 0,
       e: "Decisão técnica com efeito social.",
@@ -770,10 +770,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Em 2019, o Supremo Tribunal Federal decidiu que:",
       o: [
-        "A homofobia não é crime.",
+        "A homofobia não é crime, por falta de lei específica aprovada pelo Congresso.",
         "A homofobia e a transfobia devem ser enquadradas na Lei do Racismo até que o Congresso aprove lei específica.",
-        "Apenas agressões físicas contra pessoas LGBT são crime.",
-        "A matéria deve ser decidida pelos estados."
+        "Apenas as agressões físicas contra pessoas LGBT configuram crime.",
+        "A matéria deve ser decidida por cada estado em lei própria."
       ],
       c: 1,
       e: "ADO 26 e MI 4733: equiparação ao crime de racismo.",
@@ -787,10 +787,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Transfobia é:",
       o: [
-        "Medo de mudanças.",
-        "Preconceito contra homossexuais.",
-        "Preconceito, discriminação ou violência contra pessoas trans.",
-        "Preconceito contra mulheres."
+        "O medo de mudanças, comum em ambientes institucionais conservadores.",
+        "O preconceito contra pessoas homossexuais, especialmente homens gays.",
+        "Discriminação ou violência contra pessoas trans.",
+        "O preconceito contra mulheres, baseado na ideia de inferioridade."
       ],
       c: 2,
       e: "Contra pessoas trans.",
@@ -804,10 +804,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Uma estudante lésbica relata que colegas a excluem dos grupos de trabalho no laboratório. Essa situação:",
       o: [
-        "É uma questão de afinidade pessoal e não cabe intervenção.",
-        "Deve ser resolvida pela família.",
-        "Só exige intervenção se houver agressão física.",
-        "Configura discriminação (lesbofobia) e exige intervenção da escola para garantir a participação da estudante."
+        "É uma questão de afinidade pessoal entre os colegas e não cabe intervenção.",
+        "Deve ser resolvida pela família da estudante, fora do ambiente escolar.",
+        "Só exige intervenção se houver agressão física ou ameaça explícita.",
+        "É discriminação (lesbofobia) e exige que a escola garanta a participação dela."
       ],
       c: 3,
       e: "Exclusão também é discriminação.",
@@ -824,10 +824,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "São exemplos de violência homofóbica no ambiente escolar, EXCETO:",
       o: [
-        "Apelidos pejorativos.",
-        "Piadas sobre orientação sexual.",
-        "Exclusão de grupos de trabalho.",
-        "Uma aula sobre direitos humanos e diversidade."
+        "Apelidos pejorativos entre colegas.",
+        "Piadas sobre a orientação sexual de alguém.",
+        "Exclusão sistemática dos grupos de trabalho.",
+        "Uma aula sobre direitos humanos."
       ],
       c: 3,
       e: "A aula sobre direitos é parte do enfrentamento, não da violência.",
@@ -841,10 +841,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Para o material, a omissão dos educadores diante de piadas homofóbicas:",
       o: [
-        "É uma forma de violência, pois legitima a discriminação.",
-        "É neutra.",
+        "É violência, pois legitima a discriminação.",
+        "É neutra, pois o educador não participou da situação.",
         "É recomendável, para não dar importância ao fato.",
-        "Só é problema se a vítima reclamar."
+        "Só é problema se a vítima reclamar formalmente."
       ],
       c: 0,
       e: "Omitir-se é compactuar.",
@@ -858,10 +858,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "A violência simbólica contra estudantes LGBT afeta diretamente:",
       o: [
-        "Apenas a autoestima, sem efeitos escolares.",
-        "Somente estudantes do ensino superior.",
+        "Apenas a autoestima dos estudantes, sem efeitos sobre a vida escolar.",
+        "Somente estudantes do ensino superior, que já se assumiram publicamente.",
         "A permanência, o desempenho e a frequência, podendo levar à evasão.",
-        "Apenas os agressores."
+        "Apenas os agressores, que acabam punidos pela instituição."
       ],
       c: 2,
       e: "Discriminação gera evasão.",
@@ -878,10 +878,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "A Resolução CNE/CP 1/2018 trata:",
       o: [
-        "Das Diretrizes para a Educação das Relações Étnico-Raciais.",
+        "Das Diretrizes Curriculares para a Educação das Relações Étnico-Raciais.",
         "Do uso do nome social de travestis e transexuais nos registros escolares da educação básica.",
-        "Da educação profissional integrada.",
-        "Das cotas raciais."
+        "Da educação profissional técnica integrada ao ensino médio.",
+        "Das cotas raciais nas instituições federais de ensino."
       ],
       c: 1,
       e: "Nome social na educação básica.",
@@ -895,10 +895,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Segundo a Resolução CNE/CP 1/2018, para estudantes menores de 18 anos, o uso do nome social nos registros escolares:",
       o: [
-        "É proibido.",
-        "Depende de decisão judicial.",
-        "Pode ser solicitado pelos representantes legais.",
-        "Depende de laudo médico."
+        "É proibido até a maioridade civil.",
+        "Depende de decisão judicial prévia.",
+        "Pode ser pedido pelos responsáveis.",
+        "Depende de laudo médico ou psicológico."
       ],
       c: 2,
       e: "Menores: pedido pelos responsáveis.",
@@ -912,10 +912,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Um professor recebe a lista de chamada com o nome civil de um estudante trans que já tem o nome social registrado. A conduta adequada é:",
       o: [
-        "Chamar pelo nome social, respeitando o registro e a identidade do estudante.",
-        "Chamar pelo nome civil, pois é o oficial.",
-        "Perguntar em voz alta qual nome o aluno prefere.",
-        "Não fazer chamada."
+        "Chamar pelo nome social, respeitando o registro.",
+        "Chamar pelo nome civil, pois é o nome oficial que consta na lista.",
+        "Perguntar em voz alta, diante da turma, qual nome o aluno prefere.",
+        "Não fazer a chamada nominal até que a secretaria corrija a lista."
       ],
       c: 0,
       e: "O nome social registrado deve ser respeitado.",
@@ -932,10 +932,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Na perspectiva dos direitos humanos, o enfrentamento da homofobia na escola se justifica principalmente porque:",
       o: [
-        "É uma exigência da moda.",
-        "Atende a interesses de grupos específicos.",
-        "É uma escolha individual do professor.",
-        "Garante o direito à educação, assegurando que todos os estudantes possam permanecer e aprender com segurança."
+        "É uma exigência de moda, ligada a debates recentes nas redes sociais.",
+        "Atende aos interesses de grupos específicos organizados na sociedade.",
+        "É uma escolha individual de cada professor, conforme suas convicções.",
+        "Garante o direito à educação, com permanência e segurança para todos."
       ],
       c: 3,
       e: "Direito à educação para todos.",
@@ -949,10 +949,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Num Instituto Federal, a política de permanência e êxito dos estudantes se relaciona com o enfrentamento da discriminação porque:",
       o: [
-        "Não há relação entre os temas.",
-        "Ambientes discriminatórios aumentam a evasão; combater a discriminação é parte de garantir a permanência.",
-        "A permanência depende só de auxílio financeiro.",
-        "A discriminação só afeta o ensino superior."
+        "Não há relação entre os temas, que são tratados por setores diferentes.",
+        "Ambientes discriminatórios aumentam a evasão, e combatê-los é garantir a permanência.",
+        "A permanência depende só de auxílio financeiro e de transporte.",
+        "A discriminação só afeta os estudantes do ensino superior."
       ],
       c: 1,
       e: "Discriminação e evasão estão ligadas.",
@@ -966,10 +966,10 @@ window.QCONC["sem-homofobia"] = [
     {
       q: "Na prova didática, perguntam ao candidato como ele lidaria com o tema da diversidade sexual em sala. A resposta mais adequada, coerente com o material e com o edital, seria:",
       o: [
-        "Dizer que o tema não cabe numa disciplina técnica.",
-        "Dizer que deixaria o tema para as famílias.",
-        "Tratar o tema pela ótica dos direitos e da permanência: respeitar nomes e identidades, intervir diante de discriminação e garantir um ambiente seguro para todos aprenderem.",
-        "Dizer que separaria os alunos para evitar conflitos."
+        "Dizer que o tema não cabe numa disciplina técnica como Informática.",
+        "Dizer que deixaria o tema para as famílias, que têm a responsabilidade principal.",
+        "Tratar o tema pela ótica dos direitos: respeitar nomes e identidades, intervir na discriminação e garantir ambiente seguro.",
+        "Dizer que separaria os alunos para evitar conflitos durante as atividades."
       ],
       c: 2,
       e: "Ótica de direitos e permanência.",

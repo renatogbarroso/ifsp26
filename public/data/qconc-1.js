@@ -10,10 +10,10 @@ window.QCONC.saviani = [
     {
       q: "Para Saviani, o que as teorias não críticas da educação têm em comum é:",
       o: [
-        "Entender a escola como instrumento de reprodução das relações de dominação.",
-        "Entender a sociedade como essencialmente harmoniosa e a educação como capaz de corrigir a marginalidade.",
-        "Negar qualquer papel da escola na formação dos indivíduos.",
-        "Defender que a educação depende exclusivamente das condições econômicas."
+        "Entender a escola como instrumento de reprodução das relações de dominação, que marginaliza as camadas populares.",
+        "Ver a sociedade como harmoniosa e a escola como capaz de corrigir a marginalidade.",
+        "Negar qualquer papel da escola na formação dos indivíduos, atribuindo essa tarefa à família e ao trabalho.",
+        "Defender que a educação depende exclusivamente das condições econômicas da sociedade em que se insere."
       ],
       c: 1,
       e: "As não críticas (tradicional, nova e tecnicista) confiam na escola como 'equalizadora social' e ignoram os determinantes sociais.",
@@ -27,10 +27,10 @@ window.QCONC.saviani = [
     {
       q: "A principal crítica de Saviani às teorias crítico-reprodutivistas é que elas:",
       o: [
-        "Ignoram os determinantes sociais da educação.",
-        "Superestimam a capacidade da escola de transformar a sociedade.",
-        "Explicam bem o funcionamento da escola na sociedade de classes, mas não oferecem uma proposta pedagógica, levando a uma visão fatalista.",
-        "Defendem a transmissão de conteúdos como função principal da escola."
+        "Ignoram os determinantes sociais da educação e tratam a escola como instituição autônoma e neutra.",
+        "Superestimam a capacidade da escola de transformar a sociedade e de corrigir a marginalidade social.",
+        "Analisam bem a escola na sociedade de classes, mas não oferecem proposta pedagógica.",
+        "Defendem a transmissão dos conteúdos clássicos como função principal e específica da escola pública."
       ],
       c: 2,
       e: "Saviani reconhece o mérito das reprodutivistas em mostrar os condicionantes sociais, mas aponta que elas não dizem o que o professor pode fazer.",
@@ -64,10 +64,10 @@ window.QCONC.saviani = [
     {
       q: "Para a pedagogia tradicional, segundo a análise de Saviani, a escola resolve a marginalidade:",
       o: [
-        "Acolhendo as diferenças individuais e respeitando o ritmo de cada aluno.",
-        "Organizando o processo de ensino de modo racional e eficiente, como numa fábrica.",
-        "Denunciando as relações de dominação da sociedade capitalista.",
-        "Difundindo a instrução e transmitindo os conhecimentos acumulados, já que o marginalizado é o ignorante."
+        "Acolhendo as diferenças individuais e respeitando o ritmo, os interesses e as necessidades de cada aluno.",
+        "Organizando o ensino de modo racional e eficiente, com objetivos operacionais, como numa fábrica.",
+        "Denunciando as relações de dominação da sociedade capitalista e formando a consciência de classe.",
+        "Difundindo a instrução, já que o marginalizado é o ignorante."
       ],
       c: 3,
       e: "Na tradicional, marginalidade é ignorância; a solução é transmitir conhecimento, com o professor no centro.",
@@ -81,10 +81,10 @@ window.QCONC.saviani = [
     {
       q: "Na pedagogia tecnicista, conforme Saviani, o elemento principal do processo educativo passa a ser:",
       o: [
-        "O professor, detentor do conhecimento.",
-        "O aluno, com seus interesses e necessidades.",
-        "A organização racional dos meios, com professor e aluno em posição secundária, como executores de um processo planejado por especialistas.",
-        "A comunidade escolar, por meio da gestão democrática."
+        "O professor, detentor do conhecimento, que transmite os conteúdos de forma lógica e graduada.",
+        "O aluno, com seus interesses e necessidades, que aprende fazendo e descobrindo por conta própria.",
+        "A organização racional dos meios, com professor e aluno como executores.",
+        "A comunidade escolar, que decide coletivamente os rumos do ensino por meio da gestão democrática."
       ],
       c: 2,
       e: "A tecnicista se inspira na racionalidade da produção: o centro é a organização (planejamento, instrução programada, objetivos operacionais).",
@@ -99,9 +99,9 @@ window.QCONC.saviani = [
       q: "Segundo Saviani, para a Escola Nova o marginalizado é o rejeitado. Por isso, a função da escola seria:",
       o: [
         "Ajustar e adaptar os indivíduos à sociedade, incutindo neles o sentimento de aceitação dos demais e pelos demais.",
-        "Transmitir os conhecimentos sistematizados de forma lógica e graduada.",
-        "Formar mão de obra eficiente para o mercado.",
-        "Revelar aos alunos as contradições da sociedade de classes."
+        "Transmitir os conhecimentos sistematizados de forma lógica, graduada e centrada na figura do professor.",
+        "Formar mão de obra eficiente e produtiva para o mercado, com base em objetivos operacionais.",
+        "Revelar aos alunos as contradições da sociedade de classes e os mecanismos de dominação."
       ],
       c: 0,
       e: "Na Escola Nova a ênfase sai do conteúdo e vai para a aceitação das diferenças e o ajustamento.",
@@ -118,10 +118,10 @@ window.QCONC.saviani = [
     {
       q: "A 'teoria da curvatura da vara', em Saviani, deve ser entendida como:",
       o: [
-        "Uma defesa do retorno puro e simples à pedagogia tradicional.",
-        "Uma estratégia argumentativa: diante do predomínio do escolanovismo, enfatizar no sentido oposto o valor dos conteúdos, para chegar a uma posição correta.",
-        "Uma proposta de flexibilização curricular.",
-        "Uma crítica às teorias crítico-reprodutivistas."
+        "Uma defesa do retorno puro e simples à pedagogia tradicional, com o professor de volta ao centro.",
+        "Uma estratégia: enfatizar o oposto do escolanovismo, os conteúdos, para chegar à posição correta.",
+        "Uma proposta de flexibilização curricular, que adapta o currículo às necessidades de cada comunidade.",
+        "Uma crítica às teorias crítico-reprodutivistas, que entortaram a compreensão sobre a função da escola."
       ],
       c: 1,
       e: "É uma estratégia de correção: a vara pende para a Escola Nova, então ele força o lado contrário, sem pretender ficar na tradicional.",
@@ -135,10 +135,10 @@ window.QCONC.saviani = [
     {
       q: "No contexto da curvatura da vara, Saviani afirma, de forma propositalmente provocativa, que:",
       o: [
-        "A Escola Nova é a pedagogia mais democrática.",
-        "A pedagogia tecnicista é a mais adequada às escolas populares.",
-        "A pedagogia tradicional, por valorizar o conteúdo, pode ser considerada mais democrática que a Escola Nova em seus efeitos para as camadas populares.",
-        "Nenhuma pedagogia pode ser democrática numa sociedade de classes."
+        "A Escola Nova é a pedagogia mais democrática, por respeitar os interesses e o ritmo de cada aluno.",
+        "A pedagogia tecnicista é a mais adequada às escolas populares, por garantir eficiência e produtividade.",
+        "A pedagogia tradicional, por valorizar o conteúdo, pode ser considerada mais democrática que a Escola Nova em seus efeitos.",
+        "Nenhuma pedagogia pode ser democrática numa sociedade de classes, pois a escola só reproduz a dominação."
       ],
       c: 2,
       e: "A tese provocativa é que, quanto aos efeitos, a Escola Nova foi antidemocrática e a tradicional, por garantir conteúdo, foi mais democrática.",
@@ -152,10 +152,10 @@ window.QCONC.saviani = [
     {
       q: "Um professor afirma: 'Hoje só faço aulas de projeto, o conteúdo os alunos procuram na internet'. À luz da curvatura da vara, Saviani diria que:",
       o: [
-        "A prática está correta, pois coloca o aluno no centro.",
-        "A prática é tecnicista, pois usa tecnologia.",
-        "A prática é adequada desde que avaliada por competências.",
-        "A prática reproduz o desvio escolanovista e corre o risco de esvaziar a transmissão do saber sistematizado, prejudicando sobretudo os alunos das camadas populares."
+        "A prática está correta, pois coloca o aluno no centro do processo e desenvolve sua autonomia na busca de informações.",
+        "A prática é tecnicista, pois depende do uso de tecnologia e da organização racional dos recursos da internet.",
+        "A prática é adequada desde que a avaliação seja feita por competências e cada projeto tenha um produto final.",
+        "Reproduz o desvio escolanovista e esvazia a transmissão do saber, prejudicando os alunos das camadas populares."
       ],
       c: 3,
       e: "Deixar o conteúdo para o aluno buscar sozinho é o lado para onde a vara estava torta.",
@@ -172,10 +172,10 @@ window.QCONC.saviani = [
     {
       q: "Para a pedagogia histórico-crítica, a função específica da escola é:",
       o: [
-        "Socializar o saber sistematizado, garantindo às camadas populares o acesso ao conhecimento elaborado.",
-        "Preparar os alunos para o mercado de trabalho.",
-        "Promover a adaptação dos indivíduos à sociedade.",
-        "Desenvolver competências socioemocionais."
+        "Socializar o saber sistematizado às camadas populares.",
+        "Preparar os alunos para o mercado de trabalho, desenvolvendo as competências exigidas pelos setores produtivos.",
+        "Promover a adaptação dos indivíduos à sociedade, acolhendo as diferenças e combatendo a rejeição.",
+        "Desenvolver competências socioemocionais, como empatia, resiliência e trabalho em equipe."
       ],
       c: 0,
       e: "A especificidade da escola, para Saviani, é a socialização do saber sistematizado.",
@@ -189,10 +189,10 @@ window.QCONC.saviani = [
     {
       q: "O termo 'histórico-crítica' indica que a proposta de Saviani:",
       o: [
-        "Prioriza o ensino de História no currículo.",
-        "Rejeita todo o conhecimento produzido no passado.",
-        "Entende a educação como fenômeno determinado historicamente e reconhece seus condicionantes sociais, sem abrir mão da possibilidade de a escola contribuir para a transformação.",
-        "Critica a escola como reprodutora, sem propor alternativas."
+        "Prioriza o ensino de História no currículo, como disciplina integradora das demais áreas do conhecimento.",
+        "Rejeita o conhecimento produzido no passado, por considerá-lo ideológico e comprometido com as elites.",
+        "Entende a educação como fenômeno histórico e reconhece seus condicionantes, sem cair no fatalismo.",
+        "Critica a escola como reprodutora da sociedade de classes, sem propor alternativas pedagógicas concretas."
       ],
       c: 2,
       e: "Histórica pela compreensão da educação na história; crítica por reconhecer seus condicionantes sem cair no fatalismo.",
@@ -206,10 +206,10 @@ window.QCONC.saviani = [
     {
       q: "Sobre a relação entre a pedagogia histórico-crítica e as teorias que Saviani analisa, é correto afirmar que ela:",
       o: [
-        "É uma variação da Escola Nova, por valorizar a experiência dos alunos.",
-        "Busca superar por incorporação as limitações das teorias não críticas e das crítico-reprodutivistas.",
-        "É idêntica à pedagogia tradicional, por valorizar os conteúdos.",
-        "É uma teoria crítico-reprodutivista mais recente."
+        "É uma variação da Escola Nova, por partir da experiência dos alunos e valorizar a atividade deles.",
+        "Busca superar, por incorporação, as limitações das teorias não críticas e das crítico-reprodutivistas, sem se confundir com nenhuma delas.",
+        "É idêntica à pedagogia tradicional, por valorizar os conteúdos e a transmissão feita pelo professor.",
+        "É uma teoria crítico-reprodutivista mais recente, que atualiza Bourdieu e Althusser para o caso brasileiro."
       ],
       c: 1,
       e: "A histórico-crítica parte da prática social e valoriza o conteúdo, mas com a crítica social; não é nenhuma das anteriores.",
@@ -226,10 +226,10 @@ window.QCONC.saviani = [
     {
       q: "No método da pedagogia histórico-crítica, a 'catarse' corresponde ao momento em que:",
       o: [
-        "O professor apresenta o conteúdo de forma expositiva.",
-        "Os alunos identificam os problemas a serem resolvidos.",
-        "Se avalia formalmente a aprendizagem com uma prova.",
-        "O aluno incorpora os conhecimentos como elementos da própria compreensão, passando a expressar de forma elaborada o entendimento da prática social."
+        "O professor apresenta o conteúdo de forma expositiva, com exemplos e explicações sistematizadas.",
+        "Os alunos identificam os problemas da prática social que precisam ser resolvidos com o conhecimento.",
+        "Se avalia formalmente a aprendizagem, por meio de prova, para verificar o domínio do conteúdo.",
+        "O aluno incorpora o conhecimento e passa a compreender a prática social de forma elaborada."
       ],
       c: 3,
       e: "Catarse é a efetiva incorporação dos instrumentos culturais, transformados em elementos ativos de transformação social.",
@@ -243,10 +243,10 @@ window.QCONC.saviani = [
     {
       q: "No método de Saviani, o ponto de partida e o ponto de chegada são a prática social. A diferença entre eles é que:",
       o: [
-        "No ponto de chegada, a prática social é compreendida de forma mais elaborada, sintética, tanto pelo aluno quanto pelo professor.",
-        "No ponto de partida, só o professor conhece a prática social.",
-        "No ponto de chegada, a prática social já foi transformada concretamente.",
-        "Não há diferença, pois o método é circular."
+        "Na chegada, a prática social é compreendida de forma mais elaborada.",
+        "No ponto de partida, só o professor conhece a prática social, e os alunos a desconhecem por completo.",
+        "No ponto de chegada, a prática social já foi concretamente transformada pela ação dos alunos e da escola.",
+        "Não há diferença, pois o método é circular e retorna exatamente ao mesmo ponto em que começou."
       ],
       c: 0,
       e: "No início, o aluno tem uma compreensão sincrética; no fim, uma compreensão sintética. A prática é a mesma, a compreensão mudou.",
@@ -280,10 +280,10 @@ window.QCONC.saviani = [
     {
       q: "Para Saviani, o 'clássico' na educação é:",
       o: [
-        "Aquilo que é antigo e tradicional.",
-        "O conteúdo da pedagogia tradicional.",
-        "O que é mais moderno e atualizado.",
-        "Aquilo que se firmou como fundamental, como essencial, resistindo ao tempo."
+        "Aquilo que é antigo e tradicional, consagrado pela pedagogia dos séculos anteriores.",
+        "O conteúdo da pedagogia tradicional, organizado de forma lógica e transmitido pelo professor.",
+        "O que é mais moderno e atualizado, acompanhando as transformações científicas e tecnológicas.",
+        "O que se firmou como fundamental e essencial."
       ],
       c: 3,
       e: "Clássico não é tradicional nem antigo: é o essencial, o que permanece como referência.",
@@ -297,10 +297,10 @@ window.QCONC.saviani = [
     {
       q: "Na perspectiva histórico-crítica, o saber escolar se distingue do saber espontâneo por ser:",
       o: [
-        "Sistematizado, elaborado e metódico, e não fragmentado e assistemático como o senso comum.",
-        "Mais útil para a vida cotidiana imediata.",
-        "Restrito às elites, que dele necessitam para governar.",
-        "Construído espontaneamente pelo aluno na interação com o meio."
+        "Sistematizado, elaborado e metódico, e não fragmentado e assistemático como o saber espontâneo do senso comum.",
+        "Mais útil para resolver os problemas imediatos da vida cotidiana dos alunos e de suas famílias.",
+        "Restrito às elites, que dele necessitam para exercer as funções de direção da sociedade.",
+        "Construído espontaneamente pelo aluno na interação com o meio, sem necessidade de transmissão."
       ],
       c: 0,
       e: "A escola existe para dar acesso ao saber elaborado, que o cotidiano não oferece.",
@@ -314,10 +314,10 @@ window.QCONC.saviani = [
     {
       q: "Um coordenador propõe substituir a disciplina de Fundamentos de Redes por um curso rápido de configuração de um roteador de marca específica, 'porque é isso que o mercado pede'. Na perspectiva de Saviani, a crítica mais adequada seria:",
       o: [
-        "A proposta é correta, pois aproxima a escola do mundo do trabalho.",
-        "A proposta é tecnicista, mas aceitável em cursos técnicos.",
-        "A proposta troca o saber sistematizado e fundamental por um treinamento pontual, negando aos alunos o acesso ao conhecimento que lhes permitiria compreender e dominar diferentes tecnologias.",
-        "A proposta é escolanovista, pois parte do interesse dos alunos."
+        "A proposta é correta, pois aproxima a escola do mundo do trabalho e aumenta a empregabilidade imediata dos alunos.",
+        "A proposta é tecnicista, mas aceitável em cursos técnicos, cuja finalidade é formar para funções específicas.",
+        "Ela troca o saber fundamental por um treinamento pontual, que não permite dominar outras tecnologias.",
+        "A proposta é escolanovista, pois parte do interesse dos alunos e das demandas que eles trazem da realidade."
       ],
       c: 2,
       e: "Os fundamentos são o 'clássico' da área; o treinamento de um produto é efêmero.",
@@ -334,10 +334,10 @@ window.QCONC.saviani = [
     {
       q: "Nas teses sobre educação e política, Saviani sustenta que:",
       o: [
-        "Educação e política são a mesma coisa.",
-        "A educação é neutra e não tem dimensão política.",
-        "A política deve ser excluída da escola.",
-        "Educação e política são práticas distintas, mas inseparáveis: toda prática educativa tem dimensão política e vice-versa."
+        "Educação e política são a mesma coisa, pois toda prática educativa é, em essência, uma prática política.",
+        "A educação é neutra e não tem dimensão política, cabendo à escola apenas a transmissão técnica do saber.",
+        "A política deve ser excluída da escola, para preservar a autonomia pedagógica dos professores.",
+        "São práticas distintas, mas inseparáveis."
       ],
       c: 3,
       e: "Distintas e inseparáveis: é a formulação central das teses.",
@@ -351,10 +351,10 @@ window.QCONC.saviani = [
     {
       q: "Segundo Saviani, a dimensão política da educação se realiza principalmente:",
       o: [
-        "Por meio da socialização do saber às camadas populares, isto é, pela realização da especificidade da escola.",
-        "Por meio de discussões partidárias em sala.",
-        "Pela participação dos professores em sindicatos.",
-        "Pela eleição de diretores."
+        "Pela socialização do saber às camadas populares, isto é, cumprindo a função específica da escola.",
+        "Por meio de discussões partidárias em sala, que formam a consciência política dos estudantes.",
+        "Pela participação dos professores em sindicatos e movimentos sociais ligados à educação pública.",
+        "Pela eleição direta de diretores, que democratiza a gestão e aproxima a escola da comunidade."
       ],
       c: 0,
       e: "A dimensão política da escola está em cumprir bem sua função: democratizar o saber.",
@@ -368,10 +368,10 @@ window.QCONC.saviani = [
     {
       q: "Em uma arguição, perguntam ao candidato se ensinar com base na pedagogia histórico-crítica seria 'doutrinação'. A resposta mais coerente com Saviani é:",
       o: [
-        "Sim, pois toda educação crítica é doutrinária.",
-        "Não, pois a pedagogia histórico-crítica é neutra.",
-        "Não: a dimensão política está em garantir a todos o acesso ao conhecimento sistematizado, o que é distinto de propaganda partidária.",
-        "Depende do partido do professor."
+        "Sim, pois toda educação crítica é doutrinária e transmite a visão de mundo do professor.",
+        "Não, pois a pedagogia histórico-crítica é neutra e se limita à transmissão técnica dos conteúdos.",
+        "Não: sua dimensão política é democratizar o conhecimento, não fazer propaganda.",
+        "Depende do partido do professor e da forma como ele conduz os debates em sala de aula."
       ],
       c: 2,
       e: "Democratizar o conhecimento é político no sentido amplo, sem ser partidário.",
@@ -391,10 +391,10 @@ window.QCONC.luckesi = [
     {
       q: "Para Luckesi, um sintoma típico da 'pedagogia do exame' é:",
       o: [
-        "O professor usar diversos instrumentos para acompanhar a aprendizagem.",
-        "A pergunta mais frequente dos alunos ser 'isso vai cair na prova?'.",
-        "A escola fazer reuniões pedagógicas para replanejar o ensino.",
-        "A avaliação ser usada para decidir como retomar conteúdos."
+        "O professor usar diversos instrumentos ao longo do bimestre para acompanhar a aprendizagem.",
+        "Os alunos perguntarem sempre se 'isso vai cair na prova'.",
+        "A escola fazer reuniões pedagógicas periódicas para replanejar o ensino a partir dos resultados.",
+        "A avaliação ser usada para decidir quais conteúdos precisam ser retomados com a turma."
       ],
       c: 1,
       e: "Quando o estudo é guiado pela prova, e não pela aprendizagem, a pedagogia do exame está em ação.",
@@ -425,10 +425,10 @@ window.QCONC.luckesi = [
     {
       q: "Luckesi associa a pedagogia do exame a uma concepção de sociedade e de educação. Essa associação indica que:",
       o: [
-        "A pedagogia do exame é neutra e técnica.",
-        "A pedagogia do exame foi criada pela Escola Nova.",
-        "A pedagogia do exame é exclusiva do ensino superior.",
-        "A prática de examinar está ligada a um modelo social seletivo e excludente, e superá-la exige também uma outra concepção pedagógica."
+        "A pedagogia do exame é neutra e técnica, e pode servir a qualquer concepção de sociedade.",
+        "A pedagogia do exame foi criada pela Escola Nova para medir o desenvolvimento individual.",
+        "A pedagogia do exame é exclusiva do ensino superior e dos processos seletivos de acesso.",
+        "Examinar está ligado a um modelo social seletivo; superá-lo exige outra concepção pedagógica."
       ],
       c: 3,
       e: "A avaliação não é só técnica: reflete o modelo de sociedade e de pedagogia a que serve.",
@@ -445,10 +445,10 @@ window.QCONC.luckesi = [
     {
       q: "Um professor aplica uma prova, lança as notas no sistema e passa ao conteúdo seguinte. Para Luckesi, esse procedimento é:",
       o: [
-        "Avaliação somativa.",
-        "Verificação, pois o processo se encerra no registro do resultado, sem decisão sobre a aprendizagem.",
-        "Avaliação diagnóstica.",
-        "Avaliação formativa."
+        "Avaliação somativa, por ocorrer ao final de uma etapa de ensino.",
+        "Verificação, pois o processo termina no registro do resultado.",
+        "Avaliação diagnóstica, pois identifica o que os alunos sabem.",
+        "Avaliação formativa, pois acompanha a aprendizagem da turma."
       ],
       c: 1,
       e: "Sem decisão a partir do dado, não há avaliação no sentido de Luckesi.",
@@ -462,10 +462,10 @@ window.QCONC.luckesi = [
     {
       q: "Para Luckesi, o termo 'verificar' vem de 'verum facere', que significa:",
       o: [
-        "Fazer verdadeiro, isto é, constatar se algo é ou não verdadeiro.",
-        "Atribuir valor.",
-        "Tomar uma decisão.",
-        "Classificar."
+        "Fazer verdadeiro, isto é, constatar.",
+        "Atribuir valor ou qualidade a algo.",
+        "Tomar uma decisão a partir de dados.",
+        "Classificar em ordem de desempenho."
       ],
       c: 0,
       e: "Verificar é constatar; avaliar ('a-valere') é atribuir valor ou qualidade, o que leva a uma decisão.",
@@ -479,10 +479,10 @@ window.QCONC.luckesi = [
     {
       q: "Uma professora percebe, pela correção de exercícios, que metade da turma não entendeu chaves estrangeiras. Ela prepara outro exemplo e retoma o conteúdo antes de seguir. Para Luckesi, ela:",
       o: [
-        "Verificou a aprendizagem.",
-        "Fez uso classificatório da avaliação.",
+        "Verificou a aprendizagem, pois corrigiu exercícios e constatou o resultado obtido pela turma.",
+        "Fez uso classificatório da avaliação, separando quem entendeu de quem não entendeu.",
         "Avaliou a aprendizagem, pois usou o dado para tomar uma decisão pedagógica.",
-        "Aplicou a pedagogia do exame."
+        "Aplicou a pedagogia do exame, já que os exercícios funcionam como pequenas provas."
       ],
       c: 2,
       e: "Dado + juízo + decisão = avaliação.",
@@ -499,9 +499,9 @@ window.QCONC.luckesi = [
     {
       q: "Luckesi define a avaliação como:",
       o: [
-        "A medida quantitativa do desempenho dos alunos.",
-        "O registro das notas obtidas nas provas.",
-        "Um processo de classificação dos estudantes.",
+        "A medida quantitativa do desempenho dos alunos por meio de instrumentos padronizados e comparáveis.",
+        "O registro sistemático das notas obtidas nas provas e trabalhos ao longo do período letivo.",
+        "Um processo de classificação dos estudantes segundo o seu rendimento em relação à turma.",
         "Um juízo de qualidade sobre dados relevantes da realidade, tendo em vista uma tomada de decisão."
       ],
       c: 3,
@@ -516,10 +516,10 @@ window.QCONC.luckesi = [
     {
       q: "Na definição de Luckesi, o 'juízo de qualidade' exige um padrão de comparação. Esse padrão, na avaliação da aprendizagem, é:",
       o: [
-        "O desempenho médio da turma.",
+        "O desempenho médio da turma, que serve de referência para situar cada estudante.",
         "O que se espera que o aluno aprenda, definido no planejamento.",
-        "O desempenho do melhor aluno.",
-        "A nota mínima de aprovação da instituição."
+        "O desempenho do melhor aluno, que indica o que é possível alcançar naquela turma.",
+        "A nota mínima de aprovação definida no regimento da instituição de ensino."
       ],
       c: 1,
       e: "O aluno é comparado com o objetivo de aprendizagem, não com os colegas.",
@@ -533,10 +533,10 @@ window.QCONC.luckesi = [
     {
       q: "A inclusão da 'tomada de decisão' na definição de avaliação de Luckesi implica que:",
       o: [
-        "Avaliar é um ato que se completa na ação: reorientar, retomar ou avançar no ensino.",
-        "Só o professor pode avaliar.",
-        "A decisão é sempre aprovar ou reprovar.",
-        "A avaliação deve acontecer apenas no fim do processo."
+        "Avaliar se completa na ação: reorientar, retomar ou avançar no ensino.",
+        "Só o professor pode avaliar, pois é ele quem detém o conhecimento a ser verificado.",
+        "A decisão é sempre aprovar ou reprovar o estudante ao final do período letivo.",
+        "A avaliação deve acontecer apenas no fim do processo, quando há dados suficientes."
       ],
       c: 0,
       e: "Sem ação, a avaliação fica incompleta.",
@@ -553,10 +553,10 @@ window.QCONC.luckesi = [
     {
       q: "Na função classificatória da avaliação, criticada por Luckesi:",
       o: [
-        "O resultado é usado para identificar dificuldades e reorientar o ensino.",
-        "O aluno é estimulado a se autoavaliar.",
+        "O resultado é usado para identificar as dificuldades e reorientar o ensino da turma.",
+        "O aluno é estimulado a se autoavaliar e a acompanhar o próprio progresso.",
         "O resultado posiciona o aluno numa escala e cristaliza esse lugar, sem servir ao seu crescimento.",
-        "A aprendizagem é acompanhada continuamente."
+        "A aprendizagem é acompanhada continuamente ao longo do processo."
       ],
       c: 2,
       e: "Classificar é congelar o aluno num ponto; diagnosticar é ver onde ele está para seguir.",
@@ -572,7 +572,7 @@ window.QCONC.luckesi = [
       o: [
         "A seleção dos melhores alunos para o ensino superior.",
         "A transformação social e o desenvolvimento do educando.",
-        "O cumprimento do conteúdo programático.",
+        "O cumprimento integral do conteúdo programático previsto.",
         "A manutenção da disciplina."
       ],
       c: 1,
@@ -607,10 +607,10 @@ window.QCONC.luckesi = [
     {
       q: "Para Luckesi, o uso da avaliação como instrumento de ameaça:",
       o: [
-        "Expressa uma relação autoritária e desvia a avaliação de sua finalidade, que é a aprendizagem.",
-        "É eficiente para manter a disciplina e deve ser usado com moderação.",
-        "É inevitável em turmas numerosas.",
-        "É legítimo quando previsto no regimento escolar."
+        "Expressa uma relação autoritária e desvia a avaliação de sua finalidade.",
+        "É eficiente para manter a disciplina e deve ser usado com moderação, em situações excepcionais.",
+        "É inevitável em turmas numerosas, nas quais o professor não tem outro meio de controle.",
+        "É legítimo quando previsto no regimento escolar e comunicado previamente aos estudantes."
       ],
       c: 0,
       e: "Ameaçar com a nota é poder, não avaliação.",
@@ -624,9 +624,9 @@ window.QCONC.luckesi = [
     {
       q: "Qual das práticas abaixo NÃO configura uso autoritário da avaliação, na perspectiva de Luckesi?",
       o: [
-        "Tirar pontos de quem conversa durante a aula.",
-        "Aplicar prova surpresa porque a turma não fez silêncio.",
-        "Informar previamente os critérios de avaliação e devolver as provas comentadas para que os alunos entendam seus erros.",
+        "Tirar pontos da nota de quem conversa durante a explicação do conteúdo.",
+        "Aplicar prova surpresa porque a turma não fez silêncio quando foi solicitado.",
+        "Divulgar os critérios antes e devolver as provas comentadas.",
         "Anunciar que a prova será 'difícil' para que os alunos 'aprendam a respeitar'."
       ],
       c: 2,
@@ -641,10 +641,10 @@ window.QCONC.luckesi = [
     {
       q: "Segundo Luckesi, a nota usada como mecanismo de controle disciplinar produz como efeito:",
       o: [
-        "Maior motivação intrínseca para aprender.",
-        "Medo e submissão, deslocando o foco do aluno da aprendizagem para a obtenção da nota.",
-        "Melhora da autonomia dos estudantes.",
-        "Maior qualidade do ensino."
+        "Maior motivação intrínseca para aprender, já que o aluno passa a valorizar cada atividade.",
+        "Medo e submissão, com foco na nota em vez da aprendizagem.",
+        "Melhora da autonomia dos estudantes, que aprendem a assumir as consequências de seus atos.",
+        "Maior qualidade do ensino, pois a turma se concentra e o professor cumpre o programa."
       ],
       c: 1,
       e: "Controle pela nota gera estudantes que estudam por medo, não por compreensão.",
@@ -661,10 +661,10 @@ window.QCONC.luckesi = [
     {
       q: "Na proposta de Luckesi, os 'mínimos necessários' são:",
       o: [
-        "A nota mínima exigida para aprovação.",
-        "Os conteúdos que podem ser cortados quando falta tempo.",
+        "A nota mínima exigida pelo regimento para a aprovação do aluno.",
+        "Os conteúdos que podem ser cortados do programa quando falta tempo.",
         "Os conhecimentos e habilidades essenciais que todo aluno precisa dominar para seguir aprendendo, que orientam a avaliação.",
-        "As competências mínimas definidas pelo mercado de trabalho."
+        "As competências mínimas definidas pelo mercado de trabalho para cada curso."
       ],
       c: 2,
       e: "Mínimos são o essencial, não o rebaixamento.",
@@ -678,10 +678,10 @@ window.QCONC.luckesi = [
     {
       q: "Se um aluno não atinge os mínimos necessários de uma unidade, a conduta coerente com Luckesi é:",
       o: [
-        "Reprová-lo, já que não atingiu o padrão.",
-        "Fazer a média com as outras notas para compensar.",
-        "Seguir o conteúdo, pois o aluno recuperará no próximo bimestre.",
-        "Retomar o ensino desses pontos até que ele os domine, já que são essenciais para avançar."
+        "Reprová-lo, já que não atingiu o padrão definido para aquela unidade.",
+        "Fazer a média com as outras notas do período para compensar a deficiência.",
+        "Seguir o conteúdo, pois ele poderá recuperar na avaliação do próximo bimestre.",
+        "Retomar o ensino desses pontos até que ele os domine, já que são essenciais."
       ],
       c: 3,
       e: "A avaliação inclusiva busca garantir a aprendizagem do essencial.",
@@ -695,10 +695,10 @@ window.QCONC.luckesi = [
     {
       q: "No plano de aula da prova didática, o candidato indica: 'Ao final da aula, todo aluno deverá ser capaz de escrever uma consulta SELECT com filtro WHERE'. À luz de Luckesi, essa formulação:",
       o: [
-        "Explicita um mínimo necessário, o que permite avaliar com critério claro e decidir se é preciso retomar.",
-        "É inadequada, pois restringe o conteúdo.",
-        "É classificatória, pois define um padrão.",
-        "É irrelevante para a avaliação."
+        "Explicita um mínimo necessário e dá critério claro para avaliar e decidir.",
+        "É inadequada, pois restringe o conteúdo da aula a um único comando da linguagem SQL.",
+        "É classificatória, pois define um padrão que separa os alunos que atingem dos que não atingem.",
+        "É irrelevante para a avaliação, que deve considerar todo o conteúdo do bimestre."
       ],
       c: 0,
       e: "Objetivo claro e essencial dá critério para avaliar e decidir.",
@@ -715,10 +715,10 @@ window.QCONC.luckesi = [
     {
       q: "Para Luckesi, o ato de avaliar é, por natureza:",
       o: [
-        "Seletivo, pois separa os aptos dos inaptos.",
-        "Neutro, pois apenas mede.",
-        "Inclusivo e acolhedor, pois busca trazer o educando para dentro do processo de aprendizagem.",
-        "Punitivo, pois corrige erros."
+        "Seletivo, pois separa os aptos dos inaptos para a etapa seguinte.",
+        "Neutro, pois apenas mede o desempenho sem juízo de valor.",
+        "Inclusivo, pois busca trazer o aluno para dentro do processo.",
+        "Punitivo, pois corrige os erros e responsabiliza quem não estudou."
       ],
       c: 2,
       e: "A avaliação inclui; o exame exclui.",
@@ -749,10 +749,10 @@ window.QCONC.luckesi = [
     {
       q: "Num IF que busca a permanência e o êxito dos estudantes, a avaliação inclusiva de Luckesi se manifesta quando:",
       o: [
-        "Os alunos com notas baixas são encaminhados para outra turma.",
-        "As notas são divulgadas em ordem decrescente para estimular a competição.",
-        "A recuperação é feita só no fim do ano.",
-        "O resultado da avaliação gera ações de retomada para que os alunos com dificuldade aprendam, em vez de apenas registrar o fracasso."
+        "Os alunos com notas baixas são encaminhados para outra turma, com ritmo mais lento e conteúdo reduzido.",
+        "As notas são divulgadas em ordem decrescente, para estimular a competição saudável entre os estudantes.",
+        "A recuperação é concentrada no fim do ano letivo, quando há tempo para revisar todo o conteúdo.",
+        "A avaliação gera ações de retomada para que os alunos com dificuldade aprendam, e não só registra o fracasso."
       ],
       c: 3,
       e: "Avaliar para incluir é agir para que todos aprendam.",
@@ -773,9 +773,9 @@ window.QCONC.veiga = [
       q: "Considerar a aula como 'espaço-tempo' do trabalho pedagógico significa:",
       o: [
         "Que a aula é um lugar e um momento intencionalmente organizados, nos quais se concretizam as relações pedagógicas.",
-        "Que a qualidade da aula depende do tamanho da sala.",
-        "Que a aula deve durar exatamente o tempo previsto na grade.",
-        "Que a aula só ocorre dentro da sala."
+        "Que a qualidade da aula depende do tamanho e das condições físicas da sala.",
+        "Que a aula deve durar exatamente o tempo previsto na grade horária.",
+        "Que a aula só ocorre dentro da sala, e não em laboratórios ou visitas."
       ],
       c: 0,
       e: "Espaço-tempo é onde a intencionalidade pedagógica se concretiza.",
@@ -789,10 +789,10 @@ window.QCONC.veiga = [
     {
       q: "Para a obra organizada por Veiga, a aula é atravessada:",
       o: [
-        "Apenas pelas decisões do professor.",
-        "Pelo projeto político-pedagógico da escola, pelo contexto social e pelas condições concretas dos alunos e da instituição.",
-        "Apenas pelo conteúdo programático.",
-        "Exclusivamente pelas diretrizes do MEC."
+        "Apenas pelas decisões do professor, que tem plena autonomia sobre tudo o que acontece em sala de aula.",
+        "Pelo projeto da escola, pelo contexto social e pelas condições concretas de alunos e instituição.",
+        "Apenas pelo conteúdo programático definido na ementa da disciplina.",
+        "Exclusivamente pelas diretrizes curriculares nacionais definidas pelo MEC."
       ],
       c: 1,
       e: "A aula está situada num contexto institucional e social; não é um evento isolado.",
@@ -806,10 +806,10 @@ window.QCONC.veiga = [
     {
       q: "Uma aula de laboratório de Informática em que o professor apenas liga o projetor e lê os slides, sem planejar a interação com os alunos, contraria a concepção de aula da obra porque:",
       o: [
-        "Usa tecnologia em excesso.",
-        "Ocorre fora da sala comum.",
-        "Não tem duração adequada.",
-        "Desconsidera a intencionalidade e a relação entre professor, aluno e conhecimento, reduzindo a aula a transmissão."
+        "Usa tecnologia em excesso e torna a aula dependente do funcionamento dos equipamentos do laboratório.",
+        "Ocorre fora da sala comum, o que dispersa a atenção dos alunos e dificulta a condução.",
+        "Não tem duração adequada para que os alunos assimilem todo o conteúdo apresentado.",
+        "Reduz a aula a transmissão, sem intencionalidade nem relação."
       ],
       c: 3,
       e: "Sem intencionalidade e sem relação, a aula vira só transmissão.",
@@ -845,7 +845,7 @@ window.QCONC.veiga = [
       o: [
         "O aluno; o professor; o conhecimento.",
         "O conhecimento; o aluno; o professor.",
-        "O professor; o aluno; a relação entre professor, aluno e conhecimento.",
+        "O professor; o aluno; a relação entre os três.",
         "O professor; o conhecimento; o aluno."
       ],
       c: 2,
@@ -861,9 +861,9 @@ window.QCONC.veiga = [
       q: "Ao revisar seu plano para a prova didática, um candidato percebe que todas as atividades são exposições suas. Pela ótica da tríade didática, ele deveria:",
       o: [
         "Incluir momentos em que os alunos atuem sobre o conhecimento, equilibrando as três pontas da relação.",
-        "Manter o plano, pois o professor é o centro do processo.",
-        "Eliminar a exposição e deixar os alunos descobrirem sozinhos.",
-        "Aumentar a quantidade de conteúdo."
+        "Manter o plano, pois o professor é o centro do processo e deve conduzir toda a aula.",
+        "Eliminar a exposição e deixar que os alunos descubram o conteúdo sozinhos.",
+        "Aumentar a quantidade de conteúdo, aproveitando melhor o tempo de exposição."
       ],
       c: 0,
       e: "Equilíbrio entre os três vértices.",
@@ -880,10 +880,10 @@ window.QCONC.veiga = [
     {
       q: "Na aula como projeto colaborativo, o papel do professor é:",
       o: [
-        "Apenas observar o trabalho dos alunos.",
-        "Executar o planejamento feito pela coordenação.",
-        "Transmitir conteúdos e cobrar resultados.",
-        "Planejar e conduzir intencionalmente o processo, abrindo espaço para a participação dos alunos e a construção conjunta."
+        "Apenas observar o trabalho dos alunos, intervindo somente quando for solicitado.",
+        "Executar o planejamento elaborado pela coordenação pedagógica da escola.",
+        "Transmitir os conteúdos e cobrar os resultados definidos no plano de ensino.",
+        "Planejar e conduzir o processo, abrindo espaço para a participação dos alunos."
       ],
       c: 3,
       e: "Colaboração não é ausência do professor.",
@@ -897,10 +897,10 @@ window.QCONC.veiga = [
     {
       q: "São características da aula como projeto colaborativo, EXCETO:",
       o: [
-        "Diálogo entre professor e alunos.",
-        "Problematização do conteúdo.",
-        "Corresponsabilidade pelo processo.",
-        "Transmissão unilateral do conteúdo pelo professor."
+        "Diálogo constante entre professor e alunos.",
+        "Problematização do conteúdo trabalhado.",
+        "Corresponsabilidade pelo processo educativo.",
+        "Transmissão unilateral pelo professor."
       ],
       c: 3,
       e: "Transmissão unilateral é a marca da concepção reprodutiva.",
@@ -914,10 +914,10 @@ window.QCONC.veiga = [
     {
       q: "Numa disciplina de desenvolvimento web, uma prática coerente com a aula como projeto colaborativo é:",
       o: [
-        "O professor demonstrar o código e os alunos copiarem.",
-        "A turma escolher, com o professor, um problema real da escola para resolver com um sistema, dividindo tarefas e discutindo soluções.",
-        "Cada aluno fazer exercícios individuais de uma lista fixa.",
-        "Os alunos assistirem a videoaulas sem mediação."
+        "O professor demonstrar o código no projetor e os alunos copiarem passo a passo.",
+        "A turma escolher, com o professor, um problema real da escola para resolver em equipe.",
+        "Cada aluno resolver individualmente os exercícios de uma lista fixa de dificuldade crescente.",
+        "Os alunos assistirem a videoaulas gravadas, sem mediação, no próprio ritmo."
       ],
       c: 1,
       e: "Escolha conjunta, divisão de responsabilidades e diálogo.",
@@ -934,10 +934,10 @@ window.QCONC.veiga = [
     {
       q: "A racionalidade técnica, criticada na obra, concebe o ensino como:",
       o: [
-        "Prática social complexa e reflexiva.",
-        "Construção coletiva de conhecimento.",
-        "Aplicação de procedimentos e técnicas definidos externamente, em que o professor executa.",
-        "Diálogo entre saberes."
+        "Prática social complexa e reflexiva, que exige do professor julgamento em cada situação.",
+        "Construção coletiva de conhecimento entre professor e alunos, com base no diálogo.",
+        "Aplicação de técnicas definidas externamente, em que o professor executa.",
+        "Diálogo entre saberes de diferentes origens, como o científico e o popular."
       ],
       c: 2,
       e: "Ensino como aplicação técnica, com separação entre quem concebe e quem executa.",
@@ -952,9 +952,9 @@ window.QCONC.veiga = [
       q: "A concepção emancipatória de aula tem como finalidade:",
       o: [
         "A formação de sujeitos críticos e autônomos, capazes de compreender e transformar a realidade.",
-        "A memorização eficiente de conteúdos.",
-        "A adaptação dos alunos às exigências do mercado.",
-        "O cumprimento rigoroso do programa."
+        "A memorização eficiente dos conteúdos mais cobrados.",
+        "A adaptação dos alunos às exigências do mercado de trabalho.",
+        "O cumprimento rigoroso do programa da disciplina."
       ],
       c: 0,
       e: "Emancipar é formar autonomia e criticidade.",
@@ -968,10 +968,10 @@ window.QCONC.veiga = [
     {
       q: "Um professor de Informática ensina comandos de Linux em formato de tutorial, passo a passo, sem explicar o funcionamento do sistema. Para tornar a aula mais emancipatória, ele poderia:",
       o: [
-        "Aumentar a quantidade de comandos ensinados.",
-        "Usar slides mais bonitos.",
-        "Exigir memorização para a prova.",
-        "Explicar o porquê dos comandos (permissões, processos, sistema de arquivos) e propor problemas em que os alunos decidam quais comandos usar."
+        "Aumentar a quantidade de comandos ensinados, cobrindo também os de administração do sistema.",
+        "Usar slides mais bonitos e vídeos curtos para tornar o tutorial mais atraente.",
+        "Exigir a memorização dos comandos para a prova, garantindo que fiquem gravados.",
+        "Explicar o porquê dos comandos e propor problemas em que os alunos escolham quais usar."
       ],
       c: 3,
       e: "Entender o porquê e decidir é o caminho para a autonomia.",
@@ -1006,9 +1006,9 @@ window.QCONC.veiga = [
       q: "A dimensão humana do processo de ensino se refere:",
       o: [
         "Às relações interpessoais e à afetividade presentes na aula.",
-        "Ao planejamento e à escolha de técnicas.",
-        "Ao compromisso social do ensino.",
-        "Aos recursos didáticos."
+        "Ao planejamento, à organização e à escolha das técnicas de ensino.",
+        "Ao compromisso social do ensino e às suas consequências.",
+        "Aos recursos didáticos e materiais utilizados em sala."
       ],
       c: 0,
       e: "Relação e afeto.",
@@ -1022,10 +1022,10 @@ window.QCONC.veiga = [
     {
       q: "Para a perspectiva multidimensional, o problema de uma didática que trata apenas da dimensão técnica é:",
       o: [
-        "Ela não ensina a planejar.",
-        "Ela valoriza demais a afetividade.",
-        "Ela reduz o ensino a procedimentos, como se fosse neutro e desvinculado das relações humanas e do contexto social.",
-        "Ela é excessivamente política."
+        "Ela não ensina a planejar, pois se limita a discutir a dimensão política do ensino.",
+        "Ela valoriza demais a afetividade e as relações interpessoais na sala de aula.",
+        "Ela reduz o ensino a procedimentos, como se fosse neutro.",
+        "Ela é excessivamente política e afasta o professor das questões técnicas da aula."
       ],
       c: 2,
       e: "Só técnica = ensino visto como neutro e instrumental.",
@@ -1042,10 +1042,10 @@ window.QCONC.veiga = [
     {
       q: "No plano de aula, o objetivo 'compreender a importância da normalização' e a avaliação 'questão de múltipla escolha sobre a data de criação do modelo relacional' revelam:",
       o: [
-        "Coerência, pois ambos tratam de banco de dados.",
-        "Incoerência, pois a avaliação não verifica o que o objetivo propõe.",
-        "Excesso de rigor.",
-        "Adequação, desde que a questão seja difícil."
+        "Coerência, pois ambos tratam do mesmo tema: banco de dados e normalização.",
+        "Incoerência: a avaliação não mede o objetivo.",
+        "Excesso de rigor, já que a questão exige memorização de detalhe histórico.",
+        "Adequação, desde que a questão seja difícil o suficiente para discriminar."
       ],
       c: 1,
       e: "A avaliação precisa medir o objetivo.",
@@ -1059,10 +1059,10 @@ window.QCONC.veiga = [
     {
       q: "Na elaboração de objetivos de aprendizagem, é recomendável:",
       o: [
-        "Descrevê-los do ponto de vista do professor ('apresentar o conteúdo').",
-        "Evitar verbos para não limitar a aula.",
+        "Descrevê-los do ponto de vista do professor, como 'apresentar o conteúdo'.",
+        "Evitar verbos, para não limitar o que pode acontecer na aula.",
         "Formulá-los em termos do que o aluno deverá ser capaz de fazer, usando verbos que indiquem ações observáveis.",
-        "Copiá-los da ementa da disciplina."
+        "Copiá-los diretamente da ementa da disciplina."
       ],
       c: 2,
       e: "Objetivo centrado no aluno e verificável.",
@@ -1077,9 +1077,9 @@ window.QCONC.veiga = [
       q: "Num plano de aula coerente, a escolha da metodologia deve ser feita:",
       o: [
         "Em função dos objetivos e do conteúdo, considerando os alunos.",
-        "Antes da definição dos objetivos.",
-        "Com base no recurso tecnológico disponível.",
-        "De acordo com a preferência pessoal do professor."
+        "Antes da definição dos objetivos, para orientar o restante do plano.",
+        "Com base no recurso tecnológico disponível no laboratório.",
+        "De acordo com a preferência pessoal e a experiência do professor."
       ],
       c: 0,
       e: "Método a serviço do objetivo.",
