@@ -394,10 +394,7 @@ html, body { overflow-x: clip; }
 }
 .card[open] > summary .seta::before { transform: translateY(2px) rotate(-135deg); }
 .card > summary:hover .seta { background: var(--accent-soft); color: var(--accent); }
-.card[open] > summary {
-  position: sticky; top: var(--topo-h, 0px); z-index: 4; background: var(--surface);
-  border-radius: var(--radius) var(--radius) 0 0; border-bottom: 1px solid var(--line);
-}
+.card[open] > summary { border-radius: var(--radius) var(--radius) 0 0; }
 @media (max-width: 600px) {
   .card > summary { grid-template-columns: 30px 1fr 32px; }
   .card .lado { grid-column: 2; grid-row: 2; }
@@ -405,3 +402,27 @@ html, body { overflow-x: clip; }
 }
 
 .marca h1, .sub { white-space: normal; overflow-wrap: anywhere; }
+
+/* ---------- v1.5: cabeçalho que encolhe ao rolar + barra fina do card ---------- */
+.topo { position: fixed; top: 0; left: 0; right: 0; transition: box-shadow .2s; }
+body { padding-top: var(--topo-cheio, 120px); }
+.marca { transition: margin .2s, opacity .2s; }
+body.compacto .marca { display: none; }
+body.compacto .abas { margin-top: 0; }
+body.compacto .topo-in { padding-top: 0; }
+body.compacto .topo { box-shadow: 0 2px 8px rgba(0, 0, 0, .12); }
+.abas button { padding: 10px 12px; }
+
+.barra-card {
+  position: fixed; left: 0; right: 0; top: var(--topo-h, 0px); z-index: 9;
+  background: var(--surface); border-bottom: 1px solid var(--line); box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+  display: none;
+}
+.barra-card.ativa { display: block; }
+.barra-card-in {
+  max-width: 1080px; margin: 0 auto; padding: 6px 16px; display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center;
+}
+.barra-card .n { width: 24px; height: 24px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; font-size: .75rem; font-weight: 600; }
+.barra-card .tit { font-weight: 600; font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.barra-card .seta { width: 30px; height: 30px; border: 0; cursor: pointer; }
+.barra-card .seta::before { transform: translateY(2px) rotate(-135deg); }

@@ -226,6 +226,7 @@
     document.querySelectorAll(".abas button").forEach(function (b) { b.setAttribute("aria-selected", b.dataset.aba === aba ? "true" : "false"); });
     document.querySelectorAll(".aba").forEach(function (s) { s.classList.toggle("ativa", s.id === "aba-" + aba); });
     renders[aba]();
+    if (typeof atualizaRolagem === "function") atualizaRolagem();
   }
   document.querySelectorAll(".abas button").forEach(function (b) {
     b.addEventListener("click", function () { location.hash = b.dataset.aba; });
@@ -627,11 +628,58 @@
       delete abertos[id];
       var topo = det.getBoundingClientRect().top;
       if (topo < alturaTopo()) window.scrollTo(0, window.scrollY + topo - alturaTopo() - 8);
+      atualizaRolagem();
     };
   }
   function alturaTopo() { var t = document.querySelector(".topo"); return t ? t.offsetHeight : 0; }
-  function ajustaTopo() { document.documentElement.style.setProperty("--topo-h", alturaTopo() + "px"); }
-  window.addEventListener("resize", ajustaTopo);
+  // O cabeçalho é fixo: o corpo reserva a altura dele cheio (--topo-cheio) e,
+  // ao rolar, ele encolhe para só as abas, sem empurrar o conteúdo.
+  function ajustaTopo() {
+    var raiz = document.documentElement.style;
+    var compacto = document.body.classList.contains("compacto");
+    if (compacto) document.body.classList.remove("compacto");
+    raiz.setProperty("--topo-cheio", alturaTopo() + "px");
+    if (compacto) document.body.classList.add("compacto");
+    raiz.setProperty("--topo-h", alturaTopo() + "px");
+  }
+  window.addEventListener("resize", function () { ajustaTopo(); atualizaRolagem(); });
+
+  // Barra fina do card aberto: aparece quando o cabeçalho do card sai da tela.
+  var barraCard = h("div", { class: "barra-card", "aria-hidden": "true" });
+  var barraAlvo = null;
+  barraCard.appendChild(h("div", { class: "barra-card-in" }, [
+    h("span", { class: "n" }), h("span", { class: "tit" }),
+    h("button", { type: "button", class: "seta", title: "Recolher card", "aria-label": "Recolher card", onclick: function () { if (barraAlvo) barraAlvo.open = false; } })
+  ]));
+  document.body.appendChild(barraCard);
+
+  var pedidoRolagem = false;
+  function atualizaRolagem() {
+    pedidoRolagem = false;
+    var y = window.scrollY;
+    var corpo = document.body;
+    var era = corpo.classList.contains("compacto");
+    var deve = era ? y > 10 : y > 60;
+    if (deve !== era) { corpo.classList.toggle("compacto", deve); ajustaTopo(); }
+    var limite = alturaTopo();
+    var alvo = null;
+    document.querySelectorAll(".aba.ativa details.card[open]").forEach(function (d) {
+      var r = d.getBoundingClientRect();
+      var s = d.querySelector("summary").getBoundingClientRect();
+      if (s.bottom < limite && r.bottom > limite + 60) alvo = d;
+    });
+    if (alvo !== barraAlvo) {
+      barraAlvo = alvo;
+      if (alvo) {
+        barraCard.querySelector(".n").textContent = alvo.querySelector("summary .n").textContent;
+        barraCard.querySelector(".tit").textContent = alvo.querySelector("summary .obra").textContent;
+      }
+    }
+    barraCard.classList.toggle("ativa", !!alvo);
+  }
+  window.addEventListener("scroll", function () {
+    if (!pedidoRolagem) { pedidoRolagem = true; requestAnimationFrame(atualizaRolagem); }
+  }, { passive: true });
 
   function lido(cardId, i) { return !!(estado.lidos && estado.lidos[cardId + ":" + i]); }
   function marcarLido(cardId, i, v) {
@@ -989,4 +1037,5 @@
   document.getElementById("versao").textContent = "ifsp26 v" + window.BASE.versao;
   ajustaTopo();
   abrir(location.hash.slice(1) || "painel");
+  atualizaRolagem();
 })();
